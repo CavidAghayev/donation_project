@@ -1,0 +1,1166 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "category": "scarves",
+      "name": "Afrika alacakaranlığı eşarpı",
+      "price": 49,
+      "image": "https://assets.obakkifoundation.org/_720xAUTO_crop_center-center_90/Obakki_Scarve_Coil_008_african_dusk_-1.jpg"
+    },
+    {
+      "id": 2,
+      "category": "scarves",
+      "name": "Mineral yaylıq",
+      "price": 49,
+      "image": "https://assets.obakkifoundation.org/_720xAUTO_crop_center-center_90/Obakki_Scarve_Coil_005_mineral.jpg"
+    },
+    {
+      "id": 3,
+      "category": "scarves",
+      "name": "Bənövşəyi yaylıq",
+      "price": 49,
+      "image": "https://assets.obakkifoundation.org/_720xAUTO_crop_center-center_90/Obakki_Scarve_Coil_008_aubergine-1.jpg"
+    },
+    {
+      "id": 4,
+      "category": "scarves",
+      "name": "Bidi Bidi Çaplı Eşarp",
+      "price": 59,
+      "image": "https://assets.obakkifoundation.org/Product-Images/Scarves/_720xAUTO_crop_center-center_90/Obakki_Scarve_Coil_012.jpg"
+    },
+    {
+      "id": 5,
+      "category": "scarves",
+      "name": "Dolce şərf",
+      "price": 49,
+      "image": "https://assets.obakkifoundation.org/Product-Images/Scarves/_720xAUTO_crop_center-center_90/Obakki_Scarve_Coil_003.jpg"
+    },
+    {
+      "id": 6,
+      "category": "scarves",
+      "name": "Gecə çaplı yaylıq",
+      "price": 59,
+      "image": "https://assets.obakkifoundation.org/Product-Images/Scarves/_720xAUTO_crop_center-center_90/Obakki_Scarve_Coil_002.jpg"
+    },
+    {
+      "id": 7,
+      "category": "scarves",
+      "name": "Sizi Xoşbəxt Edən Şərf",
+      "price": 59,
+      "image": "https://assets.obakkifoundation.org/_720xAUTO_crop_center-center_90/Obakki_Scarve_Coil_011.jpg"
+    },
+    {
+      "id": 8,
+      "category": "scarves",
+      "name": "Tonal Qırmızı Eşarp",
+      "price": 49,
+      "image": "https://assets.obakkifoundation.org/Product-Images/Scarves/_720xAUTO_crop_center-center_90/Obakki_Scarve_Coil_004.jpg"
+    },
+    {
+      "id": 9,
+      "category": "scarves",
+      "name": "Marsala şərf",
+      "price": 49,
+      "text": "",
+      "image": "https://assets.obakkifoundation.org/Product-Images/Scarves/_720xAUTO_crop_center-center_90/Obakki_Scarve_Coil_008.jpg"
+    },
+    {
+      "id": 10,
+      "category": "scarves",
+      "name": "Ardıc yaylığı",
+      "price": 49,
+      "image": "https://assets.obakkifoundation.org/Product-Images/Scarves/_720xAUTO_crop_center-center_90/Obakki_Scarve_Coil_007.jpg"
+    },
+    {
+      "id": 11,
+      "category": "scarves",
+      "name": "Tabaşir Çaplı Eşarp",
+      "price": 59,
+      "image": "https://assets.obakkifoundation.org/Product-Images/Scarves/_720xAUTO_crop_center-center_90/Obakki_Scarve_Coil_010.jpg"
+    },
+    {
+      "id": 12,
+      "category": "scarves",
+      "name": "Dəvə yaylığı",
+      "price": 49,
+      "image": "https://assets.obakkifoundation.org/Product-Images/Scarves/_720xAUTO_crop_center-center_90/Obakki_Scarve_Coil_014.jpg"
+    },
+    {
+      "id": 13,
+      "category": "shoes",
+      "name": "Ozelia Sport",
+      "price": "79",
+      "gender": "women",
+      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/6d8c902cedba49f1a035ad47010d8a12_9366/ozelia-shoes.jpg"
+    },
+    {
+      "id": 14,
+      "category": "shoes",
+      "name": "Ozelia Sport",
+      "price": "99",
+      "gender":  "women",
+      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/046e9134a7c04ab882deaecc00f5f3a8_9366/ozelia-shoes.jpg"
+    },
+    {
+      "id": 15,
+      "category": "shoes",
+      "name": "Ozelia Sport",
+      "price": "109",
+      "gender": "women",
+      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/86b3260e516548989c6caef600123754_9366/ozelia-shoes.jpg"
+    },
+    {
+      "id": 16,
+      "category": "shoes",
+      "name": "Ozelia Sport",
+      "gender": "women",
+      "price": "89",
+      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/b03e6935b0af48f8be25aeb500492af8_9366/ozelia-shoes.jpg"
+    },
+    {
+      "id": 17,
+      "category": "shoes",
+      "name": "Ozelia Sport",
+      "gender": "men",
+      "price": "119",
+      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/80d9d316fad44d1c8dbcadff00b53067_9366/ozelia-shoes.jpg"
+    },
+    {
+      "id": 18,
+      "category": "shoes",
+      "name": "Ozelia Sport",
+      "gender": "men",
+      "price": "99",
+      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/3d70411d141f4e6c916aad71009a46cc_9366/ozelia-shoes.jpg"
+    },
+    {
+      "id": 19,
+      "category": "shoes",
+      "name": "Ozelia Sport",
+      "gender": "men",
+      "price": "109",
+      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/5d31deed3537412084c5aeb5005fffda_9366/ozelia-shoes.jpg"
+    },
+    {
+      "id": 20,
+      "category": "shoes",
+      "name": "Ozelia Sport",
+      "gender": "men",
+      "price": "109",
+      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/127df2df750249989b8ead2400c6f9bf_9366/ozelia-shoes.jpg"
+    },
+    {
+      "id": 21,
+      "category": "shoes",
+      "name": "Ozelia Sport",
+      "gender": "men",
+      "price": "99",
+      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/b03e6935b0af48f8be25aeb500492af8_9366/ozelia-shoes.jpg"
+    },
+    {
+      "id": 22,
+      "category": "shoes",
+      "name": "Ozelia Sport",
+      "gender": "women",
+      "price": "79",
+      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/b56da574bff54b9db94dae37008a903b_9366/ozelia-shoes.jpg"
+    },
+    {
+      "id": 23,
+      "category": "shoes",
+      "name": "Ozelia Sport",
+      "gender": "women",
+      "price": "89",
+      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/700d0b55be324aaeba5fadc1010e6cee_9366/ozelia-shoes.jpg"
+    },
+    {
+      "id": 24,
+      "category": "shoes",
+      "name": "Ozelia Sport",
+      "gender": "men",
+      "price": "119",
+      "image": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/80d9d316fad44d1c8dbcadff00b53067_9366/ozelia-shoes.jpg"
+    },
+    {
+      "id": 25,
+      "category": "short",
+      "name": "Şort",
+      "gender": "men",
+      "price": "59",
+      "image": "https://cdn-images.farfetch-contents.com/17/98/39/07/17983907_40754307_480.jpg"
+    },
+    {
+      "id": 26,
+      "category": "short",
+      "name": "Şort",
+      "gender": "men",
+      "price": "79",
+      "image": "https://cdn-images.farfetch-contents.com/18/99/70/88/18997088_41422151_480.jpg"
+    },
+    {
+      "id": 27,
+      "category": "short",
+      "name": "Şort",
+      "gender": "men",
+      "price": "89",
+      "image": "https://cdn-images.farfetch-contents.com/17/74/58/90/17745890_39255953_480.jpg"
+    },
+    {
+      "id": 28,
+      "category": "short",
+      "name": "Şort",
+      "gender": "men",
+      "price": "109",
+      "image": "https://cdn-images.farfetch-contents.com/16/74/75/19/16747519_35797507_480.jpg"
+    },
+    {
+      "id": 29,
+      "category": "short",
+      "name": "Şort",
+      "gender": "men",
+      "price": "89",
+      "image": "https://cdn-images.farfetch-contents.com/15/37/94/08/15379408_30128808_480.jpg"
+    },
+    {
+      "id": 30,
+      "category": "short",
+      "name": "Şort",
+      "gender": "men",
+      "price": "99",
+      "image": "https://cdn-images.farfetch-contents.com/18/97/11/35/18971135_41595954_480.jpg"
+    },
+    {
+      "id": 31,
+      "category": "short",
+      "name": "Şort",
+      "gender": "women",
+      "price": "59",
+      "image": "https://cdn-images.farfetch-contents.com/17/91/52/82/17915282_40441252_480.jpg"
+    },
+    {
+      "id": 32,
+      "category": "short",
+      "name": "Şort",
+      "gender": "women",
+      "price": "79",
+      "image": "https://cdn-images.farfetch-contents.com/17/51/29/65/17512965_37855778_480.jpg"
+    },
+    {
+      "id": 33,
+      "category": "short",
+      "name": "Şort",
+      "gender": "women",
+      "price": "89",
+      "image": "https://cdn-images.farfetch-contents.com/16/79/27/10/16792710_34047972_480.jpg"
+    },
+    {
+      "id": 34,
+      "category": "short",
+      "name": "Şort",
+      "gender": "women",
+      "price": "99",
+      "image": "https://cdn-images.farfetch-contents.com/18/61/18/27/18611827_40670786_480.jpg"
+    },
+    {
+      "id": 35,
+      "category": "short",
+      "name": "Şort",
+      "gender": "women",
+      "price": "109",
+      "image": "https://cdn-images.farfetch-contents.com/16/42/23/90/16422390_31789642_480.jpg"
+    },
+    {
+      "id": 36,
+      "category": "short",
+      "name": "Şort",
+      "gender": "women",
+      "price": "59",
+      "image": "https://cdn-images.farfetch-contents.com/16/39/19/66/16391966_31669406_480.jpg"
+    },
+    {
+      "id": 37,
+      "category": "jacket",
+      "name": "Gödəkcə",
+      "gender": "men",
+      "price": "109",
+      "image": "https://cdn-images.farfetch-contents.com/18/98/55/85/18985585_41360697_480.jpg"
+    },
+    {
+      "id": 38,
+      "category": "jacket",
+      "name": "Gödəkcə",
+      "gender": "men",
+      "price": "119",
+      "image": "https://cdn-images.farfetch-contents.com/18/97/80/59/18978059_41486863_480.jpg"
+    },
+    {
+      "id": 39,
+      "category": "jacket",
+      "name": "Gödəkcə",
+      "gender": "men",
+      "price": "99",
+      "image": "https://cdn-images.farfetch-contents.com/18/56/69/62/18566962_41425170_480.jpg"
+    },
+    {
+      "id": 40,
+      "category": "jacket",
+      "name": "Gödəkcə",
+      "gender": "men",
+      "price": "79",
+      "image": "https://cdn-images.farfetch-contents.com/18/66/14/33/18661433_40957331_480.jpg"
+    },
+    {
+      "id": 41,
+      "category": "jacket",
+      "name": "Gödəkcə",
+      "gender": "men",
+      "price": "119",
+      "image": "https://cdn-images.farfetch-contents.com/18/59/25/49/18592549_41273003_480.jpg"
+    },
+    {
+      "id": 42,
+      "category": "jacket",
+      "name": "Gödəkcə",
+      "gender": "men",
+      "price": "89",
+      "image": "https://cdn-images.farfetch-contents.com/14/66/42/83/14664283_23236000_480.jpg"
+    },
+    {
+      "id": 43,
+      "category": "jacket",
+      "name": "Gödəkcə",
+      "gender": "women",
+      "price": "59",
+      "image": "https://cdn-images.farfetch-contents.com/15/30/49/15/15304915_27387689_480.jpg"
+    },
+    {
+      "id": 44,
+      "category": "jacket",
+      "name": "Gödəkcə",
+      "gender": "women",
+      "price": "79",
+      "image": "https://cdn-images.farfetch-contents.com/17/66/07/88/17660788_37246004_480.jpg"
+    },
+    {
+      "id": 45,
+      "category": "jacket",
+      "name": "Gödəkcə",
+      "gender": "women",
+      "price": "59",
+      "image": "https://cdn-images.farfetch-contents.com/18/57/21/37/18572137_41807184_480.jpg"
+    },
+    {
+      "id": 46,
+      "category": "jacket",
+      "name": "Gödəkcə",
+      "gender": "women",
+      "price": "99",
+      "image": "https://cdn-images.farfetch-contents.com/18/53/17/24/18531724_41085711_480.jpg"
+    },
+    {
+      "id": 47,
+      "category": "jacket",
+      "name": "Gödəkcə",
+      "gender": "women",
+      "price": "89",
+      "image": "https://cdn-images.farfetch-contents.com/15/30/41/97/15304197_27713626_480.jpg"
+    },
+    {
+      "id": 48,
+      "category": "jacket",
+      "name": "Gödəkcə",
+      "gender": "women",
+      "price": "109",
+      "image": "https://cdn-images.farfetch-contents.com/17/37/48/09/17374809_37694492_480.jpg"
+    }
+  ],
+  "ourStories": [
+    {
+      "id": 1,
+      "image": "https://www.ideauniversal.org/wp-content/uploads/2022/02/yk1.jpg",
+      "date": "Xəbərlər — 25 İYUL 2022",
+      "title": "Afrika Birliyinin 2022-ci il diqqət mərkəzində: Qidalanma",
+      "text": "Qlobal sistemdə güc mərkəzi olmaq məqsədi ilə Afrika İttifaqı tərəfindən yaradılan əlli ili əhatə edən gələcək proqnozu “Gündəm 2063” çərçivəsində işlər davam etdirilir.Bu doğrultuda Afrika Birliği’nin 2022 yılı odak noktasının Afrika kıtasında beslenme ve gıda güvenliğinde sürdürülebilirlik olduğu açıklandı. "
+    },
+    {
+      "id": 2,
+      "image": "https://www.ideauniversal.org/wp-content/uploads/2022/02/afrika-koyluler-kapak.jpg",
+      "date": "Xəbərlər — 12 İYUL 2022",
+      "title": "135 “ağıllı kənd” quruldu, 250 min həyatını xilas etdi",
+      "text": "Axşam qəzetinin 30 yanvar 2022-ci il tarixli sayında IDEA Universal Assosiasiyasının qurucu prezidenti Hayri Dağlının həyat hekayəsi, o cümlədən ağıllı kəndlər və dam örtüyü üçün nəzərdə tutulan kənd təsərrüfatı istehsalı layihələri yer alıb. 135 'Ağıllı Kənd' quruldu, 250 min adam xilas edildi. Hayri Dağlının Ağıllı Kənd layihəsi 250 min insanın həyatını dəyişib."
+    },
+    {
+      "id": 3,
+      "image": "https://www.ideauniversal.org/wp-content/uploads/2022/01/Artboard-1-100-1024x683.jpg",
+      "date": "Xəbərlər — 17 İYUN 2022",
+      "title": "2022-ci ildə diqqətlə izləməli olduğumuz 10 böhran",
+      "text": "Bütün dünyanın son iki ildə mübarizə apardığı pandemiya böhranların təsirini daha da artırıb. Su, ərzaq böhranı, artan yoxsulluq, sosial bərabərsizlik, qaçqın problemi, yüksək inflyasiya və sərhəd münaqişələri ilk ağla gələnlərdir. IDEA Universal Assosiasiyası olaraq təsirini sıx hiss edəcəyimiz böhranlara diqqət çəkmək istədik."
+    },
+    {
+      "id": 4,
+      "image": "https://www.ideauniversal.org/wp-content/uploads/2022/01/su-tasiyan-insanlar-1024x683.jpg",
+      "date": "Xəbərlər - 14 MAY, 2022",
+      "title": "Bərabərsizlik öldürür!",
+      "text": "Beynəlxalq demokratik kütləvi təşkilat Oxfam, Bərabərsizlik Virusu adlı son hesabatında, xüsusilə pandemiyadan sonra artan bərabərsizliyi təəccüblü məlumatlarla ortaya qoydu. Oxfam-ın Bərabərsizlik Hesabatı Massaçusets Universitetinin İqtisadiyyat professoru Jayati Ghosh-un hesabatının ön sözündə bu təəccüblü cümlələrlə açılır."
+    },
+    {
+      "id": 5,
+      "image": "https://www.ideauniversal.org/wp-content/uploads/2020/03/hikayelerimiz3.jpg",
+      "date": "Xəbərlər — 20 APREL, 2022",
+      "title": "Madaqaskar adasına toxunmaq",
+      "text": "Madaqaskar dünyanın dördüncü ən böyük adasıdır. Unikal vəhşi təbiəti, Asiya və Afrikanın əsas qitəsindən gələn miqrasiyaların yaratdığı rəngarəng mədəni irsi ilə Afrika sahillərində nəhəng gizli coğrafiyadır. Malaqaslıların öz sözləri ilə desək, mozaika qitəsi. Şərqdən qərbə hər küncü olan möcüzələr diyarıdır."
+    },
+    {
+      "id": 6,
+      "image": "https://www.ideauniversal.org/wp-content/uploads/2020/09/DSC_1128-1024x683.jpeg",
+      "date": "Xəbərlər — 6 APREL, 2022",
+      "title": "Tanzaniya könüllü hekayəsi: Evrim Aykan",
+      "text": "2016-2017-ci illər arasında keçirdiyim depressiya məni həyatda yeni mənalar axtarmağa sövq etdi. Daimi gediş-gəlişlə ciddi qəbul etdiyim yaradıcı işim var idi. Mən dizayner idim. Əvvəlcə məhsul dizayneri oldum. Sonra kosmik dizayner."
+    },
+    {
+      "id": 7,
+      "image": "https://assets.obakkifoundation.org/_600xAUTO_crop_center-center_90/621/Meet-George-4.jpg",
+      "date": "Xəbərlər — 1 MART, 2022",
+      "title": "MEET GEORGE",
+      "text": "Corc və arvadı möcüzə gözləyirdilər."
+    },
+    {
+      "id": 8,
+      "image": "https://assets.obakkifoundation.org/_600xAUTO_crop_center-center_90/amedichi_006.jpg",
+      "date": "Xəbərlər — 25 FEVRAL, 2022",
+      "title": "AMEDICHİNİN GÜCLÜ QADINLARI",
+      "text": "Amediçi qadınları Cənubi Sudanda iqtisadi gücün necə göründüyünü yenidən müəyyənləşdirirlər."
+    },
+    {
+      "id": 9,
+      "image": "https://images.unsplash.com/photo-1588349482083-036b31c6eca3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
+      "date": "Xəbərlər — 18 FEVRAL, 2022",
+      "title": "Çarpayılar",
+      "text": "Çox sağ ol. Bu qədər böyük yük daşıyan, lakin heç vaxt kifayət qədər görünməyən sadə sözlər."
+    },
+    {
+      "id": 10,
+      "image": "https://assets.obakkifoundation.org/_600xAUTO_crop_center-center_90/Tailor-Shop_Journal_4.jpg",
+      "date": "Xəbərlər — 11 FEVRAL, 2022",
+      "title": "BAĞ NECƏ SƏNAYƏYƏ ÇEVRİLDİ",
+      "text": "Orada heç bir işi olmayan seyrək bir bağ ilə başladı."
+    },
+    {
+      "id": 11,
+      "image": "https://assets.obakkifoundation.org/_600xAUTO_crop_center-center_90/Adol-2013-1B0A8367-1.jpg",
+      "date": "Xəbərlər - 14 MART 2022",
+      "title": "QUYU NECƏ TİKİLİR",
+      "text": "İstəyirik ki, donorlarımız quyu tikmək üçün nə lazım olduğunu öyrənsinlər."
+    },
+    {
+      "id": 12,
+      "image": "https://assets.obakkifoundation.org/_600xAUTO_crop_center-center_90/513/Dassi-holding-his-prosthetic-leg-Obakki-Foundation-Story.jpg",
+      "date": "Xəbərlər - 11 MART 2022",
+      "title": "DASSİ ilə tanış olun",
+      "text": "Treana Dassi ilə görüşəndə o, utancaq və təmkinli idi. Cəmi altı yaşında, o, Ba-da ən gənc insandır"
+    }
+  ],
+  "ourStoriesDetails": [
+    {
+      "id": 1,
+      "BaseTitle": "Afrika Birliyinin 2022-ci il diqqət mərkəzində: Qidalanma",
+      "BaseTitleText": "Qlobal sistemdə güc mərkəzi olmaq məqsədi ilə Afrika İttifaqı tərəfindən yaradılan əlli ili əhatə edən gələcək proqnozu “Gündəm 2063” çərçivəsində işlər davam etdirilir. Müvafiq olaraq, Afrika Birliyinin 2022-ci ildə diqqət mərkəzinin Afrika qitəsində qidalanma və qida təhlükəsizliyində davamlılıq olduğu açıqlandı.Afrika qitəsinin ən böyük problemlərindən biri xüsusilə uşaqlarda və bununla bağlı cədvəllərdə qida çatışmazlığıdır. Şübhəsiz ki, son iki ildə yaşanan pandemiya böhranı bu problemi daha da dərinləşdirib. Qidalanma şəraitinin yaxşılaşdırılması üçün ayrılan vəsaitlər Covid-19 ilə mübarizəyə köçürülüb. Beynəlxalq İnkişaf və Ətraf Mühit Assosiasiyası (IDEA Universal) olaraq biz regionu yaxından izləyirik, çünki Afrika bizim fəaliyyət göstərdiyimiz mühüm regionlardan biridir. Afrika Birliyi fevral ayında illik hesabatında 2022-ci ildə qidalanma və qida böhranına diqqət yetirəcəklərini açıqladı. Bu kontekstdə kənd təsərrüfatının yaxşılaşdırılması, ərzaq məhsullarına çıxışın təmin edilməsi, səhiyyə və sosial müdafiə sistemlərinin gücləndirilməsi yolu ilə sosial-iqtisadi inkişafın təmin edilməsi nəzərdə tutulur.",
+      "FirstTitle": "Gənc əhalinin inkişafa təsiri",
+      "FirstTitleText": "2018-ci ilin rəqəmlərinə görə, Afrikanın 1,25 milyard əhalisi olduğu təxmin edilir və 2,6 faizdən çox artım tempi ilə ən sürətli şəhərləşən qitədir. Böyük gənclik əhalisi, düzgün investisiyalar tərəfindən kifayət qədər səlahiyyətləndirildikdə, davamlı və ədalətli inkişafın sürətləndirilməsinə töhfə verə biləcək potensial demoqrafik təsirə malikdir. Afrikada insan resursları; O, həm fərdlər, həm də ölkələr üçün gəlir təmin etdiyi üçün inkişafda əsas rol oynayır. 1994-2019-cu illər arasında 5 yaşadək uşaqların ölüm səviyyəsi 50 faizdən çox azalıb; doğuş göstəriciləri 6-dan 4-ə düşdü. Bununla belə, dünyanın qalan hissəsi ilə müqayisədə qida çatışmazlığı hələ də qitənin ən böyük problemidir. Bütün uşaq ölümlərinin demək olar ki, yarısının səbəbi düzgün qidalanmamaqdır.",
+      "FirstImage": "https://www.ideauniversal.org/wp-content/uploads/2022/02/yk2.jpg",
+      "SecondTitle": "Qidalanma 5 yaşınadək uşaqlar üçün ən böyük təhlükələrdən biridir.",
+      "SecondTitleText": "Qeyri-sağlam və qeyri-kafi qidalanma səbəbindən artıq çəki, piylənmə və qeyri-infeksion xəstəliklərin halları artır. Təbii ki, bu, xəstələnmə və ölüm hallarını artırır. Qidalanma 5 yaşınadək uşaqlar üçün ən böyük təhlükələrdən biri olmaqla yanaşı, inkişaf etməkdə olan uşaqların tam potensialına çatmasına mane olur və bütövlükdə cəmiyyəti həssas edir. Qidalanma insan resurslarına və istehsala mənfi təsir göstərdiyi üçün bütün Afrika ölkələrində sosial-iqtisadi inkişafda ləngimələrə səbəb olur.",
+      "SecondImage": "https://www.ideauniversal.org/wp-content/uploads/2022/02/yk3.jpg"
+    },
+    {
+      "id": 2,
+      "BaseTitle": "135 “ağıllı kənd” quruldu, 250 min həyatını xilas etdi",
+      "BaseTitleText": "135 “Ağıllı Kənd” qurdu və 250 min insan xilas edildi. Sahibkar Hayri Dağlının 'Ağıllı Kənd' layihəsi 6 ölkədə 250 min insanın həyatını dəyişib. Gündəlik gəliri 1 dollardan az olan Afrika yerliləri bu layihə ilə təmiz su, qida və enerji əldə etdilər.Kilimancaro dağına səfərdə afrikalıların dramına şahidlik edən Hayri Dağlı İstanbuldakı işini atıb Afrikada məskunlaşmaq qərarına gəlib. Təsisçisi olduğu Beynəlxalq İnkişaf və Ətraf Mühit Assosiasiyası (IDEA Universal) vasitəsilə regionda “Ağıllı Kənd” layihəsini həyata keçirən gənc sahibkar aclıq və yoxsulluqla mübarizə aparan Afrika xalqının ümidinə çevrilib. Təmiz suya çatmaq üçün 6 km yolu piyada getməli olan kənd sakinləri birliyin açdığı su quyuları ilə təmiz su əldə edərkən rayonda kənd təsərrüfatı məhsulları canlanıb. Bölgədə paylanan günəş dəstləri ilə heç vaxt elektriklə qarşılaşmayan Afrika yerliləri enerji əldə etdilər.",
+      "FirstTitle": "1 $ ALTINDA HƏYAT.",
+      "FirstTitleText": "Gənc sahibkarın təşəbbüsü ilə həyata keçirilən yerində inkişaf modeli ilə 7 ildə 6 ölkədə 135 Ağıllı Kənd yaradılıb və 250 min insan qida, təmiz su və enerjiyə çıxış əldə edib. Dağlı dünyada 1 milyard insanın gecələr ac yatmaq məcburiyyətində qaldığını və əksəriyyətinin gündə 1 dollardan az pulla dolandığını bildirib.",
+      "FirstImage": "https://www.ideauniversal.org/wp-content/uploads/2022/02/hayri-dagli3.jpg",
+      "SecondTitle": "XARİCİ YARDIMA EHTİYAC YOXDUR",
+      "SecondTitleText": "IDEA Universal tərəfindən hazırlanmış “Ağıllı kənd” layihəsində qrunt sularına çatmaq üçün 70-120 metr dərinlikdə quyular qazılır. Su qüllələri tikilir və təmiz suyu evlərə paylamaq üçün günəş enerjisi ilə işləyən ağıllı nasoslardan istifadə edilir. Qüllədəki su cazibə qüvvəsi ilə kəndin müxtəlif yerlərində tikilmiş fəvvarələrə paylanır. Suyun paylanmasından sonra kəndin ərzaq ehtiyacını davamlı şəkildə təmin etmək üçün əkinçilik addımı atılır. Bu çərçivədə kənd əhalisinə toxum dəstəyi və davamlı əkinçilik təhsili verilir. Üçüncü mərhələdə isə enerji gəlir. Kənddəki hər bir ev 15 saat işıqlandırmanı təmin edən günəş enerjisi dəstləri ilə təmin olunub. Bu mərhələlərdən sonra Afrika kəndləri kənardan köməyə ehtiyacı olmayan və ayaq üstə duran ağıllı kəndlərə çevrilir.",
+      "SecondImage": "https://www.ideauniversal.org/wp-content/uploads/2022/02/afrika-koyluler.jpg"
+    },
+    {
+      "id": 3,
+      "BaseTitle": "2022-ci ildə diqqətlə izləməli olduğumuz 10 böhran",
+      "BaseTitleText": "Bütün dünyanın son iki ildə mübarizə apardığı pandemiya böhranların təsirini daha da artırıb. Su, ərzaq böhranı, artan yoxsulluq, sosial bərabərsizlik, qaçqın problemi, yüksək inflyasiya və sərhəd münaqişələri ilk ağla gələnlərdir. Bəs 2022-ci ildə bizi nə gözləyir? IDEA Universal Beynəlxalq İnkişaf və Ətraf Mühit Assosiasiyası olaraq təsirini sıx hiss edəcəyimiz böhranlara diqqət çəkmək istədik.",
+      "FirstTitle": "Covid-19 yoxsulluq səviyyəsini artırır",
+      "FirstTitleText": "Covid-19 ölkələr arasındakı bərabərsizlikləri tamamilə ifşa etdi. Görünür, 2022-ci ildə iqtisadi böhranın dərinləşməsi bu bərabərsizliyi daha da kəskinləşdirəcək. Pandemiya ifrat yoxsulluğun səviyyəsini artırdı və iyirmi illik azalma tendensiyasına son qoydu. Beynəlxalq təşkilatların səylərinə baxmayaraq, hələ də vaksinlərə ədalətli çıxışın olmadığı yerlərdə həll yolları tapmaq çətindir. Yoxsulluq həddini yeni keçən ölkələrin vəziyyəti dəyişə bilər, lakin ekspertlərin fikrincə, dünyanın epidemiyadan əvvəl problemli olan regionlarında iqtisadi təsirlər daha uzun müddət hiss olunacaq. Proses münaqişə və ya ifrat yoxsulluqla mübarizə aparan ölkələrin bərpasını daha da çətinləşdirəcək.",
+      "FirstImage": "https://www.ideauniversal.org/wp-content/uploads/2022/01/Artboard-1-100.jpg",
+      "SecondTitle": "Qida böhranı dərinləşir",
+      "SecondTitleText": "Son araştırmalara göre gıdaya ulaşmakta güçlük çeken insan sayısı 283 milyona kadar çıktı. Bu daha önce eşi, benzeri görülmemiş bir rakamdı! Burkina Faso, Etiyopya, Nijerya, Güney Sudan ve Yemen, gıda krizini en çok yaşayan ülkeler arasında. Uzun süredir devam eden politik çatışmalar, ne yazık ki daha fazla insanı, “beslenmeye bağlı ölüm olasılığı” derecesini anlatan “acil” kategorisine itti. Tabii ekstrem iklim koşulları da gıda krizini derinleştirdi. Afganistan ve Güney Madagaskar’da uzun süren kuraklık, bölgelerin gıda kriziyle mücadele etmelerini zorlaştırdı. Afrika Boynuzu’nun bazı bölgelerinde son dört mevsimden beri halen kuraklığa son verecek yağmurlar bekleniyor. Gıda fiyatlarının artışı başka bir endişe kaynağı. 2021 yılında dünya genelinde buğday ve mısır fiyatlarında yüzde 40’a varan bir artış yaşandı. Bu son 10 yılın en yüksek artışıydı.      ",
+      "SecondImage": "https://www.ideauniversal.org/wp-content/uploads/2022/01/Artboard-2-100.jpg"
+    },
+    {
+      "id": 4,
+      "BaseTitle": "Bərabərsizlik öldürür!",
+      "BaseTitleText": "Beynəlxalq demokratik kütləvi təşkilat Oxfam, Bərabərsizlik Virusu adlı son hesabatında, xüsusilə pandemiyadan sonra artan bərabərsizliyi təəccüblü məlumatlarla ortaya qoydu.",
+      "FirstTitle": "Pandemiya bərabərsizliyi artırdı",
+      "FirstTitleText": "Şübhəsiz ki, pandemiya ilə keçən iki çətin il dünyada bərabərsizliyi artırdı. Bəlkə hamımız vicdanla düşünürdük ki, pandemiyanın bu bərabərsizliyi azaldacaq, amma təəssüf ki, bunun əksi baş verdi.Fork Films-in həmtəsisçisi, fəalı və sənədli film rejissoru Abigail E. Disney dedi: “Köhnə milyarderlər səhmlərinə getdikcə daha çox milyardlar əlavə etdikcə, yeni milyarderlər meydana çıxdı. Pandemiya başlayanda cəmiyyət çatlarla dolu idi; Onlar qırılma xətlərinə qədər genişlənən çatlar idi. Bu çatışmazlıq xətləri sosial birliyi və demokratiyanı təhdid edir və bəlkə də daha vacibi, iqlim böhranına hər hansı etibarlı və ya effektiv yanaşma üçün demək olar ki, keçilməz bir maneədir.",
+      "FirstImage": "https://www.ideauniversal.org/wp-content/uploads/2022/01/cicek-tasiyan-kadin.jpg",
+      "SecondTitle": "Həll yolu uzaqdır",
+      "SecondTitleText": "Bu təəccüblü rəqəmlər və qərarlar davam edir, amma həll yolu nədir? Fork Films-in həmtəsisçisi, fəalı və sənədli film istehsalçısı Abigail E. Disney dedi: “Biz ölümcül status-kvonu saxlayan strukturları pozmalı və həm sərvəti, həm də hakimiyyəti daha ədalətli şəkildə yenidən bölüşdürəcək yeni strukturlar qurmalıyıq. Sistemli problemlər, xəstəliyin özündən daha çox simptomları müalicə etmək üçün hissə-hissə cəhdlər deyil, sistemli həllər tələb edir. Dünyanın əksər problemlərini həll etmək üçün kifayət qədər pul var. Bu, yalnız paylarını ödəməyən milyonçular və milyarderlərin əlindədir deyir.",
+      "SecondImage": "https://www.ideauniversal.org/wp-content/uploads/2022/01/afrikali-cocuklar.jpg"
+    },
+    {
+      "id": 5,
+      "BaseTitle": "Madaqaskar adasına toxunmaq",
+      "BaseTitleText": "Madaqaskar dünyanın dördüncü ən böyük adasıdır. Unikal vəhşi təbiəti, Asiya və Afrikanın əsas qitəsindən gələn miqrasiyaların yaratdığı rəngarəng mədəni irsi ilə Afrika sahillərində nəhəng gizli coğrafiyadır. Malaqaslıların öz sözləri ilə desək, mozaika qitəsi. Şərqdən qərbə hər küncü olan möcüzələr diyarıdır. Dost lemurlardan tutmuş padşahların ruhlarının gəzdiyi güman edilən məbədlərə, kəndlərdən şəhərlərə qədər müqəddəslik dənizi.IDEA Universal olaraq biz Madaqaskarın sirlərini açmaq və bu möcüzəvi ölkənin bolluq içində yoxsulluq içində olan insanlarına toxunmaq üçün orada idik.",
+      "FirstTitle": "Kasıb Amma Xoşbəxt Deyil",
+      "FirstTitleText": "Madaqaskar əslində filmdəki kimi bütün canlıların xoşbəxt yaşadığı bir yer deyil. Əslində filmdəki şir və zürafə kimi növlər əslində burada yaşamır. Birləşmiş Millətlər Təşkilatına görə dünyanın dördüncü ən kasıb ölkəsidir. Yaxşı, bu insanlar kasıb, amma xoşbəxt olmazdımı? soruşa bilərsiniz. Bu, bildiyiniz yoxsulluq deyil. Təsəvvür edin ki, bir şüşə suyun bir dollar olduğu ölkədə əhalinin 70%-i gündə bir dollardan az pulla dolanır. Fikirləşin ki, gündə bir dəfə yemək tapanlar, gecələr qarnı tox yatanlar özlərini şanslı sayırlar. Uşaqların maşınların qarşısına keçib sadəcə su istədikləri yer düşünün. Bura belə bir yerdir. O qədər kasıb yerdir, amma o qədər kasıbdır ki, xoşbəxt yaşamaq mümkün deyil. Müstəmləkəçiliyin qaranlıq tərəfinin üzünə sillə vurduğu yer.",
+      "FirstImage": "https://www.ideauniversal.org/wp-content/uploads/2020/03/1_rA3ZnYGadhB-sYr0eX4_SA.png",
+      "SecondTitle": "Burada Su Yoxdur",
+      "SecondTitleText": "Günlər keçdikcə həyəcan daha da artırdı. Gecə-gündüz davam edən qazıntıların dördüncü gününün sonunda 100 metrə çatmışdıq. Ancaq hələ də suyun çıxması ilə bağlı heç bir işarə yox idi. Biz quyudan suyun çıxmasını gözlədiyimiz müddətdə torpaq çıxmağa davam etdi. Günəş batan kimi qazma maşınının operatoru maşını saxladı. Mənə yaxınlaş və de:  “Yox, burada su yoxdur, indi işi dayandırmalıyıq. Daha da irəli getmək qazma qurğusunun ekskavator bitlərini itirməyimizə səbəb ola bilər. Əlimizdə olan resurslarla irəli getmək mümkün deyil”, - deyə o bildirib.",
+      "SecondImage": "https://www.ideauniversal.org/wp-content/uploads/2021/11/4-1.png?id=5506"
+    },
+    {
+      "id": 6,
+      "BaseTitle": "Tanzaniya könüllü hekayəsi: Evrim Aykan",
+      "BaseTitleText": "2016-2017-ci illər arasında keçirdiyim depressiya məni həyatda yeni mənalar axtarmağa sövq etdi. Daimi gediş-gəlişlə ciddi qəbul etdiyim yaradıcı işim var idi. Onlardan “Sən kimsən?” sualı verilsəydi, ilk cavabım həmişə peşəmlə bağlı olurdu.Mən dizayner idim. Əvvəlcə məhsul dizayneri oldum. Sonra kosmik dizayner. Bəzən kiçik hekayələr tərtib edirdim. Çox oxudum, çox yazdım, çox səyahət etdim. Çünki əlimdə olanlar və ya etdiklərim mənə çatmırdı. Düşünürəm ki, ilk növbədə öz ekzistensial kimliyimi dizayn etməyə çalışırdım. Halbuki, varlıq nəzərdə tutulmuş bir şey deyildi, öz-özünə meydana gələcəkdi. Bilmirəm bu nə ola bilməzdim, amma bu halım bir şey olmaq və bir şey etməyə çalışmaq məni çox yorurdu. Mən də tək üzməkdən çox yorulmuşdum və boğulmamaq üçün çox çalışırdım. Öz-özünə gedən, heç kimə nə faydası, nə də zərəri olan bir həyatım var idi. Sonra bir gün anladım ki, Laləsin sözlərində olduğu kimi",
+      "FirstTitle": "dəyişiklik vaxtı",
+      "FirstTitleText": "Kooperativ kənd təsərrüfatı. Deməli, təkcə ana tərəfindən deyil, həm də valideynlər, babalar, nənələr, qardaşlar və digər ailə üzvləri tərəfindən tərbiyə olunan insanlar kimi növlərdə başqalarını düşünmək və onların maraqlarını axtarmaq vərdişi açıq-aydın daha çoxdur. Mən səkkiz yaşıma kimi kənddə bir evdə, çoxuşaqlı ailədə baba-baba, əmi və bibilərimlə böyümüşəm. Belə bir keçmişə sahib olandan sonra nəhəng bir şəhərin və həyatın ortasında yaşadığı fərdi eqoizmin əsdiyi 37 yaşlı tənha qadın kimi həyatımı daha davam etdirə bilmədim. Dünyanın qarşısında hiss etdiyim narahatlıq, sahib olduğum hər şeydən əl çəkməyi düşündürdü.",
+      "FirstImage": "https://www.ideauniversal.org/wp-content/uploads/2020/09/image-002-287x300.jpg",
+      "SecondTitle": "Tanzaniyaya səyahət",
+      "SecondTitleText": "Kim bilirdi ki, bir gün ekranda baxdığım o fotoşəkildə özümü tapacam. Beləliklə, mən IDEA Universal-ın xəyalpərəst, cəsur, iştirakçı, müstəqil könüllülər komandasına qoşuldum və öz işlərini sevgi ilə yerinə yetirdim. O gündən sonra heç nə əvvəlki kimi olmadı. Mən bir daha kompüter ekranının arxasından yer üzünün gözəlliklərinə baxıb ah çəkib başqaları üçün necə yazıq olduğumu hiss edən insan olmamışam. Tanzaniyada IDEA Universal layihələrində iştirak etmək və Tanzaniyanın kənd yerlərində yaşamaq və könüllü işimdən sonra gündəlik həyata qarışmaq məni dönməz şəkildə dəyişdi.Bütün imkansızlıqlarda gülər üzləri, işıqlı gözləri ilə ürəyinizə baxan o afrikalı uşaqları gördükdən sonra fil sümüyü qüllələrində köhnə həyatınıza qayıtmaq mümkün deyil.",
+      "SecondImage": "https://www.ideauniversal.org/wp-content/uploads/2020/09/evrim-aykan-ve-cocuklar.jpg"
+    },
+    {
+      "id": 7,
+      "BaseTitle": "84 YAŞLI GEORGE WIRBA VƏ HƏYATI HELENANIN HƏYATI ƏBƏTLİ DƏYİŞDİR.",
+      "BaseTitleText": "George Wirba və arvadı kiçik kəndlərindən Bafutdakı reabilitasiya mərkəzinə gəldikdə, o, 4 ildən artıq müddətdə ilk dəfə idi ki, evini tərk edirdi. Müalicə olunmayan qanqren onun ayağının amputasiyası ilə nəticələndi və arvadı onların hər ikisini təmin etmək üçün mübarizə apararkən Corc evdə qaldı.",
+      "FirstTitle": "",
+      "FirstTitleText": "George Bafutda protez ayaq almağa ümid edirdi, lakin onların cüzi qənaətləri xəstəxanaya gedən nəqliyyat xərclərini (təxminən on dollar) çətinliklə ödəyirdi - protez ayaq tamamilə əlçatmaz idi. Evə getmək üçün vəsaiti olmayan Corc və həyat yoldaşı möcüzəyə ümid edirdilər. Treana və komandası Bafuta çatdıqdan sonra onun prioriteti Corc üçün protez ayaq almaq idi.",
+      "FirstImage": "https://assets.obakkifoundation.org/_1024xAUTO_crop_center-center_90/619/Meet-George-3.jpg",
+      "SecondTitle": "",
+      "SecondTitleText": "George Bafutda protez ayaq almağa ümid edirdi, lakin onların cüzi qənaətləri xəstəxanaya gedən nəqliyyat xərclərini (təxminən on dollar) çətinliklə ödəyirdi - protez ayaq tamamilə əlçatmaz idi. Evə getmək üçün vəsaiti olmayan Corc və həyat yoldaşı möcüzəyə ümid edirdilər. Treana və komandası Bafuta çatdıqdan sonra onun prioriteti Corc üçün protez ayaq almaq idi.Onun səbri mükafatlandırıldı və o, bir daha yeriyir! Bu, çoxlu xoşbəxt göz yaşları ilə çoxlu “hubba, hubba” ilə qarışan səyahətimizin ən xoşbəxt günlərindən biri idi!",
+      "SecondImage": "https://assets.obakkifoundation.org/_1440xAUTO_crop_center-center_90/615/Meet-George-header.jpg"
+    },
+    {
+      "id": 8,
+      "BaseTitle": "Məryəm Akol pulunu yığıb şumlamaq üçün bir öküz aldı. Cənubi Sudan kimi patriarxal bir ölkədə qadınların mal-qara sahibi olması eşidilmir.",
+      "BaseTitleText": "Cənubi Sudandakı komandamız bu yaxınlarda Amediçiyə - su quyusunu qazdığımız gündən bəri inkişaf edən dul qadınların ilhamverici icmasına - onların tərəqqiləri haqqında yeniləmə əldə etmək üçün səyahət etdi.  İlçe menecerimiz Abedneqo bildirir ki, qadınlar qarşıdan gələn mövsüm ərəfəsində artıq torpaqları təmizləməyə başlayıblar. Yağışlı mövsümdə daşqınlar onların çoxlu məhsullarını zədələsə də, bu zəhmətkeş qadınlar ruhdan düşmək istəmirlər. O, bizə ən son çətinlikləri ilə cəmiyyətə rəhbərlik edən üç qadının hekayələrini gətirdi:",
+      "FirstTitle": "",
+      "FirstTitleText": "Meri, onun və digər qadınların belə bir statusa və iqtisadi gücə sahib olmasının möcüzə olduğunu açıqlayıb və bunu Obakki olaraq quyunun qazılmasında və toxum paketlərinin təmin edilməsində göstərdiyi dəstəyə bağladı. Meri Obakki olan donorlarına və müəssisə işçilərinə vaxtlarını və resurslarınımediçi kənd icmalarını inkişaf etdirmək üçün istifadə etmək üçün sürətli təşəkkürünü bildirmək lazımdır. O (çox qürurla) ki, onun kəndindəki qadınlar indi kişilərdən sığorta tələb etmək üçün tələb edirlər, o, OF-un nəzarət layihə həyata keçirmək üçün başqa kəndlərdə qadınlarla işləyir. O, bizə dedi: “Çox çalışın və ən yaxşısına ümid edin. Harada oldan asılı olmadan, zəhmət və sizə pul verə bilər”.",
+      "FirstImage": "https://assets.obakkifoundation.org/_1024xAUTO_crop_center-center_90/629/Strong-Women-of-amedichi-header.jpg",
+      "SecondTitle": "",
+      "SecondTitleText": "Meri Biç bu yaxınlarda tərəvəz satışından əldə etdiyi gəlirlə keçi alıb. Amediçinin ağsaqqalları və dul arvadları onun kimi gənc qadınlara çox işləməyi məsləhət görürlər ki, bu da onu daha böyük məqsədlər qoymağa sövq edir. Məryəmin keçisinin bir uşağı var idi və iki ildən sonra Məryəm on keçi sahibi olmağı planlaşdırır...hamısı öz kəndindəki su quyusundan istifadə edərək yetişdirilən tərəvəzləri sataraq. Meri Obakki Fonduna onun kəndinə təmiz suya çıxış və bağçılığın tətbiqi ilə gözlərini açdıqları üçün təşəkkür etmək istədi. Biz Amedichi qadınlarının daxilində yaşayan sahibkarlıq ruhundan sonsuz ilham alırıq.",
+      "SecondImage": "https://assets.obakkifoundation.org/_1024xAUTO_crop_center-center_90/Strong-Women-of-amedichi-1.jpg"
+    },
+    {
+      "id": 9,
+      "BaseTitle": "4 gün ərzində biz döşəklər və yataq dəstləri almaq üçün kifayət qədər pul topladıq, qalan pul isə uşaq evində digər əsaslı təmir və təkmilləşdirmələrə xərclənəcək!",
+      "BaseTitleText": "Sizin sayənizdə bu oğlanlar bu gecə rahat çarpayılara yığılıblar. Sizin sayənizdə bu uşaqların həyatına dərhal təsir oldu. Sizin sayənizdə dünyada tək olduqlarını düşünən bir qrup uşaq bütün dünyada insanların onları sevdiyini bilir.  Bir çox xeyriyyə təşkilatı siz ianə verəndə bu cür demək olar ki, ani həzzi təklif etmir və mən sizin səxavətinizə görə alçaldıram ki, bu da mənə bu dəyişiklikləri asanlaşdırmağa imkan verir. Çox sağ ol.",
+      "FirstTitle": "",
+      "FirstTitleText": "Sizin sayənizdə bu oğlanlar bu gecə rahat çarpayılara yığılıblar. Sizin sayənizdə bu uşaqların həyatına dərhal təsir oldu. Sizin sayənizdə dünyada tək olduqlarını düşünən bir qrup uşaq bütün dünyada insanların onları sevdiyini bilir.",
+      "FirstImage": "https://assets.obakkifoundation.org/_1280xAUTO_crop_center-center_90/The-Beds-2.jpg",
+      "SecondTitle": "",
+      "SecondTitleText": "Bir çox xeyriyyə təşkilatı siz ianə verəndə bu cür demək olar ki, ani həzzi təklif etmir və mən sizin səxavətinizə görə alçaldıram ki, bu da mənə bu dəyişiklikləri asanlaşdırmağa imkan verir. Çox sağ ol.",
+      "SecondImage": "https://assets.obakkifoundation.org/_1280xAUTO_crop_center-center_90/The-Beds-1.jpg"
+    },
+    {
+      "id": 10,
+      "BaseTitle": "Bir bağ necə bir sənayeyə çevrildi",
+      "BaseTitleText": "Orada heç bir işi olmayan seyrək bir bağ ilə başladı. Treana günün 10-cu quyu (su quyusu) qiymətləndirməsində idi və ərazi boş idi. O, quyuya baxarkən, Abedenqo onun yanından keçərək kiçik bir müvəqqəti hasarla heyvanlardan qorunan kiçik mübarizə aparan bitkilərin məhsuluna doğru getdi.",
+      "FirstTitle": "",
+      "FirstTitleText": "Bağ, çox güman ki, bunu bacarmayacaqdı, amma məsələ bu deyildi - bu kiçik süjet kiminsə qətiyyətinin və ixtirasının sübutu idi. İşimizdə biz tez-tez irəli düşünən insanlara rast gəlirik və proqramlarımızı onların ətrafında qura bilərik və ya layihələrə başlamazdan əvvəl heç olmasa onların beyinlərini seçə bilərik. Bu bağın arxasında duran şəxs mövcud vəziyyəti dəyişməyə həsr olunmuş uzaqgörən bir mütəfəkkir idi, ona görə də Treana və Abedenqo həmin şəxsi axtarmağa getdilər. Morrislə belə tanış oldular.                  Bidi Bidi köçürülməsi bir çox kənddən ibarət böyük bir əraziyə yayılmışdır və Morris müharibədən travma almış qadınlarla bir kənddə yaşayır. O və kənddəki digər kişilər bu qadınlar üçün bağçılıq və sənətkarlıq kooperativi açmaq üçün pullarını birləşdirdilər; məqsədyönlü iş vasitəsilə onların sağalmasına kömək etmək.",
+      "FirstImage": "https://assets.obakkifoundation.org/_1024xAUTO_crop_center-center_90/Tailor-Shop_Journal_4.jpg",
+      "SecondTitle": "",
+      "SecondTitleText": "Biz onların yeni binası üçün dam örtüyü, tikiş və dülgərlik təşəbbüsləri üçün təlimlər və onlara başlamaq üçün təchizatla təmin etməyi öhdəmizə götürmüşük.  Kommersiya tikiş layihələri Bidi Bidi qadınlarına özlərini təmin etməyə kömək edə bilər, buna görə də biz ərazidə ilk dərzi dükanımızı və tekstil təlimi müəssisəmizi açdıq. Müvafiq təlim və təchizatla qadınlar tekstil əsaslı sənətkarlıq istehsal edə, məktəbli formaları tikə və yerli otellər üçün yataq dəstləri yarada biləcəklər. Bu layihələr ilkin olaraq yerli bazara xidmət edəcək, lakin biz onları beynəlxalq bazara çıxarmağın, qadınları uğura hazırlamağın və hər addımda onlarla işləməyin yollarını axtaracağıq.",
+      "SecondImage": "https://assets.obakkifoundation.org/_1024xAUTO_crop_center-center_90/Tailor-Shop-Journal_6.jpg"
+    },
+    {
+      "id": 11,
+      "BaseTitle": "Cənubi Sudanda yerin dərinliklərində bol su ehtiyatı var – məsələ ona çatmaqdadır. Gəldiyimiz yer budur!",
+      "BaseTitleText": "",
+      "FirstTitle": "",
+      "FirstTitleText": "Həyatını dəyişən bu inkişaf onların kəndində su quyusu çəkildikdə mümkündür. Əl nasosları ilə təchiz olunmuş quyular icmaların su təchizatı texnologiyalarının ən sadələrindəndir. Elektrik və ya dizel nasosları ilə müqayisədə, əl nasosları əhəmiyyətli dərəcədə daha az maliyyə vəsaiti tələb edir, onlara qulluq etmək daha asandır və xarab olma ehtimalı daha azdır. Əl nasosları yerin dərinliyinə qazılmış quyudan suyu yuxarı qaldırmaq üçün insan gücündən və qolun mexaniki üstünlüyündən istifadə edir.",
+      "FirstImage": "https://assets.obakkifoundation.org/_1024xAUTO_crop_center-center_90/Adol-2013-1B0A8367-1.jpg",
+      "SecondTitle": "",
+      "SecondTitleText": "Biz dünyada ən çox satılan əl nasosu olan və Afrikadakı kəndlərdə icma su təchizatının əsasını təşkil edən India Mark 2 nasos sistemindən istifadə edirik. Bu nasos 300 nəfər və ya daha çox olan icmalarda və 80 metrə qədər dərinlikdə ağır yüklərdə istifadə üçün nəzərdə tutulmuşdur.",
+      "SecondImage": "https://assets.obakkifoundation.org/_1440xAUTO_crop_center-center_90/projects-well-feature-5-1100x400.jpg"
+    },
+    {
+      "id": 12,
+      "BaseTitle": "Meet Dassi",
+      "BaseTitleText": "",
+      "FirstTitle": "BAFUT REABİLİTASİYA MƏRKƏZİNDƏ ƏN GƏNC PROTEZ ALICILARIMIZ.",
+      "FirstTitleText": "Treana Dassi ilə görüşəndə o, utancaq və təmkinli idi. Cəmi altı yaşında, o, Bafutda sizin dəstəyiniz sayəsində ayaq protezi alan ən gənc insandır. Dassi keçən il bir dostu velosiped sürməyi öyrənərkən ona çırpılaraq topuğunu sındırmışdı. Dassinin ailəsinin tibbi yardım ala bilmədiyi üçün, onun topuğundakı bu kiçik qırıq, dizdəki ayağının amputasiyasını tələb edən şiddətli bir infeksiyaya çevrildi.",
+      "FirstImage": "https://assets.obakkifoundation.org/_1440xAUTO_crop_center-center_90/514/Dassi-talking-to-Treanna-Obakki-Foundation-Story.jpg",
+      "SecondTitle": "Sən qarşısıalınmazsan, balaca adam.",
+      "SecondTitleText": "Qəzadan sonra Dassinin həyatı dayandırıldı. O, dostlarından uzaqlaşdı və kənardan dünyanın necə keçdiyini seyr edərkən depressiyaya düşdü. Treana protez ayağını aldığı gün Dassidə dəyişikliklərin şahidi oldu. O, çox sakit idi, çünki komandamız ayağını bədəninə uyğunlaşdırdı - sual vermədi və şərh vermədi - sadəcə izlədi. Dayandıqdan sonra Dassinin üzünə təbəssüm yayıldı və gözləri işıqlandı. Bu anda Treana fərqli bir Dassi gördü - ümidli və həvəsli biri. O, başa düşdü ki, bu, yalnız bir oğlana ayaq verməkdən ibarət deyil; bu ona həyatını qaytarırdı.",
+      "SecondImage": "https://assets.obakkifoundation.org/_1024xAUTO_crop_center-center_90/515/Dassi-learning-how-to-walk-at-Bafut-Rehab-Centre-Obakki-Foundation-Story.jpg"
+    }
+  ],
+  "donateProjects": [
+    {
+      "id": 1,
+      "name": "KENYA",
+      "title": "Su Böhranına Yardım Fondu",
+      "image": "https://images.unsplash.com/photo-1520254553641-2eed4cf2ef26?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1930&q=80",
+      "content": "Məzmun",
+      "text": "Su həyatın bütün sahələrini birləşdirir. Təhlükəsiz su və kanalizasiyaya çıxış problemləri tez bir zamanda potensiala çevirə bilər - insanlara məktəb və iş üçün vaxt ayırmaq və bütün dünyada qadınlar, uşaqlar və ailələrin sağlamlığının yaxşılaşdırılmasına töhfə vermək.",
+      "amount": "1,275,000",
+      "percent": "70"
+    },
+    {
+      "id": 2,
+      "name": "SOMALI",
+      "title": "Şərqi Afrika Aclığa Yardım Fondu",
+      "image": "https://files.globalgiving.org/pfil/56253/pict_featured.jpg?m=1654802957000",
+      "content": "Məzmun",
+      "text": "Qlobal aclıq artır. 50 milyondan çox insan aclıqla üz-üzədir. Şərqi Afrika son 40 ilin ən pis quraqlığını yaşayır.Biz bu aclıq böhranına qarşı güclərini birləşdirən  xeyriyyə təşkilatlarından biriyik. Bugünkü ianəniz ehtiyacı olanlara təcili yardım göstərəcək.",
+      "amount": "3,650,000",
+      "percent": "70"
+    },
+    {
+      "id": 3,
+      "name": "KONGO",
+      "title": "Virusa qarşı Yardım Fondu",
+      "image": "https://files.globalgiving.org/pfil/53411/pict_large.jpg?m=1629127124000",
+      "content": "Məzmun",
+      "text": "Kongo minlərlə dinc sakin həlak olub, yüz minlərlə insan evlərini tərk etmək məcburiyyətində qalıb.Həyat Fondu Kongodakı insanlara və ölkədən qaçanlara təcili yardım almaq üçün yerdəki tərəfdaşlarımızla sıx əməkdaşlıq edir. İanəniz regionda işləyən yoxlanılmış qeyri-kommersiya təşkilatlarına, eləcə də əfqan qaçqınlarına kömək etmək üçün çalışanlara gedəcək.",
+      "amount": "2,825,000",
+      "percent": "70"
+    },
+    {
+      "id": 4,
+      "name": "SUDAN",
+      "title": "Böhran Fonduna ümid",
+      "image": "https://images.unsplash.com/photo-1473594659356-a404044aa2c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YWZyaWNhJTIwbW90aGVyJTIwY2hpbGRyZW58ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60",
+      "content": "Məzmun",
+      "text": "Dünyada milyonlarla insan böhranlar yaşayır, lakin onların hekayələri nadir hallarda əsas xəbərlərdə eşidilir və ya qlobal məlumatlılığa çatdırılır. Böhranda Həyat Fondu silahlı münaqişələr, aclıq, təqiblər və iqlim fəlakətləri də daxil olmaqla təbii və insan mənşəli fəlakətləri intensivləşdirməklə mübarizə aparan icmalara kömək edəcək.",
+      "amount": "4,790,000",
+      "percent": "70"
+    }
+  ],
+  "basePartners": [
+    {
+      "id": 1,
+      "image": "https://www.onedrop.org/image/1/435/0/uploads/rich-content/1d-logos-hilton-en-1551291429.png"
+    },
+    {
+      "id": 2,
+      "image": "https://www.onedrop.org/image/1/435/0/uploads/rich-content/1d-logos-coca-cola-en-1551473972.png"
+    },
+    {
+      "id": 3,
+      "image": "https://www.onedrop.org/image/1/435/0/uploads/rich-content/1d-logos-rb-foundation-en-en-1551473961.png"
+    },
+    {
+      "id": 4,
+      "image": "https://www.onedrop.org/image/1/435/0/uploads/rich-content/logo_fundacion-femsa-en-1657143359.png"
+    },
+    {
+      "id": 5,
+      "image": "https://www.onedrop.org/image/1/435/0/uploads/rich-content/1d-logos-prince-albert-ii-of-monaco-foundation-en-1551291502.png"
+    },
+    {
+      "id": 6,
+      "image": "https://www.onedrop.org/image/1/435/0/uploads/rich-content/gac_en_web-en-1592509773.png"
+    },
+    {
+      "id": 7,
+      "image": "https://149442961.v2.pressablecdn.com/wp-content/uploads/Brussels-Airlines-Logo-1-scaled-e1585326523698_c627a20cedef00dcc305a35276ceb1be.jpg"
+    },
+    {
+      "id": 8,
+      "image": "https://149442961.v2.pressablecdn.com/wp-content/uploads/Global-Fund-for-Children-Colour-scaled-e1585326816122.jpg"
+    },
+    {
+      "id": 9,
+      "image": "https://149442961.v2.pressablecdn.com/wp-content/uploads/NoVo_logo_high-res-vector-1-scaled-e1585327314602_7873e5b23ae766bc85e92a41324ca8e8.jpg"
+    }
+  ],
+  "commonProjects": [
+    {
+      "id": 1,
+      "image": "https://assets.obakkifoundation.org/_600xAUTO_crop_center-center_90/Project-Buea-School-of-Deaf-1.jpg",
+      "title": "Karlar üçün Buea Məktəbi",
+      "text": "Biz inanırıq ki, eşitmə qüsurları uşağın potensialını məhdudlaşdırmamalıdır.",
+      "topic": "Təhsil",
+      "more": "Daha çoxu"
+    },
+    {
+      "id": 2,
+      "image": "https://assets.obakkifoundation.org/_600xAUTO_crop_center-center_90/StValentines_Gallery_6_1400x933.jpg",
+      "title": "Müqəddəs Valentinlər Uşaq Evi",
+      "text": "Müqəddəs Valentinlərin unudulmuş uşaqlarına daha parlaq gələcək bəxş etməyimizə kömək edin.",
+      "topic": "Təhsil",
+      "more": "Daha çoxu"
+    },
+    {
+      "id": 3,
+      "image": "https://assets.obakkifoundation.org/_600xAUTO_crop_center-center_90/Atu-Bee-Keeprs-36.jpg",
+      "title": "Arıçılıq proqramı",
+      "text": "Ənənəvi arıçılığın mənimsənilməsi və yeni nəsil arıçılara qabaqcıl texnologiyanın tətbiqi.",
+      "topic": "ArıçılıqKənd təsərrüfatı",
+      "more": "Daha çoxu"
+    },
+    {
+      "id": 4,
+      "image": "https://assets.obakkifoundation.org/_600xAUTO_crop_center-center_90/Bashir_1.jpg",
+      "title": "Bəşir",
+      "text": "Bəşir maraqlı, ağıllı və həvəslidir. Əlilliyi və sosial dəstəyi haqqında az anlayışı olan bir ölkədə eşitmə qüsuru ilə yaşamaq həyatı çətinləşdirib.",
+      "topic": "Təhsil",
+      "more": "Daha çoxu"
+    },
+    {
+      "id": 5,
+      "image": "https://assets.obakkifoundation.org/_600xAUTO_crop_center-center_90/PottersofAkiliba.jpg",
+      "title": "Akiliba dulusçuları",
+      "text": "Şimali Uqandanın Qərbində, dulusçuluqdan istifadə etməkdə qərarlı olan sənətkarlarımızın evi olan Akiliba kəndini tapa bilərsiniz.",
+      "topic": "Sənətkar Proqramı",
+      "more": "Daha çoxu"
+    },
+    {
+      "id": 6,
+      "image": "https://assets.obakkifoundation.org/_600xAUTO_crop_center-center_90/TELEMMGLPICT000000286973310_trans_NvBQzQNjv4BqpVlberWd9EgFPZtcLiMQf0Rf_Wk3V23H2268P_XkPxc.jpg",
+      "title": "Afrikanı dəstəkləyin",
+      "text": "Ölkələrini müdafiə etmək, azadlıqlarını qorumaq və xalqını xilas etmək üçün Afrikaya dəstək olmaq, həyatınızda edəcəyiniz ən vacib ianə ola bilər.",
+      "topic": "Azadlıq",
+      "more": "Daha çoxu"
+    },
+    {
+      "id": 7,
+      "image": "https://assets.obakkifoundation.org/_600xAUTO_crop_center-center_90/13821/Kibera-Kids.jpg",
+      "title": "Kibera Məktəbinin Sponsorluğu",
+      "text": "600 dollar, Keniyanın Naoirobi, Kibera şəhərində yaşayan uşaqlar üçün bir illik təhsil verir.",
+      "topic": "Təhsil",
+      "more": "Daha çoxu"
+    },
+    {
+      "id": 8,
+      "image": "https://assets.obakkifoundation.org/_600xAUTO_crop_center-center_90/2445/Screen-Shot-2018-10-18-at-4.34.11-PM.jpg",
+      "title": "Hotpec",
+      "text": "Əsas ehtiyaclarının ödənilməsi ilə Hotpec yetimləri yenidən uşaq ola bilərlər.",
+      "topic": "Təhsil",
+      "more": "Daha çoxu"
+    },
+    {
+      "id": 9,
+      "image": "https://assets.obakkifoundation.org/_600xAUTO_crop_center-center_90/2342/malou.jpg",
+      "title": "Malou",
+      "text": "Bu kəndin xoşbəxt cəmiyyət qurmaq üçün nə qədər çalışdığını başa düşmək çətindir.",
+      "topic": "Azadlıq",
+      "more": "Daha çoxu"
+    }
+  ],
+  "commonProjectDetails": [
+    {
+      "id": 1,
+      "backgroundImage": "https://assets.obakkifoundation.org/_1024xAUTO_crop_center-center_90/Project-Buea-School-of-Deaf-5.jpg",
+      "backgroundImageTitle": "Karlar üçün Buea Məktəbi",
+      "overviewOnceTitle": "Ümumi baxış",
+      "overviewText": "Uşağın təhsilinə sərmayə qoymaq, edə biləcəyiniz ən ağıllı və ən güclü sərmayələrdən biridir. Buea Karlar Məktəbi eşitmə qüsuru olan uşaqlara normal gələcək şansı verir.",
+      "overviewTwiceTitle": "Başladı",
+      "overviewLaunched": "İyun 2003",
+      "overviewThirdTitle": "Layihə növü",
+      "overviewProjecType": "Təhsil",
+      "introductionOnceTitle": "GİRİŞ",
+      "onceText": "Kamerundakı kar uşaqlar tez-tez ünsiyyət üçün resursları olmayan tənha və əsəbi bir həyat sürürlər. Qeyri-adi Buea Karlar Məktəbi (BSD) öz tələbələrinə təhsil və daha çox şey təmin etməyə həsr olunub. Uşaqlar oxumağı və yazmağı öyrənə biləcəklərini, ətraf aləmlə əlaqə qura biləcəklərini başa düşdükdə, uğura aparan yola qədəm qoyurlar.Obakki Fondu 15 ildir ki, məktəblə əməkdaşlıq edir, onun bir otaqlı daxmadan inkişaf edən bir müəssisəyə çevrilməsini izləyir, kar tələbələrə perspektivli gələcəklər qurmağa kömək edir.",
+      "twiceText": "Bir tələbə üçün yemək, mənzil və təhsil xərcləri ildə cəmi 1000 dollardır, lakin bu, Kamerundakı ailələrin əksəriyyəti üçün mümkün deyil. Bir çox valideynlər ödənişləri ödəyə bilmirlər, lakin BSD heç vaxt uşağı geri çevirmir, bu da məktəbin daimi kəsir altında fəaliyyət göstərməsinə səbəb olur.",
+      "thirdText": "Bu tələbələr sosial və akademik cəhətdən inkişaf edir, müntəzəm olaraq milli imtahanlarda 100% qazanırlar. BSD olmadan heç vaxt məktəbə gedə bilməyən oğlan və qızlar həkim, kompüter mühəndisi və alim olmaq üçün təhsil alırlar.",
+      "introductionTwiceTitle": "Sizin ianəniz məktəbin işləməyə davam etməsini və eşitmə qüsurlu uşaqların potensialını dəstəkləməsini təmin edəcək.",
+      "onceImage": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8104058.881677635!2d7.795161579368229!3d7.347159582262827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10613753703e0f21%3A0x2b03c44599829b53!2sKamerun!5e0!3m2!1saz!2s!4v1663324120765!5m2!1saz!2s",
+      "galery": "QALEREYA",
+      "twiceImage": "https://assets.obakkifoundation.org/_600xAUTO_crop_center-center_90/IMG_1813-1100x400.jpg"
+    },
+    {
+      "id": 2,
+      "backgroundImage": "https://assets.obakkifoundation.org/_1024xAUTO_crop_center-center_90/StValentines_Gallery_3_1400x933.jpg",
+      "backgroundImageTitle": "Müqəddəs Valentinlər Uşaq Evi",
+      "overviewOnceTitle": "Ümumi baxış",
+      "overviewText": "Kimsəsiz uşaqların qidalanma, təhsil və tibbi ehtiyaclarını dəstəkləyən St. Valentines, uşaqlara gələcək təmin edir.",
+      "overviewTwiceTitle": "Başladı",
+      "overviewLaunched": "1994-cü ilin avqustu",
+      "overviewThirdTitle": "Layihə növü",
+      "overviewProjecType": "Təhsil",
+      "introductionOnceTitle": "GİRİŞ",
+      "onceText": "Müqəddəs Valentinlər 5-17 yaş arası oğlanlar üçün bir evdir. Kamerunda bu kiçik uşaq evini ilk dəfə kəşf etdiyimiz zaman, uşaqlar məktəbə və ya tibbi xidmətə çıxışı olmayan bir dam, elektrik və su olmayan bir sığınacaqda hər həftə 10 stəkan düyü ilə sağ qalırdılar. 18 yaşı tamam olandan sonra heç bir təhsili və təkbaşına yaşamaq bacarığı olmayan oğlanları küçəyə çıxardılar.",
+      "twiceText": "Onların inkişafı üçün 5 əsas elementə - qidalanma, sığınacaq, təhsil dəstəyi, tibbi xidmət və peşə hazırlığına müraciət edərək, Müqəddəs Valentinlərin uşaqları inkişaf edir.",
+      "thirdText": "The older boys have grown into productive young men who are studying to become accountants, lawyers and farmers. They are proof that with encouragement, opportunity and hard work they can have a future they would have never imagined.Your donation facilitates regular food drops that address nutritional deficiencies, upkeep of their modest home, school fees and tutoring, medical care, and vocational training to give them employable skills.",
+      "introductionTwiceTitle": "Müqəddəs Valentinlər olmasaydı, bu oğlanlar küçədə yaşayardılar. Müqəddəs Valentinlərə ianə verməklə onların gələcəyinə sərmayə qoyursunuz.",
+      "onceImage": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8104058.881677635!2d7.795161579368229!3d7.347159582262827!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10613753703e0f21%3A0x2b03c44599829b53!2sKamerun!5e0!3m2!1saz!2s!4v1663324120765!5m2!1saz!2s",
+      "galery": "QALEREYA",
+      "twiceImage": "https://assets.obakkifoundation.org/_600xAUTO_crop_center-center_90/StValentines_Gallery_2_1400x933.jpg"
+    },
+    {
+      "id": 3,
+      "backgroundImage": "https://assets.obakkifoundation.org/_1024xAUTO_crop_center-center_90/OF_JAN2019_WEB-0049.jpg",
+      "backgroundImageTitle": "Arıçılıq proqramı",
+      "overviewOnceTitle": "Ümumi baxış",
+      "overviewText": "Arıçılıq proqramımız yenidən başlayan insanlar üçün başlanğıc meydançası olacaq. Bidi Bidi arıları həyatı dəyişdirəcək!",
+      "overviewTwiceTitle": "Başladı",
+      "overviewLaunched": "Fevral 2019",
+      "overviewThirdTitle": "Layihə növü",
+      "overviewProjecType": "Arıçılıq",
+      "introductionOnceTitle": "GİRİŞ",
+      "onceText": "Obakki Fondunun təsisçisi Treana Peake təlim keçmiş arıçıdır və onun məqsədi həmişə Bidi Bididəki tərəfdaşlarımıza bu faydalı peşəni çatdırmaq olub.",
+      "twiceText": "Uqanda güclü ənənəvi arıçılıq mədəniyyətinə malikdir, lakin məhsuldarlıq olduqca azdır. Müxtəlif QHT-lər keçmişdə heç bir təlim və ya izləmə olmadan daha müasir və mürəkkəb pətəklər təmin etmişdilər ki, bu da bəzəkli pətəklərin ayaq altlığı kimi istifadə edilməsi ilə nəticələndi. Biz hər iki sistem üzrə təlimat və məsləhət təklif edən 3 günlük arıçılıq emalatxanası qurduq.",
+      "thirdText": "Tələbələrdən ibarət ilk qrupumuz məşğul və maraqlı idi və ən əsası sərmayə qoydu. Onlardan bəziləri bizim seminarda iştirak etmək üçün hər gün səkkiz kilometr piyada getdilər və bu fürsətə görə minnətdardılar.",
+      "introductionTwiceTitle": "Bidi bididə bal puldur. Biz bu kişi və qadınlara (və arılara!) sərmayə qoyuruq, çünki onlar öz həyatlarını yenidən qururlar.",
+      "onceImage": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4084411.0093030003!2d30.058437362833267!3d1.3671055665075573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1771a69f6499f945%3A0x874155ce43014549!2sUqanda!5e0!3m2!1saz!2s!4v1663325442551!5m2!1saz!2s",
+      "galery": "QALEREYA",
+      "twiceImage": "https://assets.obakkifoundation.org/_600xAUTO_crop_center-center_90/unnamed-33_190301_193515.jpg"
+    },
+    {
+      "id": 4,
+      "backgroundImage": "https://assets.obakkifoundation.org/_1024xAUTO_crop_center-center_90/Bashir_1.jpg",
+      "backgroundImageTitle": "Bəşir",
+      "overviewOnceTitle": "Ümumi baxış",
+      "overviewText": "Uşağın təhsilinə sərmayə qoymaq, edə biləcəyiniz ən ağıllı və ən güclü sərmayələrdən biridir.",
+      "overviewTwiceTitle": "Başladı",
+      "overviewLaunched": "dekabr 2019",
+      "overviewThirdTitle": "Layihə növü",
+      "overviewProjecType": "Təhsil",
+      "introductionOnceTitle": "GİRİŞ",
+      "onceText": "Treana Uqandanın Oli kəndində Bəşir adlı kar bir oğlanla ilk dəfə tanış olanda o, tənha yaşayırdı. Bəzi kəndlilər onu “dəli” kimi qələmə vermişdilər və o, öz icmasında təcrid olunmuşdu.",
+      "twiceText": "Treana 25 ildir Kamerundakı kar məktəbi ilə işləyir və o, özünə işarə edib adını imzalayanda Bəşirin sifəti işıqlanır, çünki onunla əlaqə yaratmağa çalışırdı. O, hər kəsə Bəşirin başqa dildə danışdığını başa saldı və növbəti səfərində onlara dərs deyəcəyinə söz verdi.",
+      "thirdText": "Bəşir onlarla oturub, icmasının adamlarının onu dəstəkləmək üçün bir araya gəlməsini seyr edərkən gözləri parıldayırdı. İnkişaf etmək üçün xüsusi resurslara ehtiyacı olduğunu başa düşən Treana, Bəşirin evindən cəmi bir neçə saat sonra karlar üçün internat məktəbini öyrəndi. Obakki Vəqfi Bəşirin təhsili, o cümlədən yemək, mənzil və təhsil haqqı üçün vəsait toplamaq öhdəliyi götürür. Bəşir maraqlı, ağıllı və həvəslidir. Eşitmə qabiliyyəti olmayan uşaqların olduğu məktəbdə olması ona özünü saxlamaq üçün lazımi bacarıqları öyrətməklə yanaşı, başqaları ilə əlaqə saxlamağa imkan verəcək.Sizin dəstəyinizlə Bəşirin potensial və imkanlarla dolu gələcəyi olacaq.",
+      "introductionTwiceTitle": "O, müxtəlif tədris materialları gətirdi və hamısını işarə dili ilə tanışlıq seminarında apardı. Hamı Bəşirlə iştirak etməyə can atırdı, çünki o, həmişə onlarla ünsiyyətdə olmaq üçün çox çalışırdı – bütün uşaqların bildiyi “oynamaq” və “oxumaq” kimi əsas sözləri öyrənərkən birlikdə gülürdülər.",
+      "onceImage": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4084411.0093030003!2d30.058437362833267!3d1.3671055665075573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1771a69f6499f945%3A0x874155ce43014549!2sUqanda!5e0!3m2!1saz!2s!4v1663325442551!5m2!1saz!2s",
+      "galery": "QALEREYA",
+      "twiceImage": "https://assets.obakkifoundation.org/_600xAUTO_crop_center-center_90/Bashir_3.jpg"
+    },
+    {
+      "id": 5,
+      "backgroundImage": "https://assets.obakkifoundation.org/_1024xAUTO_crop_center-center_90/PottersofAkiliba.jpg",
+      "backgroundImageTitle": "Akilibanın dulusçuları",
+      "overviewOnceTitle": "Ümumi baxış",
+      "overviewText": "Müstəqillik bu sənətkarlar üçün qədim sənətkarlıqlarının qorunub saxlanması qədər vacibdir. Kənd ağsaqqallarından biri olan Naimə bu hissi ehtirasla ümumiləşdirir: “Biz yoxsulluqdan qurtulmaq, özümüzü yedirtmək və uşaqlarımızı məktəbə buraxmaq istəyirik”.",
+      "overviewTwiceTitle": "Başladı",
+      "overviewLaunched": "Sentyabr 2020",
+      "overviewThirdTitle": "Layihə növü",
+      "overviewProjecType": "Sənətkar Proqramları",
+      "introductionOnceTitle": "GİRİŞ",
+      "onceText": "Şimali Uqandanın Qərbi Nil kəndi ərazisində siz bütün icmalarını saxlamaq üçün dulusçuluqdan istifadə etməkdə qərarlı olan sənətkar tərəfdaşlarımızın yaşadığı Akiliba kəndini tapa bilərsiniz. Ərazidə əkinçilik və əkinçilik ənənəvi olaraq uğursuz olub, buna görə də 1500 sakin istənilən növ gəlir əldə etmək üçün dulusçu kimi bacarıqlarına etibar ediblər. Onların gözəl əsərləri yerli mənbəli gildən istifadə edərək əl ilə tikilir və sonra atəş üçün bir fırça ilə örtülmüş təpəyə yığılır.",
+      "twiceText": "Uzaq yerləri və nəqliyyat çatışmazlığı səbəbindən qrup ərazidəki daha böyük bazarlara daxil olmaqda çətinlik çəkirdi, bu da adətən ayda yalnız bir və ya iki qab sata bildiklərini bildirirdi. İndi, Obakkinin kəndlə tərəfdaşlığı sayəsində biz onlara bu bazarlara səyahət etməkdə kömək edə bilmişik və icmaya davamlı yerli gəlir mənbəyi əldə etmək imkanı vermişik.",
+      "thirdText": "Müstəqillik bu sənətkarlar üçün qədim sənətkarlıqlarının qorunub saxlanması qədər vacibdir. Kənd ağsaqqallarından biri olan Naimə bu hissi ehtirasla ümumiləşdirir: “Biz yoxsulluqdan qurtulmaq, özümüzü yedirtmək və uşaqlarımızı məktəbə buraxmaq istəyirik”.",
+      "introductionTwiceTitle": "",
+      "onceImage": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4084411.0093030003!2d30.058437362833267!3d1.3671055665075573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1771a69f6499f945%3A0x874155ce43014549!2sUqanda!5e0!3m2!1saz!2s!4v1663325442551!5m2!1saz!2s",
+      "galery": "QALEREYA",
+      "twiceImage": "https://assets.obakkifoundation.org/_600xAUTO_crop_center-center_90/IMG_6746.jpg"
+    },
+    {
+      "id": 6,
+      "backgroundImage": "https://assets.obakkifoundation.org/_1024xAUTO_crop_center-center_90/TELEMMGLPICT000000286973310_trans_NvBQzQNjv4BqpVlberWd9EgFPZtcLiMQf0Rf_Wk3V23H2268P_XkPxc.jpg",
+      "backgroundImageTitle": "AFRIKAYA DƏSTƏK EDİN",
+      "overviewOnceTitle": "Ümumi baxış",
+      "overviewText": "Biz hücuma məruz qalan böyük şəhərlərdən birində yerli qrupla - restorançılardan, mehmanxanaçılardan, müəllimlərdən, biznes sahiblərindən ibarət könüllülər - ən həssas insanlara çatmaq üçün həyatlarını riskə atan insanlarla əməkdaşlıq etdik. Uşaqlar, xəstələr, qocalar, təcrid olunmuşlar, köçkünlər. Bağışınızdan sıfır inzibati ödəniş alınacaq. 100% birbaşa insanlara çatacaq.",
+      "overviewTwiceTitle": "Başladı",
+      "overviewLaunched": "9 mart 2022-ci il",
+      "overviewThirdTitle": "Layihə növü",
+      "overviewProjecType": "",
+      "introductionOnceTitle": "GİRİŞ",
+      "onceText": "Biz hücuma məruz qalan böyük şəhərlərdən birində yerli qrupla - restorançılardan, mehmanxanaçılardan, müəllimlərdən, biznes sahiblərindən ibarət könüllülər - ən həssas insanlara çatmaq üçün həyatlarını riskə atan insanlarla əməkdaşlıq etdik. Uşaqlar, xəstələr, qocalar, təcrid olunmuşlar, köçkünlər.Biz həmişə insanlarla birbaşa əlaqə qurmağa inanırıq və böyük QHT-lərin admin xərclərini hər bir ianənin üstündən götürməli olduğu halda (etdikləri ölçüdə işləmək üçün) başqa daha birbaşa yol var.",
+      "twiceText": "Son bir neçə gün ərzində biz yeraltı şəbəkələrin yaradıldığını öyrəndik - hamısı ehtiyacı olanlara çatmaq üçün. Bomba sığınacaqlarında, xəstəxanalarda, məktəblərdə, yüksək səviyyəli mərkəzlərdə gizlənən şəxslər var. Ölkəni tərk edə bilməyən insanlar və kömək etmək üçün qalmağı seçənlər. Bu barədə düşünün - SEÇİLƏN... qalmaq... kömək etmək. Bunlar dəstək olmaq istədiyimiz insanlardır.Onların yerdə şəbəkəsi, cəsarəti, çəkmələri var. Onlara lazım olan şey vəsaitdir. Və daxil olduğumuz yer budur.Bunun bir hissəsi olmaqda maraqlı olanlarınız - bu, həmişə ola bildiyi qədər birbaşa, ağır və realdır. Biz sizi imkan daxilində yeniləmələri paylaşacağımız daha böyük WhatsApp qrupuna qoşa bilərik.",
+      "thirdText": "",
+      "introductionTwiceTitle": "",
+      "onceImage": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d65339110.73935181!2d-16.32414007565689!3d1.7380144904194308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10a06c0a948cf5d5%3A0x108270c99e90f0b3!2sAfrica!5e0!3m2!1saz!2s!4v1663361229014!5m2!1saz!2s",
+      "galery": "QALEREYA",
+      "twiceImage": "https://images.unsplash.com/photo-1509099896299-af46ad97ff57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80"
+    },
+    {
+      "id": 7,
+      "backgroundImage": "https://assets.obakkifoundation.org/_1024xAUTO_crop_center-center_90/13827/Kibera-Kids-Wide-2.jpg",
+      "backgroundImageTitle": "Kibera Məktəbinin Sponsorluğu",
+      "overviewOnceTitle": "Ümumi baxış",
+      "overviewText": "600 dollar, Keniyanın Nayrobi, Kibera şəhərində yaşayan uşaqlar üçün bir illik təhsil verir.",
+      "overviewTwiceTitle": "Başladı",
+      "overviewLaunched": "",
+      "overviewThirdTitle": "Layihə növü",
+      "overviewProjecType": "Təhsil",
+      "introductionOnceTitle": "GİRİŞ",
+      "onceText": "Kiberadakı uşaqlar tez-tez ünsiyyət üçün resursları olmayan tənha və əsəbi bir həyat sürürlər. Qeyri-adi Kibera Məktəbi (BSD) öz tələbələrinə təhsil və daha çox şey təmin etməyə həsr olunub. Uşaqlar oxumağı və yazmağı öyrənə biləcəklərini, ətraf aləmlə əlaqə qura biləcəklərini başa düşdükdə, uğura aparan yola qədəm qoyurlar.Həyat Fondu 15 ildir ki, məktəblə əməkdaşlıq edir, onun bir otaqlı daxmadan inkişaf edən bir müəssisəyə çevrilməsini izləyir, tələbələrə perspektivli gələcəklər qurmağa kömək edir.",
+      "twiceText": "Bir tələbə üçün yemək, mənzil və təhsil xərcləri ildə cəmi 1000 dollardır, lakin bu, Kiberadakı ailələrin əksəriyyəti üçün mümkün deyil. Bir çox valideynlər ödənişləri ödəyə bilmirlər, lakin BSD heç vaxt uşağı geri çevirmir, bu da məktəbin daimi kəsir altında fəaliyyət göstərməsinə səbəb olur.                ",
+      "thirdText": "Bu tələbələr sosial və akademik cəhətdən inkişaf edir, müntəzəm olaraq milli imtahanlarda 100% qazanırlar. BSD olmadan heç vaxt məktəbə gedə bilməyən oğlan və qızlar həkim, kompüter mühəndisi və alim olmaq üçün təhsil alırlar.                ",
+      "introductionTwiceTitle": "Sizin ianəniz məktəbin işləməyə davam etməsini və uşaqların potensialını dəstəkləməsini təmin edəcək.",
+      "onceImage": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27797319.627200406!2d11.962831810552247!3d-12.772372924094855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f107d3ba89c15%3A0xefcfe2ec90115ed2!2sKibera%2C%20Nayrobi%2C%20Keniya!5e0!3m2!1saz!2s!4v1663361938878!5m2!1saz!2s",
+      "galery": "QALEREYA",
+      "twiceImage": "https://images.unsplash.com/photo-1473649085228-583485e6e4d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80"
+    },
+    {
+      "id": 8,
+      "backgroundImage": "https://assets.obakkifoundation.org/_1024xAUTO_crop_center-center_90/2441/hotpec-background.jpg",
+      "backgroundImageTitle": "Hotpec Uşaq Evi",
+      "overviewOnceTitle": "Ümumi baxış",
+      "overviewText": "Əsas ehtiyaclarının ödənilməsi ilə Hotpec yetimləri yenidən uşaq ola bilərlər.",
+      "overviewTwiceTitle": "Başladı",
+      "overviewLaunched": "2008",
+      "overviewThirdTitle": "Layihə növü",
+      "overviewProjecType": "Təhsil",
+      "introductionOnceTitle": "GİRİŞ",
+      "onceText": "Ailələr üçün resursların və tibbi imkanların az olduğu Kamerunda kiçik uşaqlar tez-tez tərk edilir. Qapıların ağzında və ya yolun kənarında qalanların çoxu sağ qalmır. Xoşbəxt olanlar Hotpec Uşaq Evi kimi yerlərə yol tapırlar.",
+      "twiceText": "Kiçik kollektivin yorulmaz səylərinə baxmayaraq, biz ilk gəldiyimiz zaman Hotpec Uşaq Evi mübarizə aparırdı. Elektrik yox idi və tez-tez yemək yox idi. Körpələr bir neçə mövcud çarpayıda yan-yana sıxışdırılarkən, uşaqlar bir çarpayıya dörd yatırdılar. Onların çoxu itaətkar və letargik idi; bəziləri insan təmasından uzaqlaşdılar.",
+      "thirdText": "250-dən çox uşağın əksəriyyəti üçün Hotpec onların tanıdıqları yeganə evdir.Obakki Fondu uzun illər ərzində infrastruktur, təchizat, çarpayılar, avadanlıq və qida dəstəyi daxil olmaqla müxtəlif yollarla Hotpec-ə töhfə vermişdir.",
+      "introductionTwiceTitle": "Hotpec yeni doğulmuş körpələrdən 18 yaşa qədər 250-dən çox uşağa ev və təhsil verir.",
+      "onceImage": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4084411.0093030003!2d30.058437362833267!3d1.3671055665075573!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10613753703e0f21%3A0x2b03c44599829b53!2sKamerun!5e0!3m2!1saz!2s!4v1663327195038!5m2!1saz!2s",
+      "galery": "QALEREYA",
+      "twiceImage": "https://assets.obakkifoundation.org/_600xAUTO_crop_center-center_90/2444/Screen-Shot-2018-10-18-at-4.34.04-PM.jpg"
+    },
+    {
+      "id": 9,
+      "backgroundImage": "https://assets.obakkifoundation.org/_1024xAUTO_crop_center-center_90/projects-malou-feature-1-1100x400.jpg",
+      "backgroundImageTitle": "Malou ",
+      "overviewOnceTitle": "Ümumi baxış",
+      "overviewText": "Bu kəndin nə qədər heyrətamiz olduğunu və güclü, xoşbəxt bir cəmiyyət qurmaq üçün nə qədər çalışdıqlarını ifadə etmək mümkün deyil.",
+      "overviewTwiceTitle": "Başladı",
+      "overviewLaunched": "2016                    ",
+      "overviewThirdTitle": "Layihə növü",
+      "overviewProjecType": "Təmiz su",
+      "introductionOnceTitle": "GİRİŞ",
+      "onceText": "Malou cüzamdan təsirlənən insanların kiçik bir icmasıdır, müalicəsi mümkün olan, lakin tibbi xidmətin lüks olduğu dünyanın bölgələrində nadir hallarda müalicə olunan bir xəstəlikdir. Müalicə olunmasa, cüzamdan əziyyət çəkənlər uyuşma, zəiflədən əzələ sərtliyi və nəhayət, korluqdan əziyyət çəkirlər. Su gətirmək və əkinlərə qulluq etmək kimi vacib gündəlik işləri yerinə yetirmək çətindir. Malouda 50 ailə cüzamdan təsirləndi və ağrılı fiziki vəziyyətlər xəstəliklə əlaqəli regional stiqma ilə daha da pisləşdi. Onların hamısına yerli su quyusuna giriş qadağan edildi, bu da onları 11 kilometr uzaqlıqdakı ən yaxın su mənbəyinə getməyə məcbur etdi.",
+      "twiceText": "Çoxları Malounu xoşbəxtlik və ümidsiz bir kədərli yer kimi təsəvvür edərdi; Bununla belə, icma inanılmaz möhkəmlik nümayiş etdirdi və çətinliklər qarşısında böyük sevincini qoruyub saxlayır. Rəis həmişə gülümsəyir və adətən onun əlini bir anda tutmağa çalışan 4-5 uşağın əhatəsində olur.",
+      "thirdText": "İcmaya bəzi bağçılıq alətləri və toxumları gətirdikdən sonra kəndlilərin onlara göstərdiyi qayğı sayəsində məhsullar indi təzə tərəvəzlərlə çiçəklənir. Cəmiyyətdə hər kəs daha sağlamdır və bazarda satılan qalıq məhsuldan gəlir əldə edilmişdir.",
+      "introductionTwiceTitle": "Malou böyüməyə olan bağlılığı ilə bizi heyran etməkdə davam edir - onlar motivasiyalı bir cəmiyyətin nəyə nail ola biləcəyinin ruhlandırıcı nümunəsidir.",
+      "onceImage": "",
+      "galery": "QALEREYA",
+      "twiceImage": "https://assets.obakkifoundation.org/_600xAUTO_crop_center-center_90/projects-malou-feature-4-1100x400.jpg"
+    }
+  ],
+  "selectPartners": [
+    {
+      "id": 1,
+      "image": "https://www.globalgiving.org/img/logos/companies/arconicfoundation.png"
+    },
+    {
+      "id": 2,
+      "image": "https://www.globalgiving.org/img/logos/companies/airbnb.png"
+    },
+    {
+      "id": 3,
+      "image": "https://www.globalgiving.org/img/logos/companies/kpmgfoundation.png"
+    },
+    {
+      "id": 4,
+      "image": "https://www.globalgiving.org/img/logos/companies/ford.png"
+    },
+    {
+      "id": 5,
+      "image": "https://www.globalgiving.org/img/logos/companies/gofundme.png"
+    },
+    {
+      "id": 6,
+      "image": "https://www.globalgiving.org/img/logos/companies/google.png"
+    },
+    {
+      "id": 7,
+      "image": "https://www.globalgiving.org/img/logos/companies/google.png"
+    },
+    {
+      "id": 8,
+      "image": "https://www.globalgiving.org/img/logos/companies/meta.png"
+    },
+    {
+      "id": 9,
+      "image": "https://www.globalgiving.org/img/logos/companies/microsoft.png"
+    },
+    {
+      "id": 10,
+      "image": "https://www.globalgiving.org/img/logos/companies/nbcuniversal.png"
+    },
+    {
+      "id": 11,
+      "image": "https://www.globalgiving.org/img/logos/companies/salesforce.png"
+    },
+    {
+      "id": 12,
+      "image": "https://www.globalgiving.org/img/logos/companies/vmware.png"
+    },
+    {
+      "id": 13,
+      "image": "https://www.globalgiving.org/img/logos/companies/unitedairlines.png"
+    },
+    {
+      "id": 14,
+      "image": "https://www.globalgiving.org/img/logos/companies/riotgames.png"
+    },
+    {
+      "id": 15,
+      "image": "https://www.globalgiving.org/img/logos/companies/johnsonandjohnson.png"
+    },
+    {
+      "id": 16,
+      "image": "https://www.globalgiving.org/img/logos/companies/ballcorporation.png"
+    },
+    {
+      "id": 17,
+      "image": "https://www.globalgiving.org/img/logos/companies/twitch.png"
+    },
+    {
+      "id": 18,
+      "image": "https://www.globalgiving.org/img/logos/companies/zoom.png"
+    },
+    {
+      "id": 19,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_AdobeFoundation.png"
+    },
+    {
+      "id": 20,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_AmericanEndowmentFoundation.png"
+    },
+    {
+      "id": 21,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_AnheuserBusch.png"
+    },
+    {
+      "id": 22,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_AveryDennison.png"
+    },
+    {
+      "id": 23,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_Away.png"
+    },
+    {
+      "id": 24,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo__BoAML.png"
+    },
+    {
+      "id": 25,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo__BoAML.png"
+    },
+    {
+      "id": 26,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo__BoAML.png"
+    },
+    {
+      "id": 27,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_Becton-Dickinson.png"
+    },
+    {
+      "id": 28,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_BursonCohnWolfe.png"
+    },
+    {
+      "id": 29,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_CaseFoundation.png"
+    },
+    {
+      "id": 30,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo__CherCharitableFoundation.png"
+    },
+    {
+      "id": 31,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_cbs-CBSStudiosInternational.png"
+    },
+    {
+      "id": 32,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_Christies.png"
+    },
+    {
+      "id": 33,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_CIDI.png"
+    },
+    {
+      "id": 34,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_CIDI.png"
+    },
+    {
+      "id": 35,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_DataRobot.png"
+    },
+    {
+      "id": 36,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_Dell.png"
+    },
+    {
+      "id": 37,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_FairmontRafflesHotelsInternational.png"
+    },
+    {
+      "id": 38,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo__FatehFamilyFoundation.png"
+    },
+    {
+      "id": 39,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo__FatehFamilyFoundation.png"
+    },
+    {
+      "id": 40,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo__ErnieELS.png"
+    },
+    {
+      "id": 41,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo__ErnieELS.png"
+    },
+    {
+      "id": 42,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo__ErnieELS.png"
+    },
+    {
+      "id": 43,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_GeorgePJohnson.png"
+    },
+    {
+      "id": 44,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_Google.png"
+    },
+    {
+      "id": 45,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_HBfuller.png"
+    },
+    {
+      "id": 46,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_HTHWorldwide.png"
+    },
+    {
+      "id": 47,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_HTHWorldwide.png"
+    },
+    {
+      "id": 48,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_JPMorganChase.png"
+    },
+    {
+      "id": 49,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_JPMorganChase.png  "
+    },
+    {
+      "id": 50,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_Microsoft.png"
+    },
+    {
+      "id": 51,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_MotorolaSolutionsFoundation.png"
+    },
+    {
+      "id": 52,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo__NikeFoundation.png"
+    },
+    {
+      "id": 53,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_NorthernTrustCorporation.png"
+    },
+    {
+      "id": 54,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_UnitedAirlines.png"
+    },
+    {
+      "id": 55,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_UnitedHealthcare.png"
+    },
+    {
+      "id": 56,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_WilliamFloraHewlettFoundation.png"
+    },
+    {
+      "id": 57,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_World_Bank.png"
+    },
+    {
+      "id": 58,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_YourCause.png"
+    },
+    {
+      "id": 59,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_Zoom.png"
+    },
+    {
+      "id": 60,
+      "image": "https://www.globalgiving.org/img/companies/logos/CompaniesPageLogo_YumBrands.png"
+    }
+  ]
+}
