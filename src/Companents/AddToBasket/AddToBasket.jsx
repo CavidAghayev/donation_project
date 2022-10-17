@@ -6,9 +6,9 @@ import { useState } from 'react'
  function AddToBasket() {
   const {data: products} = servicesApi.useGetProductsQuery();
   const cart = useSelector((state) => state.cartReducer.cart);
+  const removeItem = useSelector((state) => state.removeReducer.removeItem);
   const dispatch = useDispatch();
   console.log(cart)
-  const [empty,setEmpty] = useState(true)
   const removeProduct = (productId) => {
     dispatch(removeFromCard(productId))
   }
@@ -34,9 +34,11 @@ dispatch(decrement(productId))
 </div>
       </div>
       <div className='add-to-cart container'>
-             <div className="add-to-cart-empty">
-            <h1>Məhsul yoxdur.</h1>
-          </div>
+             {
+          removeItem  && <div className="add-to-cart-empty">
+          <h1>Məhsul yoxdur.</h1>
+        </div>
+             }
 {
 cart.map((t) => {
     let product = products.find((a) => a.id === t.id);

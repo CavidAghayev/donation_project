@@ -744,8 +744,12 @@ padding: 20px;
   width: 80%;
   height: 30px;
   margin-top: 20px;
+  transition-duration: 0.5s;
 }
-
+.donate-project button:hover{
+  color: var(--white-color);
+  border-color: var(--white-color);
+}
 
 .project-details {
   width: 100%;

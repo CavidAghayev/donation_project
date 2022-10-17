@@ -1,14 +1,17 @@
 import React from "react";
 import { useDispatch, useSelector  } from "react-redux";
 import { decrement, increment, productToCart } from "../../Service/cartSlice";
-import {Link } from 'react-router-dom'
+import {    useNavigate } from 'react-router-dom'
 function Product({ product}) {
   const cart = useSelector((state) => state.cartReducer.cart);
+  const removeItem = useSelector((state) => state.removeReducer.removeItem);
   const selectedProduct = cart.filter((item) => item.id === product.id);
   const dispatch = useDispatch();
+const navigate = useNavigate()
   const addProduct = (productId) => {
     dispatch(productToCart(productId));
-  };
+    dispatch( )
+    };
 
   const decreaseItem = (productId) => {
     dispatch(decrement(productId));
@@ -18,8 +21,8 @@ function Product({ product}) {
     dispatch(increment(productId));
   };
   return (  
-    <Link to={`/productdetails`} className="product"> 
-        <div className="product-image">
+    <div className="product"> 
+        <div onClick={()=>navigate(`/productdetails`)} className="product-image">
         <div className="product-favorite">
         <i className="fa-regular fa-heart"></i>
       </div>
@@ -45,7 +48,7 @@ function Product({ product}) {
           </div>
           <div onClick={()=>addProduct(product.id)}  className="add-button">Səbətə Əlavə Et</div>
         </div>
-      </Link >
+      </div >
   );
 }
 
