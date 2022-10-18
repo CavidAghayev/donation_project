@@ -4,13 +4,11 @@ import { decrement, increment, productToCart } from "../../Service/cartSlice";
 import {    useNavigate } from 'react-router-dom'
 function Product({ product}) {
   const cart = useSelector((state) => state.cartReducer.cart);
-  const removeItem = useSelector((state) => state.removeReducer.removeItem);
   const selectedProduct = cart.filter((item) => item.id === product.id);
   const dispatch = useDispatch();
 const navigate = useNavigate()
   const addProduct = (productId) => {
     dispatch(productToCart(productId));
-    dispatch( )
     };
 
   const decreaseItem = (productId) => {
@@ -22,11 +20,11 @@ const navigate = useNavigate()
   };
   return (  
     <div className="product"> 
-        <div onClick={()=>navigate(`/productdetails`)} className="product-image">
+        < div className="product-image">
         <div className="product-favorite">
         <i className="fa-regular fa-heart"></i>
       </div>
-          <img src={product.image} alt="" />
+          <img onClick={()=>navigate(`/productdetails/${product.id}`)} src={product.image} alt="" />
         </div>
         <div className="product-items">
           <h3>{product.name}</h3>

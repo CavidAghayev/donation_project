@@ -31,7 +31,7 @@ function Home() {
                   Afrika ağır vəziyyətdədir və bir çoxları iqtisadi <br />
                   mübarizələr səbəbindən ailələrini dolandıra bilmirlər.
                 </p>
-                <a href="/projects">
+                <a href="/projects=">
                   <span>Sosyal Layihələr</span>
                   <i className="fa-solid fa-arrow-right"></i>
                 </a>

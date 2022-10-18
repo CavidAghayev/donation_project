@@ -1,7 +1,7 @@
 import React from "react";
 import { servicesApi } from "../Service/apiService";
 import Product from "../Companents/Product/Product";
-import { useRef , useState} from "react";
+import { useRef } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -89,8 +89,8 @@ MAĞAZA
     </div>
     <div ref={dropdown} className="filters">
       <ul>
-      <li><a href="#">Kişi</a></li>
-        <li><a href="#">Qadın</a></li>
+      <li>Kişi</li>
+        <li>Qadın</li>
       </ul>
     </div>
     <div onClick={arrowdownItem} className="filter-box">

@@ -19,7 +19,7 @@ import AboutApplySubcribe from './Companents/AboutApplyHere/AboutApplySubcribe';
 import CorporatePartnerships from './Companents/CorporatePartnerships/CorporatePartnerships';
 import DisasterResponse from './Companents/DisasterResponse/DisasterResponse';
 import StoryDetails from './Companents/OurStories/StoryDetails';
-import ProductDetails from './Companents/ProductDetails/ProductDetails';
+import ProductDetails from './Companents/Product/ProductDetails';
 function App() {
   return (
     <>
@@ -36,7 +36,6 @@ function App() {
           <Route path='/projectdetails/:id' element={<ProjectDetails/>}/>
           <Route path='/storydetails/:id' element={<StoryDetails/>}/> 
           <Route path='/addtobasket' element={<AddToBasket/>}/>
-          <Route path='/productdetails' element={<ProjectDetails/>}/>
           <Route path='/projectdetailsdonate/:id' element={<ProjectDetailsDonate />} />
           <Route path='/contactus' element={<ContactUs />} />
           <Route path='/commonprojectdetails/:id' element={<CommonProjectDetails/>}/>
@@ -44,7 +43,7 @@ function App() {
           <Route path='/aboutapplysubcribe' element={<AboutApplySubcribe/>}/>
           <Route path='/corporatepartnerships' element={<CorporatePartnerships/>}/>
           <Route path='/disasterResponse' element={<DisasterResponse/>}/>
-          <Route path='/productdetails' element={<ProductDetails/>}/>
+          <Route path='/productdetails/:id' element={<ProductDetails/>}/>
         </Routes>
         <ContactUs/>
         <Footer/>

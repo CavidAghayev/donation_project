@@ -18,6 +18,11 @@ export const servicesApi = createApi({
         url: "/products",
       }),
     }),
+    getProductDetails: builder.query({  
+      query: (id) => ({
+        url: `/products/${id}`,
+      }),
+    }),
     getStories: builder.query({
       query: () => ({
         url: "/donateStory",
