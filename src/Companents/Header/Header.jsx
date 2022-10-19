@@ -1,5 +1,5 @@
 import React from 'react'
-import { NavLink,useLocation } from 'react-router-dom'
+import { NavLink,useLocation, useNavigate } from 'react-router-dom'
 import {useEffect,useState,useRef} from 'react'
 function Header() {
   const menuItem = useRef();
@@ -14,11 +14,12 @@ function Header() {
     } 
 useEffect(()=>{
   window.scrollTo(0,0);
-},[pathname])
+},[pathname])   
+const navigate = useNavigate();
   return (
     <header>
         <div className="headerContent">
-          <div onClick={()=>window.location.href="/"} className="headerLogo">
+          <div onClick={()=>navigate("/")} className="headerLogo">
             <i className="fa-brands fa-pagelines"></i>
               <h3>Həyat Fondu</h3>
           </div>

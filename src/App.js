@@ -42,7 +42,7 @@ function App() {
           <Route path='/aboutapplyhere' element={<AboutApplyHere/>}/>
           <Route path='/aboutapplysubcribe' element={<AboutApplySubcribe/>}/>
           <Route path='/corporatepartnerships' element={<CorporatePartnerships/>}/>
-          <Route path='/disasterResponse' element={<DisasterResponse/>}/>
+          <Route path='/disasterResponse' element={<DisasterResponse/>}/> q   
           <Route path='/productdetails/:id' element={<ProductDetails/>}/>
         </Routes>
         <ContactUs/>
