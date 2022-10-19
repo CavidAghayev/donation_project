@@ -44,7 +44,7 @@ function About() {
   <div className="about-safe-easy-donations">
 <h1>Təhlükəsiz + Asan Bağışlar</h1>
 <p>Biz insanlara bütün dünyada yoxlanılmış, yerli idarə olunan təşkilatlara təhlükəsiz  və asan ABŞ vergisi tutula bilən <br /> ianələr etməkdə kömək edirik. ABŞ-da ianələr vergidən çıxılır və ya Böyük Britaniya vergi ödəyiciləri  GBP ilə <br /> verə və Hədiyyə Yardımı uyğun olarsa, əlavə 25% tələb edə bilərlər. Həyat Fondu vasitəsilə <br /> verməyi sevəcəyinizə o qədər əminik ki, biz ianə məmnuniyyəti zəmanəti təklif edirik.</p>
-  <button onClick={()=>navigate('/projects')}>LAYİHƏ TAPIN</button>
+  <div className='btn' onClick={()=>navigate('/projects')}>LAYİHƏ TAPIN</div>
   </div>
   <div className="about-apply">
       <div className="about-apply-image">
@@ -53,7 +53,7 @@ function About() {
 <div className="about-apply-join-us-content">
 <h1>Bizə Qoşul</h1>
 <p>Biz 175+ ölkədə fəaliyyət göstərən və icmalarının həqiqətən <br /> ehtiyac duyduğu layihələri dərc edən qeyri-kommersiya <br /> təşkilatları ilə əməkdaşlıq etdik. Bizə qoşulmaq  <br /> istəyirsiniz?</p>
-      <button onClick={()=>navigate('/aboutapplyhere')}>Bura müraciət edin</button>
+      <div className='btn' onClick={()=>navigate('/aboutapplyhere')}>Bura müraciət edin</div>
 </div>
         </div>
       </div>
@@ -67,14 +67,14 @@ function About() {
   <div className="corporate-partnerships">
     <h1>Korporativ Tərəfdaşlıqlar</h1>
     <p>Biz şirkətlərə güclü korporativ sosial məsuliyyət, qrantların verilməsi <br /> və işçilərin cəlb edilməsi strategiyalarını inkişaf etdirməyə <br /> kömək edirik.</p>
- <button onClick={()=>navigate('/corporatepartnerships')}>Daha çoxu</button>
+ <div className='btn' onClick={()=>navigate('/corporatepartnerships')}>Daha çoxu</div>
   </div>
   <div className="disaster-response-background-image">
 <div className="disaster-response">
   <div className="disaster-response-content">
   <h1>Fəlakətə Cavab</h1>
   <p>Fəlakət baş verdikdə, yardım və bərpa işlərini <br /> aparmaq üçün ən uyğun olan yerli təşkilatlara <br /> tez vəsait göndərə bilərik.</p>
-<button onClick={()=>navigate('/disasterResponse')}>Daha çoxu</button>
+<div className='btn' onClick={()=>navigate('/disasterResponse')}>Daha çoxu</div>
   </div>
 </div>
   </div>
@@ -82,7 +82,7 @@ function About() {
   <div className="content">
   <h3><span>Həyat Fond</span> - dan xəbərlər alın:</h3>
   <input  type="text" name="" id="" placeholder='Enter e-mail address' />
-  <button>Abunə olun</button>
+  <div className='btn'>Abunə olun</div>
   </div>
       </div>
     </section>

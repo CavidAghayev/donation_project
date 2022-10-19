@@ -57,7 +57,27 @@ h5 {
   letter-spacing: 1px;
   margin-bottom: 20px;
 }
-
+.btn{
+  width: 150px;
+  height: 50px;
+  background: var(--button-color);
+  border: none;
+  border-radius: 10px;
+  color: var(--white-color);
+  font-family: var(--font-family);
+  font-weight: 600;
+  cursor: pointer;
+  transition-duration: 0.5s;
+  font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn:hover {
+  background: none;
+  border: 1px solid var(--button-color);
+  color: var(--main-color);
+}
 button {
   width: 150px;
   height: 50px;
@@ -155,7 +175,7 @@ header {
   align-items: center;
 }
 
-.headerMenu ul .navLink {
+.headerMenu ul li .nav {
   font-size: 17px;
   font-family: var(--font-family);
   font-weight: 600;
@@ -166,11 +186,11 @@ header {
   padding: 10px;
 }
 
-.headerMenu ul .navLink.active {
+.headerMenu ul li .nav.active {
   color: var(--main-color);
 }
 
-.headerMenu ul .navLink:hover {
+.headerMenu ul li .nav:hover {
   background: var(--button-color);
   color: var(--white-color);
 }
@@ -387,15 +407,16 @@ header {
   position: relative;
 }
 
-.about-content .text {
+.about-content .items {
   width: 50%;
   padding: 20px;
   display: flex;
   flex-direction: column;
-  text-align: center;
+  justify-content: center;
+  align-items: center;
 }
 
-.about-content .text span {
+.about-content .items span {
   font-size: 60px;
   font-family: var(--font-family);
   font-weight: 600;
@@ -405,7 +426,7 @@ header {
   z-index: 1;
 }
 
-.about-content .text h1 {
+.about-content .items h1 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 600;
   color: var(--title-color);

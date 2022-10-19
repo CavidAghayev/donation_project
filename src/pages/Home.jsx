@@ -65,13 +65,11 @@ function Home() {
         </div>
       </div>
       <div className="about-content">
-            <div className="text">
+            <div className="items">
               <span>BİZİM HAQQIMIZDA</span>
               <h1>BİZİM HAQQIMIZDA</h1>
               <p>Təhsil, su və səhiyyə xidmətlərinə çıxış Konqo  Demokratik <br /> Respublikasında  bütün icmanı gücləndirib. Malaykanın icma əsaslı yanaşması bütün dünyada  təkrarlana bilən bir modeldir.</p>
-<div className="button">
-<button onClick={()=>navigate('/about')}>Daha çox oxu</button>
-</div>
+<div className="btn" onClick={()=>navigate('/about')}>Daha çox oxu</div>
             </div>
             <div className="cube-image">
             <Swiper
@@ -109,9 +107,9 @@ function Home() {
             <h1>
               Hər kəsə kömək edə bilmərik, amma hamı kiməsə kömək edə bilər{" "}
             </h1>
-            <button onClick={()=>navigate('/about')}>
+            <div className="btn" onClick={()=>navigate('/about')}>
               İanə Et
-            </button>
+            </div>
         </div>
       </div>
       <div className="aid-toCountries">
@@ -146,7 +144,7 @@ function Home() {
   <div className="content">
   <h3><span>Həyat Fond</span> - dan xəbərlər alın:</h3>
   <input  type="" name="" id="email" placeholder='Enter e-mail address' />
-  <button>Abunə olun</button>
+  <div className="btn">Abunə olun</div>
   </div>
       </div>
     </section>

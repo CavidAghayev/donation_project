@@ -102,7 +102,7 @@ function Projects() {
                   placeholder="CVV2"
                 />
                 </form>
-                <button>ÖDƏ</button>
+                <div className='btn'>ÖDƏ</div>
               </div>
     </div>
     </section>

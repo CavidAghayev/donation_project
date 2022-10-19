@@ -23,9 +23,7 @@ function AboutApplySubcribe() {
                     <input type="text" name="" id=""  placeholder='Şəhər'/>
                     <input type="text" name="" id=""      placeholder='Poçt kodu'/>
                 </div>
-                <div className="about-apply-subcribe-items-button">
-                  <button>Abunə olun</button>
-                </div>
+                  <div className='btn'>Abunə olun</div>
             </div>
         </div>
     </section>

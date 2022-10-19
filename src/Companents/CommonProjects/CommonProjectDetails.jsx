@@ -135,7 +135,7 @@ function CommonProjectDetails() {
                   id=""
                   placeholder="CVV2"
                 />
-                <button>ÖDƏ</button>
+                <div className='btn'>ÖDƏ</div>
               </div>
             </div>
           </div>
