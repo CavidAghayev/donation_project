@@ -9,7 +9,7 @@ const navigate = useNavigate();
       <div className="donate-project-text">
         <h3>{project.name}</h3>
         <h5>{project.title}</h5>  
-        <button onClick={()=>navigate('/projectdetails')}>İanə Et</button>
+        <div className="btn" onClick={()=>navigate('/projectdetails')}>İanə Et</div>
       </div>
     </Link>
   );

@@ -33,7 +33,7 @@ function DisasterResponse() {
   <div className="life-fund-news-content">
   <h3>Həyat Fondun-dan xəbərlər, yeniləmələr və uyğun təkliflər alın (ayda bir və ya iki dəfə):</h3>
   <input  type="text" name="" id="" placeholder='E-mail' />
-  <button>Abunə olun</button>
+  <div className='btn'>Abunə olun</div>
   </div>
  </div>
     </section>

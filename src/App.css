@@ -606,7 +606,9 @@ padding: 20px;
 
 .donation-board .content {
   width: 100%;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .donation-board .content h1 {
@@ -614,7 +616,7 @@ padding: 20px;
   margin-bottom: 30px;
 }
 
-.donation-board button {
+.donation-board .btn {
   filter: grayscale(0);
 }
 
@@ -685,21 +687,23 @@ padding: 20px;
   background-repeat: no-repeat;
   background-size: auto;
   display: flex;
-  justify-content: center;
+   flex-direction: column;
   align-items: center;
-  text-align: center;
+  justify-content: center;
 }
 .news-bullent .content{
   width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.news-bullent .content h3 {
+.news-bullent h3 {
   font-size: 50px;
-  font-family: var(--font-family);
   font-weight: 600;
   margin-bottom: 50px;
 }
-.news-bullent .content h3 span{
+.news-bullent h3 span{
   color: var(--main-color);
 }
 
@@ -715,7 +719,7 @@ padding: 20px;
   color: var(--text-color);
 }
 
-.news-bullent .content button {
+.news-bullent .content .btn {
   width: 150px;
   height: 60px;
   margin-left: 30px;
@@ -761,13 +765,13 @@ padding: 20px;
   cursor: pointer;
 }
 
-.donate-project button {
+.donate-project .btn {
   width: 80%;
   height: 30px;
-  margin-top: 20px;
+  margin-top: 30px;
   transition-duration: 0.5s;
 }
-.donate-project button:hover{
+.donate-project .btn:hover{
   color: var(--white-color);
   border-color: var(--white-color);
 }
@@ -3141,7 +3145,9 @@ padding: 20px 20px;
   margin-left: 10px;
 }
 
-@media screen and (max-width: 767px) {}
+@media screen and (max-width: 767px) {
+  
+}
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {}
 

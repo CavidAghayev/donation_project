@@ -44,8 +44,8 @@ function ProjectDetails() {
                </div>
             </div>
           </div>
-          <div className="project-details-donate-button">
-            <button onClick={()=>navigate(`/projectdetailsdonate/${project.id}`)}>İndi İanə Et</button>
+          <div className="project-details-donate-div">
+            <div className="btn" onClick={()=>navigate(`/projectdetailsdonate/${project.id}`)}>İndi İanə Et</div>
           </div>
           </div>
         </div>

@@ -141,10 +141,10 @@ function Home() {
           </div>
       </div>
       <div className="news-bullent">
-  <div className="content">
   <h3><span>Həyat Fond</span> - dan xəbərlər alın:</h3>
-  <input  type="" name="" id="email" placeholder='Enter e-mail address' />
-  <div className="btn">Abunə olun</div>
+  <div className="content">
+  <input  type="email" name="" id="email" placeholder='Enter e-mail address' />
+  <div className="btn">Abunə olun</div> 
   </div>
       </div>
     </section>

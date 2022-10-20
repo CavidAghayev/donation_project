@@ -8,7 +8,7 @@ function Story({story}) {
   <h5>{story.date}</h5>
       <h3>{story.title}</h3>
       <p>{story.text}</p>
-      <button   onClick={()=>navigate(`/storydetails/${story.id}`)}>Davamını Oxu</button>
+      <div className='btn' onClick={()=>navigate(`/storydetails/${story.id}`)}>Davamını Oxu</div>
   </div>
 <div className="story-image">
 <img src={story.image} alt="" />

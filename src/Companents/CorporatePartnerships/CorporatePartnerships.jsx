@@ -1,9 +1,11 @@
 import React from 'react'
 import {servicesApi} from "../../Service/apiService"
 import SelectPartner from '../SelectPartner/SelectPartner';
+import { useNavigate } from 'react-router-dom'
 import "swiper/css";
 import "swiper/css/navigation";
 function CorporatePartnerships() {
+  const navigate = useNavigate();
   const {data: selectPartners} = servicesApi.useGetSelectPartnersQuery();
   return (
     <section>
@@ -37,7 +39,7 @@ function CorporatePartnerships() {
 
 Xeyriyyəçilik və ya KSM proqramınızla təsir etməkdə sizə necə <br /> kömək edə biləcəyimizi bizə bildirin.</p>
 <p>+994 612-217-0747 nömrəsinə zəng edin və ya bizə e-poçt göndərin.</p>  
-   <button onClick={()=>window.location='/contact'}>Bizə Mesaj Göndərin</button>
+   <div className='btn' onClick={()=>navigate('/contact')}>Bizə Mesaj Göndərin</div>
     </div>
     </section>
   )
