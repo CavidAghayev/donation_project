@@ -8,5 +8,5 @@ export const store = configureStore({
     cartReducer,removeReducer
   },
   middleware: (getDefaultMiddleware) =>
-    getDefaultMiddleware().concat(servicesApi.middleware),
+    getDefaultMiddleware().concat(servicesApi.middleware),  
 });

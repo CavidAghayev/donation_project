@@ -1475,7 +1475,7 @@ margin: 30px auto;
   font-size: 40px;
 }
 
-.common-project-background-image-title h1::after {
+.project-details-image__title h1::after {
   content: "";
   width: 100px;
   height: 4px;
@@ -1492,7 +1492,7 @@ margin: 30px auto;
   left: 0;
   color: var(--white-color);
   text-align: center;
-  font-size: 50px;
+  font-size: 30px;
   animation: arrow-down 1s infinite alternate;
   z-index: 9;
 }
