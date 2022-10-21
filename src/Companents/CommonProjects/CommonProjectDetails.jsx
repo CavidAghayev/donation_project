@@ -48,15 +48,15 @@ function CommonProjectDetails() {
 </div>
 <div className="our-impact__board__boxes">
   <div className="our-impact__board__boxes__card">
-  <i className="fa-light fa-children"></i>
+  <i class="fa-solid fa-children"></i>
   <h1>Dünya üzrə 300 sənətkar tərəfdaşı</h1>
   </div>
   <div className="our-impact__board__boxes__card">
-  <i className="fa-regular fa-hand-holding-droplet"></i>
+  <i class="fa-solid fa-hand-holding-droplet"></i>
   <h1>3 milyon insan təmiz su ilə təmin olunub</h1>
   </div>
   <div id='box' className="our-impact__board__boxes__card">
-  <i className="fa-light fa-children"></i>
+  <i class="fa-solid fa-children"></i>
   <h1>20 min uşağa təhsil almaq imkanı verilib</h1>
   </div>
 </div>
