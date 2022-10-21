@@ -1402,7 +1402,6 @@ margin: 30px auto;
   background: #f1f1f1;
   padding: 20px 20px;
   display: flex;
-  flex-direction: column;
 }
 .project__content a {
   font-family: var(--font-family);
@@ -1460,6 +1459,7 @@ margin: 30px auto;
 .project-details-image img {
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
 .project-details-image__title {
@@ -1470,9 +1470,7 @@ margin: 30px auto;
 
 .project-details-image__title h1 {
   color: var(--white-color);
-  font-family: var(--font-family);
   font-weight: bold;
-  font-size: 40px;
 }
 
 .project-details-image__title h1::after {
@@ -1502,8 +1500,166 @@ margin: 30px auto;
     transform: translateY(15px);
   }
 }
+.introduction {
+  width: 60%;
+}
 
+.introduction h5 {
+  font-family: var(--font-family);
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+  letter-spacing: 1px;
+  color: var(--title-color);
+}
 
+.introduction h5::after {
+  content: "";
+  width: 40px;
+  height: 4px;
+  background: var(--straight--line-color);
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+
+.introduction h1 {
+  font-weight: bold;
+  position: relative;
+  width: 70%;
+}
+
+.introduction iframe {
+  width: 100%;
+  height: 400px;
+  border: none;
+}
+
+.introduction h4 {
+  font-weight: bold;
+  margin: 30px 0;
+  position: relative;
+}
+
+.introduction h4::after {
+  content: "";
+  width: 90px;
+  height: 4px;
+  background: #b67319;
+  position: absolute;
+  top: 30px;
+  left: 0;
+
+}
+
+.introduction-image {
+  width: 100%;
+  height: 460px;
+  background-size: cover;
+  background-position: 50%;
+  background-position-x: 50%;
+  background-position-y: center;
+}
+
+.introduction img {
+  width: 100%;
+  height: 100%;
+}
+
+.our-impact-image {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://assets.obakkifoundation.org/_1024xAUTO_crop_center-center_90/image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.our-impact-image__overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.our-impact__board {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.our-impact__board__text {
+  width: 40%;
+  z-index: 9;
+  margin-left: 100px;
+}
+
+.our-impact__board__text h4 {
+  color: var(--white-color);
+  margin-bottom: 50px;
+  position: relative;
+}
+
+.our-impact__board__text h4::after {
+  content: "";
+  width: 130px;
+  height: 4px;
+  background: #b67319;
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+
+.our-impact__board__text h2 {
+  font-family: var(--font-family);
+  color: var(--white-color);
+}
+
+.our-impact__board__text p {
+  color: var(--white-color);
+}
+
+.our-impact__board__boxes {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.our-impact__board__boxes #box {
+  margin-left: 24%;
+
+}
+
+.our-impact__board__boxes__card {
+  width: 40%;
+  height: 330px;
+  background: #9C9091;
+  margin-bottom: 20px;
+  margin-left: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.our-impact__board__boxes__card i {
+  color: var(--white-color);
+  font-size: 30px;
+}
+
+.our-impact__board__boxes__card h1 {
+  color: var(--white-color);
+  font-family: var(--font-family);
+  font-weight: bold;
+  margin-top: 150px;
+  font-size: 24px;
+}
 
 
 
@@ -2928,102 +3084,53 @@ z-index: 2;
   height: 100%;
 }
 
-.common-project-impact-background-image {
-  width: 100%;
-  height: 100vh;
-  background-image: url("https://assets.obakkifoundation.org/_1024xAUTO_crop_center-center_90/image.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-  display: flex;
-  align-items: center;
-}
 
-.common-project-impact-background-image-overlay {
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.2);
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.common-project-impact-content {
-  width: 100%;
-  display: flex;
-  align-items: center;
-}
 
-.common-project-impact-text {
-  width: 40%;
-  z-index: 9;
-  margin-left: 100px;
-}
 
-.common-project-impact-text h4 {
-  font-family: var(--font-family);
-  color: var(--white-color);
-  margin-bottom: 50px;
-  position: relative;
-}
 
-.common-project-impact-text h4::after {
-  content: "";
-  width: 130px;
-  height: 4px;
-  background: #b67319;
-  position: absolute;
-  top: 40px;
-  left: 0;
-}
 
-.common-project-impact-text h2 {
-  font-family: var(--font-family);
-  color: var(--white-color);
-}
 
-.common-project-impact-text p {
-  color: var(--white-color);
-  font-family: var(--font-family);
-}
 
-.common-project-impact-boxes {
-  width: 60%;
-  display: flex;
-  flex-wrap: wrap;
-}
 
-.common-project-impact-boxes #box {
-  margin-left: 24%;
 
-}
 
-.common-project-impact-boxes .box {
-  width: 40%;
-  height: 330px;
-  background: #9C9091;
-  margin-bottom: 20px;
-  margin-left: 20px;
-  padding-left: 20px;
-  padding-top: 20px;
-}
 
-.common-project-impact-boxes .box i {
-  color: var(--white-color);
-  font-size: 30px;
-}
 
-.common-project-impact-boxes .box h1 {
-  color: var(--white-color);
-  font-family: var(--font-family);
-  font-weight: bold;
-  margin-top: 150px;
-  font-size: 24px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .companies {
   width: 100%;

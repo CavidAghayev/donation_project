@@ -38,24 +38,24 @@ function CommonProjectDetails() {
 <iframe src={data.onceImage}></iframe>
 </div>
 </div>
-<div className="common-project-impact-background-image">
-<div className="common-project-impact-background-image-overlay"></div>
-<div className="common-project-impact-content">
-<div className="common-project-impact-text">
+<div className="our-impact-image">
+<div className="our-impact-image__overlay"></div>
+<div className="our-impact__board">
+<div className="our-impact__board__text">
 <h4>BİZİM TƏSİRİMİZ</h4>
 <h2>KAMERUNDA 50.000 <br /> UŞAQ YETİM QALIR.</h2>
 <p>Biz bunu dəyişməyə çalışırıq.</p>
 </div>
-<div className="common-project-impact-boxes">
-  <div className="box">
+<div className="our-impact__board__boxes">
+  <div className="our-impact__board__boxes__card">
   <i className="fa-light fa-children"></i>
   <h1>Dünya üzrə 300 sənətkar tərəfdaşı</h1>
   </div>
-  <div className="box">
+  <div className="our-impact__board__boxes__card">
   <i className="fa-regular fa-hand-holding-droplet"></i>
   <h1>3 milyon insan təmiz su ilə təmin olunub</h1>
   </div>
-  <div id='box' className="box">
+  <div id='box' className="our-impact__board__boxes__card">
   <i className="fa-light fa-children"></i>
   <h1>20 min uşağa təhsil almaq imkanı verilib</h1>
   </div>
