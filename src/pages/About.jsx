@@ -82,7 +82,7 @@ function About() {
   <div className="content">
   <h3><span>Həyat Fond</span> - dan xəbərlər alın:</h3>
   <input  type="text" name="" id="" placeholder='Enter e-mail address' />
-  <div className='btn'>Abunə olun</div>
+  <button>Abunə olun</button>
   </div>
       </div>
     </section>

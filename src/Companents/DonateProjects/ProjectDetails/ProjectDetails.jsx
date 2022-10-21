@@ -14,7 +14,6 @@ function ProjectDetails() {
     <section>
       {project && (
           <div className="project-details">
-        <div className="container">
           <div className="project-details-heading">
         <h1>{project.name} {project.title}</h1>
         <h3>Həyat Fondu ilə</h3>
@@ -44,11 +43,10 @@ function ProjectDetails() {
                </div>
             </div>
           </div>
-          <div className="project-details-donate-div">
+          <div className="project-details-donate-button">
             <div className="btn" onClick={()=>navigate(`/projectdetailsdonate/${project.id}`)}>İndi İanə Et</div>
           </div>
           </div>
-        </div>
         </div>
         </div>
       )}

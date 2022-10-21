@@ -40,8 +40,8 @@ function CommonDonate() {
                   istifadə edə və ianə-i edə bilərsiniz.
                 </p>
                 <form action="">
-                <label htmlFor="name">İanə Məbləği *</label>
-                <input type="name" name="" id="name" />
+                <label htmlFor="text">İanə Məbləği *</label>
+                <input type="text" name="" id="name" />
                 <label htmlFor="surname">Ad/Soyad *</label>
                 <input type="text" name="" id="surname" />
                 <label htmlFor="email">E-mail *</label>

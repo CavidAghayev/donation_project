@@ -113,7 +113,6 @@ function Home() {
         </div>
       </div>
       <div className="aid-toCountries">
-        <div className="content">
         <div className="text">
           <h1>İnsanlar vasitəsilə layihələr.</h1>
           <p>Biz hər bir layihə ilə daha ədalətli şəraitə nail olmaq üçün icmaların üzləşdiyi <br /> infrastruktur və giriş məsələlərini həll etməyi hədəfləyirik. Budur, icmalara müsbət <br /> təsir göstərən həm tamamlanmış, həm də davam edən layihələrimizdən bəziləri.</p>
@@ -121,7 +120,6 @@ function Home() {
         <div className="country-projects">
           {projects &&
             projects.map((a) => <DonateProjects key={a.id} project={a} />)}
-        </div>
         </div>
       </div>
       <div className="common">

@@ -13,15 +13,22 @@ function AboutApplySubcribe() {
                <h3>Həyat Fondu proqramında iştirak etmək üçün növbəti fürsət 2023-cü ilin əvvəlidir. Səbriniz üçün əvvəlcədən təşəkkür edirik!</h3>
                 </div>
                 <div className="about-apply-subcribe-items-inputs">
-                    <h5>E-poçt ünvanı *</h5><input type="text" name="" id="" /><br />
-                    <h5>Ad *</h5><input type="text" name="" id="" /><br />
-                    <h5>Soyad *</h5><input type="text" name="" id="" /><br />
-                    <h5>Təşkilatın Adı *</h5><input type="text" name="" id="" /><br />
-                    <h5>Ünvan *</h5><input type="text" name="" id="" placeholder='Küçə ünvanı'/> <br />
+                    <form action="">
+                    <label htmlFor="email">E-poçt ünvanı *</label>
+                    <input type="email" name="" id="email" /><br />
+                    <label htmlFor="name">Ad *</label>
+                   <input type="text" name="" id="name" /><br />
+                   <label htmlFor="surname">Soyad *</label>
+                    <input type="text" name="" id="surname" /><br />
+                    <label htmlFor="organization-name">Təşkilatın Adı *</label>
+                   <input type="text" name="" id="organization-name" /><br />
+                   <label htmlFor="">Ünvan *</label>
+                <input type="text" name="" id="" placeholder='Küçə ünvanı'/> <br />
                     <input type="text" name="" id="" placeholder='Ünvan xətti 2'/>
                     <input type="text" name="" id=""    placeholder='Ölkə'/>
                     <input type="text" name="" id=""  placeholder='Şəhər'/>
                     <input type="text" name="" id=""      placeholder='Poçt kodu'/>
+                    </form>
                 </div>
                   <div className='btn'>Abunə olun</div>
             </div>

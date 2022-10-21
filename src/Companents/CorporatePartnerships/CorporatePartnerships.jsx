@@ -24,13 +24,11 @@ function CorporatePartnerships() {
       <div className="title">
         <h1>Seçilmiş Partnyorlar</h1>
       </div>
-      <div className="container">
       <div className="partners-content">
       { selectPartners && 
        selectPartners.map((a) => <SelectPartner key={a.id} partner={a}/>) 
 
       }
-      </div>
       </div>
     </div>
     <div className="send-message">
