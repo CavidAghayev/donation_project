@@ -5,8 +5,8 @@ function DisasterResponse() {
   const { data: projects } = servicesApi.useGetProjectsQuery();
   return (
     <section>
-        <div className='disasterDetails'>
-<div className="disasterDetails-text">
+        <div className='disaster-response-details'>
+<div className="disaster-response-details__text">
 <h1>Fəlakətə Cavab</h1>
 <p>Fəlakət baş verən zaman zərər çəkmiş icmalarda yaşayan <br /> və işləyən insanların rəhbərlik etdiyi bərpa səyləri <br /> çox vaxt diqqətdən kənarda qalır və kifayət <br /> qədər maliyyələşdirilmir.</p>
          <p>Həyat Fondu bu reallığı dəyişdirir. 2004-cü ildən biz etimada əsaslanan qrantların <br /> verilməsi və dəstək vasitəsilə qərar vermə səlahiyyətini böhranlardan təsirlənmiş icmalara <br /> keçiririk.</p>
@@ -24,7 +24,7 @@ function DisasterResponse() {
         </div>
         </div>
       </div> */}
-      <div className="disasterDetails-content">
+      <div className="disaster-response__details-image">
         <h1>Biz öz icmalarında ehtiyacları hamıdan yaxşı <br /> başa düşən insanlara  yerdə dəstək olmağı asan, <br /> sürətli və təhlükəsiz edirik.</h1>
      <p>Xəbər kameraları gəlməmişdən çox əvvəl orada idilər və kameralar getdikdən çox sonra orada olacaqlar. <br /> Onlar öz icmalarını gələcək fəlakətlərə qarşı daha dayanıqlı etmək yollarını bilirlər və onlar artıq çox <br /> çalışırlar. Həyat Fondu ianə və qrantları birbaşa onların əlinə verir. Çünki maliyyənin böyük <br /> əksəriyyətini bir neçə böyük təşkilata verən status-kvonun mənası yoxdur.</p>
      <img src="https://www.globalgiving.org/img/disasters/landing/DRN_fullwidth2_1500.jpg" alt="" />

@@ -5,21 +5,21 @@ function Projects() {
   const {data:commonprojects} = servicesApi.useGetCommonProjectsQuery();
   return (
     <section>
-           <div  className="projects">
-      <div className="projects-overlay">
+           <div  className="projects-page">
+      <div className="projects-page__overlay">
         <h1>
                     LAYİHƏLƏR
                   </h1>
       </div>
-      <div className="project-animation">
+      <div className="projects-page__animation">
           <i className="fa-solid fa-angle-down"></i>
         </div>
      </div>   
-     <div className="projects-overview">
+     <div className="projects-page__overview">
       <h3>Ümumi Baxış</h3>
       <h2>Təsir etmək, bir anda bir layihə.</h2>
       <p>Biz hər bir layihə ilə daha ədalətli şəraitə nail olmaq üçün icmaların  üzləşdiyi infrastruktur <br /> və giriş məsələlərini həll etməyi hədəfləyirik. Budur, icmalara müsbət təsir göstərən həm <br /> tamamlanmış, həm də davam edən layihələrimizdən bəziləri.</p>
-      <div className="projects-overview-topics">
+      <div className="projects-page__topics">
         <a href="">Hamısı</a>
         <a href="">Kənd Təsərrüfatı</a>
         <a href="">Arıçılıq</a>
@@ -27,8 +27,8 @@ function Projects() {
         <a href="">Təhsil</a>
       </div>
      </div>
-<div className='common-projects'>
-  <div className="commom-projects-content">
+<div className='projects'>
+  <div className="projects__content">
   {
   commonprojects && commonprojects.map((a) => 
   <CommonProjects key={a.id} project={a}/>

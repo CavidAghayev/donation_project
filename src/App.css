@@ -97,17 +97,6 @@ button:hover {
   border: 1px solid var(--button-color);
   color: var(--main-color);
 }
-.animation{
-  width: 100%;
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  color: var(--white-color);
-  text-align: center;
-  font-size: 30px;
-  animation: arrow-down 1s infinite alternate;
-  z-index: 9;
-}
 .contactUs {
   width: 150px;
   height: 50px;
@@ -891,6 +880,17 @@ margin: 30px auto;
   position: relative;
   z-index: -1;
 }
+.about-page-back-image__animation{
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  color: var(--white-color);
+  text-align: center;
+  font-size: 30px;
+  animation: arrow-down 1s infinite alternate;
+  z-index: 9;
+}
 .about-page-back-image__overlay {
   width: 100%;
   height: 100%;
@@ -1239,6 +1239,324 @@ margin: 30px auto;
   font-family: var(--font-family);
   letter-spacing: 1px;
 }
+
+.disaster-response-details {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("https://www.globalgiving.org/img/disasters/landing/DRN_hero_1500.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+}
+
+.disaster-response-details__text {
+  text-align: center;
+  margin-top: 100px;
+}
+
+.disaster-response__details-image {
+  padding: 50px 0;
+  width: 100%;
+  text-align: center;
+}
+
+.disaster-response__details-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.projects-page {
+  width: 100%;
+  height: calc(100vh - 300px);
+  background-image: url("https://www.globalgiving.org/img/banners/hero_give_lg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.projects-page__overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-page__animation {
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  color: var(--white-color);
+  text-align: center;
+  font-size: 30px;
+  animation: arrow-down 1s infinite alternate;
+  z-index: 9;
+}
+
+@keyframes arrow-down {
+  to {
+    transform: translateY(15px);
+  }
+}
+
+.projects-page__overlay h1 {
+  color: var(--white-color);
+}
+
+.projects-page__overview {
+  width: 100%;
+  padding: 50px 100px;
+}
+
+.projects-page__overview h3 {
+  position: relative;
+  font-weight: 600;
+}
+
+.projects__overview h3::after {
+  content: "";
+  width: 60px;
+  height: 4px;
+  background: #b67319;
+  position: absolute;
+  top: 40px;
+  left: 0;
+}
+
+.projects-page__overview h2 {
+  font-family: var(--font-family);
+  margin-top: 40px;
+  margin-bottom: 20px;
+  color: var(--text-color);
+}
+
+.project-page__overview-topics a {
+  font-family: var(--font-family);
+  font-weight: bold;
+  margin-left: 50px;
+  font-size: 14px;
+  color: var(--title-color);
+}
+
+.projects-page__overview-topics {
+  margin-top: 50px;
+}
+
+.projects-page__overview-topics a:nth-last-of-type(5) {
+  margin: 0;
+}
+
+.projects {
+  width: 100%;
+  padding: 0 100px;
+}
+
+.projects__content {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 33%;
+  min-height: 400px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project__active {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.project__active-icon {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  border: 3px solid #b67319;
+  margin-top: 3px;
+  cursor: pointer;
+}
+
+.project__active-text a {
+  font-family: var(--font-family);
+  font-weight: bold;
+  color: #b67319;
+  font-size: 12px;
+  margin-left: 10px;
+  letter-spacing: 1px;
+  transition-duration: 0.5s;
+}
+.project__content {
+  width: 100%;
+  background: #f1f1f1;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.project__content a {
+  font-family: var(--font-family);
+  text-decoration: underline;
+  font-size: 14px;
+  color: var(--text-color);
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.project-content a:hover {
+  color: var(--text-color);
+}
+
+.project__image {
+  height: 50%;
+}
+
+.project__image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.project__content p {
+  font-size: 14px;
+}
+
+.project__content span {
+  font-family: var(--font-family);
+  margin-bottom: 30px;
+  letter-spacing: 1px;
+  color: var(--text-color);
+}
+
+.common-project-background-image {
+  width: 100%;
+  height: 70vh;
+  position: relative;
+}
+
+.common-project-background-image-overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.common-project-background-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.common-project-background-image-title {
+  position: absolute;
+  bottom: 155px;
+  left: 150px;
+}
+
+.common-project-background-image-title h1 {
+  color: var(--white-color);
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.common-project-background-image-title h1::after {
+  content: "";
+  width: 100px;
+  height: 4px;
+  background: var(--straight--line-color);
+  position: absolute;
+  top: 80px;
+  left: 0;
+}
+
+.common-project-background-image-animation {
+  width: 100%;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  color: var(--white-color);
+  text-align: center;
+  font-size: 50px;
+  animation: arrow-down 1s infinite alternate;
+  z-index: 9;
+}
+
+@keyframes arrow-down {
+  to {
+    transform: translateY(15px);
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -2342,45 +2660,6 @@ z-index: 2;
   font-size: 40px;
 }
 
-.disasterDetails {
-  width: 100%;
-  height: 140vh;
-  background-image: url("https://www.globalgiving.org/img/disasters/landing/DRN_hero_1500.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  display: flex;
-  justify-content: center;
-}
-
-.disasterDetails-text {
-  text-align: center;
-  margin-top: 100px;
-}
-
-.disasterDetails-text p {
-  margin: 50px 0;
-}
-
-.disasterDetails-content {
-  width: 100%;
-  margin-top: 100px;
-}
-
-.disasterDetails-content h1 {
-  text-align: center;
-  margin-bottom: 20px;
-}
-
-.disasterDetails-content p {
-  text-align: center;
-}
-
-.disasterDetails-content img {
-  width: 100%;
-  height: 100%;
-}
-
 .partners {
   width: 100%;
   height: 400px;
@@ -2547,245 +2826,6 @@ z-index: 2;
   position: absolute;
   top: 0;
   left: 0;
-}
-
-.projects {
-  width: 100%;
-  height: calc(100vh - 300px);
-  background-image: url("https://www.globalgiving.org/img/banners/hero_give_lg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.projects-overlay {
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.project-animation {
-  width: 100%;
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  color: var(--white-color);
-  text-align: center;
-  font-size: 30px;
-  animation: arrow-down 1s infinite alternate;
-  z-index: 9;
-}
-
-@keyframes arrow-down {
-  to {
-    transform: translateY(15px);
-  }
-}
-
-.projects-overlay h1 {
-  color: var(--white-color);
-}
-
-.projects-overview {
-  width: 100%;
-  padding: 50px 100px;
-}
-
-.projects-overview h3 {
-  position: relative;
-  font-weight: 600;
-}
-
-.projects-overview h3::after {
-  content: "";
-  width: 60px;
-  height: 4px;
-  background: #b67319;
-  position: absolute;
-  top: 40px;
-  left: 0;
-}
-
-.projects-overview h2 {
-  font-family: var(--font-family);
-  margin-top: 40px;
-  margin-bottom: 20px;
-  color: var(--text-color);
-}
-
-.projects-overview-topics a {
-  font-family: var(--font-family);
-  font-weight: bold;
-  margin-left: 50px;
-  font-size: 14px;
-  color: var(--title-color);
-}
-
-.projects-overview-topics {
-  margin-top: 50px;
-}
-
-.projects-overview-topics a:nth-last-of-type(5) {
-  margin: 0;
-}
-
-.common-projects {
-  width: 100%;
-  padding: 20px 100px;
-}
-
-.commom-projects-content {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.project {
-  width: 33%;
-  min-height: 600px;
-  margin-bottom: 50px;
-  display: flex;
-  flex-direction: column;
-}
-
-.project-active {
-  display: flex;
-  margin-bottom: 10px;
-}
-
-.project-active-icon {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  border: 3px solid #b67319;
-  margin-top: 3px;
-  cursor: pointer;
-}
-
-.project-active-text a {
-  font-family: var(--font-family);
-  font-weight: bold;
-  color: #b67319;
-  font-size: 12px;
-  margin-left: 10px;
-  letter-spacing: 1px;
-  transition-duration: 0.5s;
-}
-
-.project-content a:hover {
-  color: var(--text-color);
-}
-
-.project-image {
-  height: 50%;
-}
-
-.project img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.project-content {
-  width: 100%;
-  background: #f1f1f1;
-  padding: 20px 20px;
-  display: flex;
-  flex-direction: column;
-}
-
-
-.project-content p {
-  font-size: 14px;
-}
-
-.project-content span {
-  font-family: var(--font-family);
-  margin-bottom: 30px;
-  letter-spacing: 1px;
-  color: var(--text-color);
-
-}
-
-.project-content a {
-  font-family: var(--font-family);
-  text-decoration: underline;
-  font-size: 14px;
-  color: var(--text-color);
-  font-weight: 600;
-  letter-spacing: 1px;
-}
-
-.common-project-background-image {
-  width: 100%;
-  height: 70vh;
-  position: relative;
-}
-
-.common-project-background-image-overlay {
-  width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  position: absolute;
-  top: 0;
-  left: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.common-project-background-image img {
-  width: 100%;
-  height: 100%;
-}
-
-.common-project-background-image-title {
-  position: absolute;
-  bottom: 155px;
-  left: 150px;
-}
-
-.common-project-background-image-title h1 {
-  color: var(--white-color);
-  font-family: var(--font-family);
-  font-weight: bold;
-  font-size: 40px;
-}
-
-.common-project-background-image-title h1::after {
-  content: "";
-  width: 100px;
-  height: 4px;
-  background: var(--straight--line-color);
-  position: absolute;
-  top: 80px;
-  left: 0;
-}
-
-.common-project-background-image-animation {
-  width: 100%;
-  position: absolute;
-  bottom: 20px;
-  left: 0;
-  color: var(--white-color);
-  text-align: center;
-  font-size: 50px;
-  animation: arrow-down 1s infinite alternate;
-  z-index: 9;
-}
-
-@keyframes arrow-down {
-  to {
-    transform: translateY(15px);
-  }
 }
 
 .common-project-content {
