@@ -16,12 +16,12 @@ useEffect(()=>{
 const navigate = useNavigate();
   return (
     <header>
-        <div className="headerContent">
-          <div onClick={()=>navigate("/")} className="headerLogo">
+        <div className="header-content">
+          <div onClick={()=>navigate("/")} className="header-logo">
             <i className="fa-brands fa-pagelines"></i>
               <h3>Həyat Fondu</h3>
           </div>
-          <div className="headerMenu">  
+          <div className="header-menu">  
             <ul>
               <li>
               <NavLink className='nav' to='/about'>Haqqımızda</NavLink>
@@ -43,14 +43,14 @@ const navigate = useNavigate();
 </li>
             </ul>
           </div>
-            <div onClick={()=>navigate("/addtobasket")} className="headerBasket">
+            <div onClick={()=>navigate("/addtobasket")} className="header-basket">
               <i className="fa-solid fa-basket-shopping"></i>
           </div>
         </div>
-        <div className="headerMenu-icon">
+        <div className="header-menu--icon">
 <i onClick={list} className="fa-solid fa-bars"></i>
 </div>
-    <div  ref={menuItem} className="menuList">
+    <div  ref={menuItem} className="menu-list">
       <div className="menuList-remove">
        <i onClick={listRemove} class="fa-solid fa-xmark"></i>
        </div>

@@ -29,13 +29,13 @@ function DisasterResponse() {
      <p>Xəbər kameraları gəlməmişdən çox əvvəl orada idilər və kameralar getdikdən çox sonra orada olacaqlar. <br /> Onlar öz icmalarını gələcək fəlakətlərə qarşı daha dayanıqlı etmək yollarını bilirlər və onlar artıq çox <br /> çalışırlar. Həyat Fondu ianə və qrantları birbaşa onların əlinə verir. Çünki maliyyənin böyük <br /> əksəriyyətini bir neçə böyük təşkilata verən status-kvonun mənası yoxdur.</p>
      <img src="https://www.globalgiving.org/img/disasters/landing/DRN_fullwidth2_1500.jpg" alt="" />
       </div>
-      <div className="life-fund-news">
-  <div className="life-fund-news-content">
-  <h3>Həyat Fondun-dan xəbərlər, yeniləmələr və uyğun təkliflər alın (ayda bir və ya iki dəfə):</h3>
-  <input  type="text" name="" id="" placeholder='E-mail' />
-  <div className='btn'>Abunə olun</div>
+     <div className="bullent">
+  <h3><span>Həyat Fond</span> - dan xəbərlər alın:</h3>
+  <div className="bullent__content">
+  <input  type="email" name="" id="email" placeholder='Enter e-mail address' />
+  <div className="btn">Abunə olun</div> 
   </div>
- </div>
+      </div>
     </section>
   )
 }

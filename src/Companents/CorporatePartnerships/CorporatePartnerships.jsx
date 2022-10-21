@@ -9,8 +9,8 @@ function CorporatePartnerships() {
   const {data: selectPartners} = servicesApi.useGetSelectPartnersQuery();
   return (
     <section>
-      <div class="corporativepartnership-companies">   
-<div className="overlay">
+      <div class="corporative-partnership-companies">   
+<div className="corporative-partnership-companies__overlay">
   <div className="overlay-after">
     <a href="">Ümumi Baxış</a>
     <a href="">Araşdırmalar</a>
@@ -21,7 +21,7 @@ function CorporatePartnerships() {
 </div>
     </div>
     <div className="select-partners">
-      <div className="title">
+      <div className="select-partners__title">
         <h1>Seçilmiş Partnyorlar</h1>
       </div>
       <div className="partners-content">

@@ -35,12 +35,7 @@ function CommonProjectDetails() {
 <p>{data.onceText}</p>
 <p>{data.twiceText}</p>
 <p>{data.thirdText}</p>
-<h1>{data.introductionTwiceTitle}</h1>
 <iframe src={data.onceImage}></iframe>
-<h4>{data.galery}</h4>
-<div className="introduction-image">
-<img src={data.twiceImage} alt="" />
-</div>
 </div>
 </div>
 <div className="common-project-impact-background-image">
@@ -68,10 +63,7 @@ function CommonProjectDetails() {
 </div>
 </div>
 <div className="common-donate">
-      <div className="common-donate-content">
-        <div className="container">
-          <div className="common-donate-items">
-            <div data-aos="fade-right" className="common-donate-about">
+            <div className="common-donate-about">
               <div className="common-donate-image">
                 <img
                   src="https://ucarecdn.com/61879270-f970-423e-8f53-57c0d8ece6bd/-/resize/940x/-/format/auto/"
@@ -81,7 +73,7 @@ function CommonProjectDetails() {
               <div className="common-donate-text">
                 <i className="fa-brands fa-pagelines"></i>
                 <span>Həyat Fondu</span>
-                <h4>Həyat Fondu yoxsulluğa son qoymaq üçün hər gün çalışır.</h4>
+                <h3>Həyat Fondu yoxsulluğa son qoymaq üçün hər gün çalışır.</h3>
                 <p>
                   Amma biz sizsiz edə bilmərik. Siz bizə fəlakət zamanı
                   insanların həyatını xilas etmək, ən ucqar ərazilərə təmiz su
@@ -90,34 +82,34 @@ function CommonProjectDetails() {
                 </p>
               </div>
             </div>
-            <div data-aos="fade-left" className="common-donate-pay-items">
               <div className="common-donate-pay">
                 <h1>İANƏ ET</h1>
                 <p>
-                  Siz bu İanə Et tətbiqindən istidafə edərək Afrikada <br />{" "}
-                  yaşayan insanların ehtiyaclarının da qarşılanması üçün <br />{" "}
+                  Siz bu İanə Et tətbiqindən istidafə edərək Afrikada <br />
+                  yaşayan insanların ehtiyaclarının da qarşılanması üçün <br />
                   istifadə edə və ianə-i edə bilərsiniz.
                 </p>
-                <h5>İANƏ MƏBLƏĞİ *</h5>
-                <input type="text" name="" id="" />
-                <h5>Ad/Soyad *</h5>
-                <input type="text" name="" id="" />
-                <h5>E-mail *</h5>
-                <input type="text" name="" id="" />
-                <h5>Kart Sahibinin Adı *</h5>
+                <form action="">
+                <label htmlFor="text">İanə Məbləği *</label>
+                <input type="text" name="" id="name" />
+                <label htmlFor="surname">Ad/Soyad *</label>
+                <input type="text" name="" id="surname" />
+                <label htmlFor="email">E-mail *</label>
+                <input type="text" name="" id="email" />
+                <label htmlFor="nameofcardholder">Kart Sahibinin Adı *</label>
                 <input
                   className="cardname"
                   type="text"
                   name=""
-                  id=""
+                  id="nameofcardholder"
                 />
-                <br />
-                <h5>Kart Nömrəsi *</h5>
+                
+                <label htmlFor="cardnumber">Kart Nömrəsi *</label>
                 <input
                   className="cardnumber"
                   type="text"
                   name=""
-                  id=""
+                  id="cardnumber"
                   placeholder="0000 0000 0000 0000"
                 />
                 <br />
@@ -135,13 +127,10 @@ function CommonProjectDetails() {
                   id=""
                   placeholder="CVV2"
                 />
-                <div className='btn'>ÖDƏ</div>
+                </form>
+                <div className="btn">ÖDƏ</div>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    </div>  
 </>
         )
     }
