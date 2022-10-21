@@ -9,13 +9,13 @@ function CommonProjectDetails() {
     {
         data && (
 <>
-<div className="common-project-background-image">
-<div className="common-project-background-image-overlay"></div>
-  <div className="common-project-background-image-animation">
+<div className="project-details-image">
+<div className="project-details-image__overlay"></div>
+  <div className="project-details-image__animation">
   <i className="fa-solid fa-angle-down"></i>
   </div>
 <img src={data.backgroundImage} alt="" />
-<div className="common-project-background-image-title">
+<div className="project-details-image__title">
 <h1>{data.backgroundImageTitle}</h1>
 </div>
 </div>
