@@ -2891,8 +2891,6 @@ header {
   }
 
   .project-details__items {
-    width: 100%;
-    display: flex;
     flex-direction: column;
     padding: 0;
   }
@@ -2903,11 +2901,6 @@ header {
 
   .project-details__items__item-1 {
     width: 100%;
-  }
-
-  .project-details__items__item-1 img {
-    width: 100%;
-    margin-bottom: 20px;
   }
 
   .project-details__donate {
@@ -2939,6 +2932,43 @@ header {
   .project-details__count-goal h3 {
     color: var(--white-color);
   }
+  .home-partners__basics {
+    flex-direction: column;
+  }
+  
+  .base-partner-box{
+    width: 100%;
+    margin: 0;
+  }
+  .base-partner-box img{
+    width: 50%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .donation-content{
+    flex-direction: column;
+  }
+  .donation-content__about{
+    width: 100%;
+  }
+  .donation__pay{
+    width: 100%;
+  }
+
 .bullent__content{
   flex-direction: column;
 }

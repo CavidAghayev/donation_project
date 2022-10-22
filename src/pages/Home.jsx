@@ -1,4 +1,4 @@
-import React from "react";
+  import React from "react";
 import DonateProjects from "../Companents/DonateProjects/DonateProjects";
 import { servicesApi } from "../Service/apiService";
 import BasePartner from "../Companents/BasePartner/BasePartner";
