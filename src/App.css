@@ -724,6 +724,28 @@ header {
   width: 100%;
   height: 100px;
 }
+.base-partner-box {
+  width: 30%;
+  height: 200px;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition-duration: 0.5s;
+  filter: grayscale(100);
+  margin: 30px 0;
+}
+
+
+.base-partner-box:hover {
+  transform: scale(1.5);
+  transition-duration: 0.5s;
+  filter: grayscale(0);
+}
+
+.base-partner-box img {
+  width: 50%;
+}
 
 .bullent {
   width: 100%;
@@ -770,56 +792,6 @@ header {
   margin-left: 30px;
 }
 
-.base-partners-heading h1 {
-  text-align: center;
-  font-family: var(--font-family);
-  letter-spacing: 2px;
-  margin-top: 50px;
-}
-
-.base-partners {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-}
-
-.base-partners-content {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
-.base-partner-box {
-  width: 30%;
-  height: 200px;
-  background: white;
-  display: flex;
-  align-items: center;
-  margin: 50px 0;
-  object-fit: cover;
-}
-
-.base-partner {
-  width: 100%;
-  height: 200px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition-duration: 0.5s;
-  filter: grayscale(100);
-}
-
-.base-partner:hover {
-  transform: scale(1.5);
-  transition-duration: 0.5s;
-  filter: grayscale(0);
-}
-
-.base-partner img {
-  width: 60%;
-}
 
 .about-page-back-image {
   width: 100%;
@@ -2069,6 +2041,7 @@ header {
   width: 550px;
   height: 500px;
   position: relative;
+  object-fit: contain;
   z-index: 1;
 }
 
@@ -2083,6 +2056,8 @@ header {
 
 .product-details__extra-image img {
   width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
 
 .product-details__items {
@@ -2929,16 +2904,48 @@ header {
   .project-details__count-goal h3 {
     color: var(--white-color);
   }
-  .home-partners__basics {
+  
+  .home-partners {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
     flex-direction: column;
-    height: 100vh;
+    padding: 20px;
+    margin-top: 200px;
   }
   
-  .base-partner-box{
-    width: 100%;
-    margin: 0;
+  .home-partners__heading {
+    text-align: center;
+    margin-bottom: 20px;
   }
-  .base-partner-box img{
+  
+  .home-partners__basics {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .home-partners__basics img {
+    width: 100%;
+    height: 100px;
+  }
+  .base-partner-box {
+    width: 100%;
+    height: 200px;
+    background: white;
+    object-fit: cover;
+    transition-duration: 0.5s;
+    filter: grayscale(100);
+  }
+  
+  
+  .base-partner-box:hover {
+    transform: scale(1.5);
+    transition-duration: 0.5s;
+    filter: grayscale(0);
+  }
+  
+  .base-partner-box img {
     width: 50%;
   }
 
