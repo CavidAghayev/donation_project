@@ -11,24 +11,24 @@ function ProjectDetailsDonate() {
   return (
     <section>
       {project && (
-        <div className="common-donate">
-        <div className="common-donate-about">
-          <div className="common-donate-image">
-            <img
-              src={project.image}
-              alt=""
-            />
+        <div className="donation-content">
+        <div className="donation-content__about">
+          <div className="donation-content__image">
+            <img src={project.image}/>
           </div>
-          <div className="common-donate-text">
+          <div className="donation-content__text">
             <i className="fa-brands fa-pagelines"></i>
             <span>Həyat Fondu</span>
             <h3>Həyat Fondu yoxsulluğa son qoymaq üçün hər gün çalışır.</h3>
             <p>
-              {project.text}
+              Amma biz sizsiz edə bilmərik. Siz bizə fəlakət zamanı
+              insanların həyatını xilas etmək, ən ucqar ərazilərə təmiz su
+              gətirmək, uşaqları, xüsusilə qızları məktəbə göndərmək və
+              qadınların hüquqlarını müdafiə etməkdə kömək edə bilərsiniz.
             </p>
           </div>
         </div>
-          <div className="common-donate-pay">
+          <div className="donation__pay">
             <h1>İANƏ ET</h1>
             <p>
               Siz bu İanə Et tətbiqindən istidafə edərək Afrikada <br />
@@ -36,21 +36,21 @@ function ProjectDetailsDonate() {
               istifadə edə və ianə-i edə bilərsiniz.
             </p>
             <form action="">
-            <label htmlFor="name">İanə Məbləği *</label><br />
-            <input type="name" name="" id="name" /><br />
-            <label htmlFor="surname">Ad/Soyad *</label><br />
-            <input type="text" name="" id="surname" /><br />
-            <label htmlFor="email">E-mail *</label><br />
-            <input type="text" name="" id="email" /><br />
-            <label htmlFor="nameofcardholder">Kart Sahibinin Adı *</label><br />
+            <label htmlFor="text">İanə Məbləği *</label>
+            <input type="text" name="" id="name" />
+            <label htmlFor="surname">Ad/Soyad *</label>
+            <input type="text" name="" id="surname" />
+            <label htmlFor="email">E-mail *</label>
+            <input type="text" name="" id="email" />
+            <label htmlFor="nameofcardholder">Kart Sahibinin Adı *</label>
             <input
               className="cardname"
               type="text"
               name=""
               id="nameofcardholder"
             />
-            <br />
-            <label htmlFor="cardnumber">Kart Nömrəsi *</label><br />
+            
+            <label htmlFor="cardnumber">Kart Nömrəsi *</label>
             <input
               className="cardnumber"
               type="text"
@@ -74,7 +74,7 @@ function ProjectDetailsDonate() {
               placeholder="CVV2"
             />
             </form>
-            <div className='btn'>ÖDƏ</div>
+            <div className="btn">ÖDƏ</div>
           </div>
 </div>
       )}
