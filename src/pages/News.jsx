@@ -5,13 +5,13 @@ function News() {
   const { data: stories } = servicesApi.useGetOurStoriesQuery()
   return (
     <section>
-    <div className='news-background-image'>
-      <div  className="news-background-image-overlay">
+    <div className='news-page-image'>
+      <div  className="news-page-image__overlay">
         <h1>
 HEKAYƏLƏRİMİZ
         </h1>
       </div>
-      <div className="news-animation">
+      <div className="news-page-image__animation">
           <i className="fa-solid fa-angle-down"></i>
         </div>
     </div>

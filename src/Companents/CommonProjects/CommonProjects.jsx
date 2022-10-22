@@ -5,8 +5,8 @@ import { useNavigate } from 'react-router-dom'
   return (
     <div className="project">
       <div onClick={() => navigate(`/commonprojectdetails/${project.id}`)} className="project__active">
-        <div className="project__active-icon"></div>
-        <div className="project__active-text">
+        <div className="project__active__icon"></div>
+        <div className="project__active__text">
           <a href="">Aktiv</a>
         </div>
       </div>

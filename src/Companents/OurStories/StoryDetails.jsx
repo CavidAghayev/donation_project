@@ -9,30 +9,28 @@ function StoryDetails() {
     {data && (
         <section>
           <div className="story-details">
-            <div className="container">
-              <div className="first-detail">
+              <div className="story-details__first">
                 <h1>{data.BaseTitle}</h1>
                 <p>{data.BaseTitleText}</p>
               </div>
-              <div className="twice-detail">
-                <div className="text">
+              <div className="story-details__twice">
+                <div className="story-details__twice__text">
                   <h3>{data.FirstTitle}</h3>
                   <p>{data.FirstTitleText}</p>
                 </div>
-                <div className="image">
+                <div className="story-details__twice__image">
                   <img src={data.FirstImage} alt="" />
                 </div>
               </div>
-              <div className="third-detail">
-                <div className="image">
+              <div className="story-details__third">
+                <div className="story-details__third__image">
                   <img src={data.SecondImage} alt="" />
                 </div>
-                <div className="text">
+                <div className="story-details__third__text">
                   <h3>{data.SecondTitle}</h3>
                   <p>{data.SecondTitleText}</p>
                 </div>
               </div>
-            </div>
           </div>
         </section>
       )}

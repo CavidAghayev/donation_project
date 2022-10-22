@@ -11,7 +11,7 @@ function CorporatePartnerships() {
     <section>
       <div class="corporative-partnership-companies">   
 <div className="corporative-partnership-companies__overlay">
-  <div className="overlay-after">
+  <div className="corporative-partnership-companies__overlay__after">
     <a href="">Ümumi Baxış</a>
     <a href="">Araşdırmalar</a>
     <a href="">Tərəfdaşlar</a>
@@ -24,7 +24,7 @@ function CorporatePartnerships() {
       <div className="select-partners__title">
         <h1>Seçilmiş Partnyorlar</h1>
       </div>
-      <div className="partners-content">
+      <div className="select-partners__content">
       { selectPartners && 
        selectPartners.map((a) => <SelectPartner key={a.id} partner={a}/>) 
 

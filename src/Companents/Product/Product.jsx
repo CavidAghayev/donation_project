@@ -20,31 +20,31 @@ const navigate = useNavigate()
   };
   return (  
     <div className="product"> 
-        < div className="product-image">
-        <div className="product-favorite">
+        < div className="product__image">
+        <div className="product__favorite">
         <i className="fa-regular fa-heart"></i>
       </div>
           <img onClick={()=>navigate(`/productdetails/${product.id}`)} src={product.image} alt="" />
         </div>
-        <div className="product-items">
+        <div className="product__items">
           <h3>{product.name}</h3>
           <h5>${product.price}.00</h5>
-          <div className="product-items-buttons">
-            <button onClick={() => decreaseItem(product.id)} className="sell">
+          <div className="product__items-buttons">
+            <button onClick={() => decreaseItem(product.id)} className="btn sell-btn">
               -
             </button>
 
             {selectedProduct?.map((product) => (
-              <button className="count" key={product.id}>
+              <button className="btn count-btn" key={product.id}>
                 {product ? product.count : 0} 
               </button>
             ))}
 
-            <button onClick={() => increaseItem(product.id)} className="buy">
+            <button onClick={() => increaseItem(product.id)} className="btn buy-btn">
               +
             </button>
           </div>
-          <div onClick={()=>addProduct(product.id)}  className="add-button">Səbətə Əlavə Et</div>
+          <div onClick={()=>addProduct(product.id)}  className="btn add-button">Səbətə Əlavə Et</div>
         </div>
       </div >
   );

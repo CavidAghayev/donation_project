@@ -2,25 +2,25 @@ import React from "react";
 function CommonDonate() {
   return (
     <section>
-      <div data-aos="fade-up" className="common-donate-background-image">
-        <div className="common-donate-background-image-overlay">
+      <div data-aos="fade-up" className="donation-page-image">
+        <div className="donation-page-image__overlay">
           <h1>
                       HƏR İANƏNİN ƏHƏMİYYƏTİ
           </h1>
         </div>
-        <div className="animation">
+        <div className="donation-page-image__animation">
           <i className="fa-solid fa-angle-down"></i>
         </div>
       </div>
-      <div className="common-donate">
-            <div className="common-donate-about">
-              <div className="common-donate-image">
+      <div className="donation-content">
+            <div className="donation-content__about">
+              <div className="donation-content__image">
                 <img
                   src="https://ucarecdn.com/61879270-f970-423e-8f53-57c0d8ece6bd/-/resize/940x/-/format/auto/"
                   alt=""
                 />
               </div>
-              <div className="common-donate-text">
+              <div className="donation-content__text">
                 <i className="fa-brands fa-pagelines"></i>
                 <span>Həyat Fondu</span>
                 <h3>Həyat Fondu yoxsulluğa son qoymaq üçün hər gün çalışır.</h3>
@@ -32,7 +32,7 @@ function CommonDonate() {
                 </p>
               </div>
             </div>
-              <div className="common-donate-pay">
+              <div className="donation__pay">
                 <h1>İANƏ ET</h1>
                 <p>
                   Siz bu İanə Et tətbiqindən istidafə edərək Afrikada <br />

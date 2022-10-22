@@ -28,13 +28,13 @@ const arrowdownItem = () => {
   const { data: products } = servicesApi.useGetProductsQuery();
   return (
     <section>
-      <div className="shop-background-image">
-        <div className="shop-background-image-overlay">
+      <div className="shop-page-image">
+        <div className="shop-page-image__overlay">
           <h1>
 MAĞAZA
           </h1>
         </div>
-        <div className="shop-animation">
+        <div className="shop-page-image__animation">
           <i className="fa-solid fa-angle-down"></i>
         </div>
       </div>
