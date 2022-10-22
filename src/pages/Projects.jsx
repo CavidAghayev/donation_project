@@ -19,7 +19,7 @@ function Projects() {
       <h3>Ümumi Baxış</h3>
       <h2>Təsir etmək, bir anda bir layihə.</h2>
       <p>Biz hər bir layihə ilə daha ədalətli şəraitə nail olmaq üçün icmaların  üzləşdiyi infrastruktur <br /> və giriş məsələlərini həll etməyi hədəfləyirik. Budur, icmalara müsbət təsir göstərən həm <br /> tamamlanmış, həm də davam edən layihələrimizdən bəziləri.</p>
-      <div className="projects-page__topics">
+      <div className="projects-page__overview__topics">
         <a href="">Hamısı</a>
         <a href="">Kənd Təsərrüfatı</a>
         <a href="">Arıçılıq</a>
