@@ -2,17 +2,10 @@ import React from "react";
 import { servicesApi } from "../Service/apiService";
 import Product from "../Companents/Product/Product";
 import { useRef } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import { Pagination } from "swiper";
+import ReactPaginate from 'react-paginate';
+import { useState, useEffect } from 'react'
 function Shop() {
-  const pagination = {
-    clickable: true,
-    renderBullet: function (index, className) {
-      return '<span class="' + className + '">' + (index + 1) + "</span>";
-    },
-  };
+const items = [1, 2 ,3 ,4];
   const arrowLeft = useRef();
   const arrowDown = useRef();
   const dropdown = useRef();
@@ -102,12 +95,6 @@ MAĞAZA
       <input type="text"   placeholder="$ 200"/>
     </div>
 </div>
-<Swiper
-pagination={pagination}
-modules={[Pagination]}
-className="mySwiper"
->
-<SwiperSlide>
 <div className="products">    
 
 {
@@ -116,11 +103,6 @@ products && products.map((product) => (
   />
 ))}
 </div>
-</SwiperSlide>
-<SwiperSlide>2</SwiperSlide>
-<SwiperSlide>3</SwiperSlide>
-<SwiperSlide>4</SwiperSlide>
-</Swiper>
           </div>
     </div>
     </section>

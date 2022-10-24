@@ -1,7 +1,9 @@
 import React from 'react'
 import { NavLink,useLocation, useNavigate } from 'react-router-dom'
 import {useEffect,useState,useRef} from 'react'
+import { useSelector } from 'react-redux'
 function Header() {
+  const cart = useSelector((state) => state.cartReducer.cart)
   const menuItem = useRef();
   const {pathname} = useLocation();
   const list = () => {
@@ -45,6 +47,15 @@ const navigate = useNavigate();
           </div>
             <div onClick={()=>navigate("/addtobasket")} className="header-basket">
               <i className="fa-solid fa-basket-shopping"></i>
+              {
+              cart.map((product) => (
+              <div className="header-menu-count">
+               <span>
+               {product ? product.count : " " }
+               </span>
+              </div>
+              ))
+              }
           </div>
         </div>
         <div className="header-menu--icon">

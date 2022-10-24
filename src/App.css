@@ -210,12 +210,31 @@ header {
   border: 2px solid var(--button-color);
   color: var(--main-color);
 }
-
+.header-basket{
+  position: relative;
+}
 .header-basket i {
   font-size: 20px;
   cursor: pointer;
   color: var(--title-color);
 }
+.header-menu-count{
+width: 20px;
+height: 20px;
+position: absolute;
+top: -14px;
+left: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.header-menu-count span{
+  color: red;
+font-family: var(--font-family);
+font-weight: bold;
+font-size: 12px;
+}
+
 
 .header-menu--icon {
   display: none;
