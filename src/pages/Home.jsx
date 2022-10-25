@@ -16,7 +16,7 @@ function Home() {
     <section>
       <div className="home-video">
       <div className="home-video--overlay"></div>
-      <video id="home-video" muted="true" loop="true" autoplay="true" playsinline="true" poster="https://149442961.v2.pressablecdn.com/wp-content/uploads/malaika_home.jpg">
+      <video id="home-video" muted="false" loop="true" autoplay="true" playsinline="true" poster="https://149442961.v2.pressablecdn.com/wp-content/uploads/malaika_home.jpg">
                                 <source src="https://malaika.org/wp-content/uploads/malaika-3.mp4" type="video/mp4"></source>
                                 Your browser is not supported!
                             </video>  

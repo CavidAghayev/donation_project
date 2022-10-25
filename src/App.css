@@ -2768,6 +2768,41 @@ font-size: 12px;
 .partner img {
   width: 50%;
 }
+.pay__cart-checkout{
+  width: 100%;
+  height: 50px;
+  background: #f1f1f1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+.pay__cart-checkout span{
+  font-family: var(--font-family);
+  color: var(--text-color);
+  letter-spacing: 1px; 
+}
+.pay__content{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;  
+}
+.pay__shipping-address{
+  width: 50%;
+}
+.pay__shipping-address .pay__inputs{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.pay__shipping-address .pay__inputs input{
+  width: 48%;
+}
+
+.pay__product-cart{
+  width: 50%;
+}
+
 
 @media screen and (min-width: 480px) and (max-width: 767px) {
   header {

@@ -2,8 +2,9 @@ import React from 'react'
 import {servicesApi} from '../../Service//apiService'
 import { useDispatch, useSelector } from "react-redux";
 import { decrement, increment, removeFromCard } from "../../Service/cartSlice"
-import { useState } from 'react'
+import { useNavigate } from 'react-router-dom'
  function AddToBasket() {
+  const navigate = useNavigate();
   const {data: products} = servicesApi.useGetProductsQuery();
   const cart = useSelector((state) => state.cartReducer.cart);
   const removeItem = useSelector((state) => state.removeReducer.removeItem);
@@ -71,10 +72,10 @@ cart.map((t) => {
   
   })
 }
-{/* <div className="checkout">
-  <button>Ödəniş edin</button>
-  <button>Alış-verişə davam edin</button>
-</div> */}
+<div className="checkout">
+  <button onClick={()=>navigate('/pay')}>Ödəniş edin</button>
+  <button onClick={()=>navigate('/shop')}>Alış-verişə davam edin</button>
+</div>
 </div>
     </section>
   )

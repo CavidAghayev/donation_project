@@ -20,6 +20,7 @@ import CorporatePartnerships from './Companents/CorporatePartnerships/CorporateP
 import DisasterResponse from './Companents/DisasterResponse/DisasterResponse';
 import StoryDetails from './Companents/OurStories/StoryDetails';
 import ProductDetails from './Companents/Product/ProductDetails';
+import Pay from './Companents/AddToBasket/Pay';
 function App() {
   return (
     <>
@@ -42,8 +43,9 @@ function App() {
           <Route path='/aboutapplyhere' element={<AboutApplyHere/>}/>
           <Route path='/aboutapplysubcribe' element={<AboutApplySubcribe/>}/>
           <Route path='/corporatepartnerships' element={<CorporatePartnerships/>}/>
-          <Route path='/disasterResponse' element={<DisasterResponse/>}/> q   
+          <Route path='/disasterResponse' element={<DisasterResponse/>}/> 
           <Route path='/productdetails/:id' element={<ProductDetails/>}/>
+          <Route path='/pay' element={<Pay/>}/>
         </Routes>
         <ContactUs/>
         <Footer/>

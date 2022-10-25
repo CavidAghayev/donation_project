@@ -2,10 +2,7 @@ import React from "react";
 import { servicesApi } from "../Service/apiService";
 import Product from "../Companents/Product/Product";
 import { useRef } from "react";
-import ReactPaginate from 'react-paginate';
-import { useState, useEffect } from 'react'
-function Shop() {
-const items = [1, 2 ,3 ,4];
+    function Shop() {
   const arrowLeft = useRef();
   const arrowDown = useRef();
   const dropdown = useRef();
@@ -97,11 +94,11 @@ MAĞAZA
 </div>
 <div className="products">    
 
-{
-products && products.map((product) => ( 
-<Product key={product.id} product={product} count={product.count}
-  />
-))}
+  {
+  products && products.map((product) => ( 
+  <Product key={product.id} product={product} count={product.count}
+    />
+  ))}
 </div>
           </div>
     </div>
