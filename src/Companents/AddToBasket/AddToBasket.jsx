@@ -5,7 +5,7 @@ import { decrement, increment, removeFromCard } from "../../Service/cartSlice"
 import { useNavigate } from 'react-router-dom'
  function AddToBasket() {
   const navigate = useNavigate();
-  const {data: products} = servicesApi.useGetProductsQuery();
+  const {data: products} = servicesApi.useGetProductsQuery()
   const cart = useSelector((state) => state.cartReducer.cart);
   const removeItem = useSelector((state) => state.removeReducer.removeItem);
   const dispatch = useDispatch();
@@ -72,10 +72,16 @@ cart.map((t) => {
   
   })
 }
-<div className="checkout">
-  <button onClick={()=>navigate('/pay')}>Ödəniş edin</button>
-  <button onClick={()=>navigate('/shop')}>Alış-verişə davam edin</button>
-</div>
+{
+  cart.map((a) => {
+    let product = products.filter((item) => item.id === a.id);
+    return <div className="checkout">
+    <button onClick={()=>navigate(`/pay/${product.id}`)}>Ödəniş edin</button>
+    <button onClick={()=>navigate('/shop')}>Alış-verişə davam edin</button>
+  </div>
+    
+  })
+}
 </div>
     </section>
   )

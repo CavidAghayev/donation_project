@@ -45,7 +45,7 @@ function App() {
           <Route path='/corporatepartnerships' element={<CorporatePartnerships/>}/>
           <Route path='/disasterResponse' element={<DisasterResponse/>}/> 
           <Route path='/productdetails/:id' element={<ProductDetails/>}/>
-          <Route path='/pay' element={<Pay/>}/>
+          <Route path='/pay/:id' element={<Pay/>}/>
         </Routes>
         <ContactUs/>
         <Footer/>
