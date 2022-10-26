@@ -74,9 +74,8 @@ cart.map((t) => {
 }
 {
   cart.map((a) => {
-    let product = products.filter((item) => item.id === a.id);
     return <div className="checkout">
-    <button onClick={()=>navigate(`/pay/${product.id}`)}>Ödəniş edin</button>
+    <button onClick={()=>navigate(`/pay/${a.id}`)}>Ödəniş edin</button> 
     <button onClick={()=>navigate('/shop')}>Alış-verişə davam edin</button>
   </div>
     

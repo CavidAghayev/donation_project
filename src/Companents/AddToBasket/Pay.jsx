@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 import { servicesApi } from '../../Service/apiService'
 function Pay() {
     let {id} = useParams();
-    const { data } = servicesApi.useGetProductDetailsQuery(id);
+    const { data} = servicesApi.useGetProductDetailsQuery(id);
   return (
 <section>
     <div>
@@ -57,15 +57,20 @@ function Pay() {
 <div className="order-summary">
 <h3>Sifariş</h3>
 <div className="order-summary__content">
-<div className="order-summary__content__image">
 {
     data && (
+<div className="order-summary__content__items">
 
         <img src={data.image} alt="" />
+        <div className="order-summary__image__text">
+        <h3>{data.name}</h3>
+        <span>{data.price}$</span>
+        </div>
+</div>
+
+        
     )
 }
-
-</div>
 </div>
 </div>
     </div>

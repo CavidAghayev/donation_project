@@ -93,7 +93,11 @@ MAĞAZA
     </div>
 </div>
 <div className="products">    
-
+{
+  products && products.filter((item)=>  {
+    console.log(item)
+  })
+}
   {
   products && products.map((product) => ( 
   <Product key={product.id} product={product} count={product.count}
