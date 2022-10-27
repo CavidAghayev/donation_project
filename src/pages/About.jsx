@@ -11,7 +11,7 @@ function About() {
             <h1>
                       HAQQIMIZDA
             </h1>
-        </div>
+        </div>  
         <div className="about-page-back-image__animation">
           <i className="fa-solid fa-angle-down"></i>
         </div>

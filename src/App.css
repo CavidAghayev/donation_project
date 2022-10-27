@@ -3093,8 +3093,23 @@ height: 100px;
   .base-partner-box img {
     width: 50%;
   }
-
-
+  .bullent__content{
+    flex-direction: column;
+  }
+  .bullent h3 {
+    font-size: 24px;
+  }
+  
+  .bullent__content input {
+    width: 400px;
+    height: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .bullent__content .btn {
+    height: 50px;
+    margin: 0 auto;
+  }
 
   .donation-content{
     flex-direction: column;
@@ -3106,9 +3121,248 @@ height: 100px;
     width: 100%;
   }
 
-.bullent__content{
-  flex-direction: column;
-}
+
+
+
+  .about-page-back-image {
+    height: 300px;
+  }
+  
+  .about-statistics {
+    width: 100%;
+    height: 300px;
+    padding: 100px 0;
+    background: #ebeeee;
+    display: flex;
+    align-items: center;
+  }
+  
+  .about-statistics__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .about-statistics__numbers {
+    width: 48%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .about-statistics__numbers h5 {
+    font-style: italic;
+    margin: 20px 0;
+    color: var(--text-color);
+  }
+  
+  .about-statistics__numbers span {
+    font-family: var(--font-family);
+    color: #e37f1c;
+    font-size: 30px;
+  }
+  
+  .about-statistics__map {
+    width: 48%;
+  }
+  
+  .about-statistics__map img {
+    width: 100%;
+  }
+  
+  .about-easy-donations {
+    width: 100%;
+    padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  
+  .about-apply {
+    width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  
+  .about-apply__image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  }
+  
+  .about-apply__image img {
+    width: 70%;
+  }
+  
+  .about-apply__join-us {
+    width: 600px;
+    height: 350px;
+    background: rgb(178, 187, 30);
+    position: absolute;
+    bottom: -50px;
+    left: 28%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-apply__join-us__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-apply__join-us__content h1 {
+    color: var(--white-color);
+    position: relative;
+    margin-bottom: 50px;
+  }
+  
+  .about-apply__join-us__content h1::after {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background: var(--white-color);
+    position: absolute;
+    top: 50px;
+    left: 35%;
+  }
+  
+  .about-apply__join-us__content p {
+    color: var(--white-color);
+  }
+  
+  .about-apply__join-us__content .btn {
+    background: none;
+    border: 1px solid var(--white-color);
+  }
+  
+  .about-apply__join-us__content .btn:hover {
+    background: white;
+    border: none;
+    color: rgb(178, 187, 30);
+  }
+  
+  .about-apply__join-us::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background: rgb(178, 187, 30);
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: rotate(45deg);
+  }
+  
+  .about-apply__images {
+    width: 100%;
+  }
+  
+  .about-apply__images img {
+    width: 24%;
+  }
+  
+  
+  
+  .about-apply-page {
+    width: 100%;
+    background: 50% 50% no-repeat;
+    background-image: url("https://www.globalgiving.org/img/banners/PhotoPatternThin_lg");
+    background-size: cover;
+    height: 268px;
+    margin-bottom: 50px;
+  }
+  
+  .about-apply-page__content {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .about-subcribe-page {
+    width: 100%;
+    padding: 100px 0;
+    background: #457389;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-subcribe-page__form {
+    width: 600px;
+    padding: 20px 10px;
+    background: white;
+    border-radius: 10px;
+  }
+  
+  .about-subcribe-page__form__title h1 {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .about-apply-subcribe__form__inputs {
+    margin-top: 50px;
+  }
+  
+  .about-apply-subcribe__form__inputs input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 30px;
+    border: 2px solid #d0d0d0 !important;
+    padding-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  .about-apply-subcribe-items-inputs form label {
+    font-family: var(--font-family);
+  }
+  
+  .about-apply-subcribe-items-button .btn {
+    width: 120px;
+    height: 40px;
+    background: var(--button-color);
+    color: var(--white-color);
+    font-family: var(--font-family);
+    font-weight: bold;
+    border: none;
+    transition-duration: 0.5s;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  
+  .about-apply-subcribe-items-button .btn:hover {
+    border: 1px solid var(--button-color);
+    background: none;
+    color: var(--main-color);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {}
