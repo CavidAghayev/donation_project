@@ -1,6 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { servicesApi } from '../../Service/apiService'
+import cartSlice from '../../Service/cartSlice';
 function Pay() {
     let {id} = useParams();
     const { data} = servicesApi.useGetProductDetailsQuery(id);
@@ -21,7 +22,7 @@ function Pay() {
             <input type="text" name="" id="name" />
             <label htmlFor="surname">Soyad*</label>
             <input type="text" name="" id="" />
-            <label htmlFor="email">Email Adres*</label>
+            <label htmlFor="email">Email Address*</label>
             <input type="email" name="" id="email" />
             <label htmlFor="number">Nömrə*</label>
             <input type="number" name="" id="number" />
@@ -56,22 +57,28 @@ function Pay() {
     <div className="pay__product-cart">
 <div className="order-summary">
 <h3>Sifariş</h3>
-<div className="order-summary__content">
 {
     data && (
+<div className="order-summary__content">
+
 <div className="order-summary__content__items">
 
         <img src={data.image} alt="" />
         <div className="order-summary__image__text">
         <h3>{data.name}</h3>
-        <span>{data.price}$</span>
+        <span>Qiyməti: ${data.price}</span>
         </div>
+</div>  
+<div className="order-summary__total">
+    <p><span>Subtotal</span><span>US${data.price}.00</span></p>
+    <p><span>Tax</span><span>US$2.45</span></p>
+    <p><span>Shipping</span><span>US$0.00</span></p>
+    <p><span>Total</span><span>US${data.price  + data.shipping}</span></p>
+</div>
 </div>
 
-        
     )
 }
-</div>
 </div>
     </div>
     </div>
