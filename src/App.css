@@ -3120,10 +3120,6 @@ height: 100px;
   .donation__pay{
     width: 100%;
   }
-
-
-
-
   .about-page-back-image {
     height: 300px;
   }
@@ -3142,13 +3138,17 @@ height: 100px;
   }
   
   .about-easy-donations {
+    width: 100%;
+    height: 240px;
     padding: 40px 10px;
   }
-  .about-easy-donations h1{
-  font-size: 20px;
-  }
+
   .about-apply {
     width: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .about-apply__image {
@@ -3156,20 +3156,19 @@ height: 100px;
     display: flex;
     justify-content: center;
     position: relative;
-    /* display: none; */
   }
   
   .about-apply__image img {
-    width: 100%;
+    width: 70%;
   }
   
   .about-apply__join-us {
-    width: 300px;
-    height: 420px;
+    width: 600px;
+    height: 350px;
     background: rgb(178, 187, 30);
     position: absolute;
     bottom: -50px;
-    left: 0;
+    left: 28%;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -3177,7 +3176,6 @@ height: 100px;
   }
   
   .about-apply__join-us__content {
-  width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -3232,100 +3230,6 @@ height: 100px;
   .about-apply__images img {
     width: 24%;
   }
-  
-  
-  
-  .about-apply-page {
-    width: 100%;
-    background: 50% 50% no-repeat;
-    background-image: url("https://www.globalgiving.org/img/banners/PhotoPatternThin_lg");
-    background-size: cover;
-    height: 268px;
-    margin-bottom: 50px;
-  }
-  
-  .about-apply-page__content {
-    width: 100%;
-    padding: 20px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .about-subcribe-page {
-    width: 100%;
-    padding: 100px 0;
-    background: #457389;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .about-subcribe-page__form {
-    width: 600px;
-    padding: 20px 10px;
-    background: white;
-    border-radius: 10px;
-  }
-  
-  .about-subcribe-page__form__title h1 {
-    font-size: 20px;
-    text-align: center;
-  }
-  
-  .about-apply-subcribe__form__inputs {
-    margin-top: 50px;
-  }
-  
-  .about-apply-subcribe__form__inputs input {
-    width: 100%;
-    height: 40px;
-    margin-bottom: 30px;
-    border: 2px solid #d0d0d0 !important;
-    padding-left: 10px;
-    border-radius: 10px;
-    margin-top: 10px;
-  }
-  
-  .about-apply-subcribe-items-inputs form label {
-    font-family: var(--font-family);
-  }
-  
-  .about-apply-subcribe-items-button .btn {
-    width: 120px;
-    height: 40px;
-    background: var(--button-color);
-    color: var(--white-color);
-    font-family: var(--font-family);
-    font-weight: bold;
-    border: none;
-    transition-duration: 0.5s;
-    cursor: pointer;
-    border-radius: 10px;
-  }
-  
-  .about-apply-subcribe-items-button .btn:hover {
-    border: 1px solid var(--button-color);
-    background: none;
-    color: var(--main-color);
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {}

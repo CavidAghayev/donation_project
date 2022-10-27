@@ -53,7 +53,7 @@ function About() {
 <p>Biz 175+ ölkədə fəaliyyət göstərən və icmalarının həqiqət ən <br /> ehtiyac duyduğu layihələri dərc edən qeyri-kommersiya <br /> təşkilatları ilə əməkdaşlıq etdik. Bizə qoşulmaq  <br /> istəyirsiniz?</p>
       <div className='btn' onClick={()=>navigate('/aboutapplyhere')}>Bura müraciət edin</div>
 </div>
-        </div>
+        </div>  
       </div>
   </div>
   <div className="about-apply__images">
