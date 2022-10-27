@@ -50,7 +50,7 @@ function About() {
         <div className="about-apply__join-us">
 <div className="about-apply__join-us__content">
 <h1>Bizə Qoşul</h1>
-<p>Biz 175+ ölkədə fəaliyyət göstərən və icmalarının həqiqətən <br /> ehtiyac duyduğu layihələri dərc edən qeyri-kommersiya <br /> təşkilatları ilə əməkdaşlıq etdik. Bizə qoşulmaq  <br /> istəyirsiniz?</p>
+<p>Biz 175+ ölkədə fəaliyyət göstərən və icmalarının həqiqət ən <br /> ehtiyac duyduğu layihələri dərc edən qeyri-kommersiya <br /> təşkilatları ilə əməkdaşlıq etdik. Bizə qoşulmaq  <br /> istəyirsiniz?</p>
       <div className='btn' onClick={()=>navigate('/aboutapplyhere')}>Bura müraciət edin</div>
 </div>
         </div>

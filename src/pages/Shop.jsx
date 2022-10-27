@@ -95,14 +95,21 @@ MAĞAZA
 <div className="products">    
 {
   products && products.filter((item)=>  {
-    console.log(item)
+    // console.log(item)
+    if(item.category==="scarves"){
+      products && products.map((product) => ( 
+        <Product key={product.id} product={product} count={product.count}
+          />
+        ))
+    }
   })
 }
-  {
+  {/* {
   products && products.map((product) => ( 
   <Product key={product.id} product={product} count={product.count}
     />
-  ))}
+  ))
+  } */}
 </div>
           </div>
     </div>

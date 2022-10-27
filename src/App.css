@@ -3131,63 +3131,24 @@ height: 100px;
   .about-statistics {
     width: 100%;
     height: 300px;
-    padding: 100px 0;
-    background: #ebeeee;
-    display: flex;
-    align-items: center;
-  }
-  
-  .about-statistics__content {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .about-statistics__numbers {
-    width: 48%;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
   }
   
   .about-statistics__numbers h5 {
-    font-style: italic;
-    margin: 20px 0;
-    color: var(--text-color);
+    margin: 10px 0;
   }
   
   .about-statistics__numbers span {
-    font-family: var(--font-family);
-    color: #e37f1c;
-    font-size: 30px;
-  }
-  
-  .about-statistics__map {
-    width: 48%;
-  }
-  
-  .about-statistics__map img {
-    width: 100%;
+    font-size: 20px;
   }
   
   .about-easy-donations {
-    width: 100%;
-    padding: 100px 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    padding: 40px 10px;
   }
-  
-  
+  .about-easy-donations h1{
+  font-size: 20px;
+  }
   .about-apply {
     width: 100%;
-    padding: 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: none;
   }
   
   .about-apply__image {
@@ -3195,19 +3156,20 @@ height: 100px;
     display: flex;
     justify-content: center;
     position: relative;
+    /* display: none; */
   }
   
   .about-apply__image img {
-    width: 70%;
+    width: 100%;
   }
   
   .about-apply__join-us {
-    width: 600px;
-    height: 350px;
+    width: 300px;
+    height: 420px;
     background: rgb(178, 187, 30);
     position: absolute;
     bottom: -50px;
-    left: 28%;
+    left: 0;
     text-align: center;
     display: flex;
     justify-content: center;
@@ -3215,6 +3177,7 @@ height: 100px;
   }
   
   .about-apply__join-us__content {
+  width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
