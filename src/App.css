@@ -1161,7 +1161,17 @@ font-size: 12px;
   flex-wrap: wrap;
   margin-top: 80px;
 }
+.partner {
+  width: 15%;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.partner img {
+  width: 50%;
+}
 .send-message {
   width: 100%;
   padding: 100px 0;
@@ -2756,18 +2766,6 @@ font-size: 12px;
   width: 300px;
   margin-bottom: 20px;
 }
-
-.partner {
-  width: 15%;
-  margin-bottom: 50px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.partner img {
-  width: 50%;
-}
 .pay__cart-checkout{
   width: 100%;
   height: 50px;
@@ -3144,24 +3142,9 @@ height: 100px;
   }
 
 
-
-
-
-
-
-
-
-
-
-  
-
   .about-apply {
-    width: 100%;
-    min-height: 100vh;
-    padding: 100px;
-    display: flex;
-    justify-content: start;
-    align-items: center;
+    min-height: 700px;
+    padding: 0 0;
   }
   
   .about-apply__image {
@@ -3169,19 +3152,19 @@ height: 100px;
     display: flex;
     justify-content: center;
     position: relative;
+    align-items: center;
   }
   
   .about-apply__image img {
-    width: 70%;
     display: none;
   }
   
   .about-apply__join-us {
     width: 100%;
-    height: 350px;
+    height: 400px;
     background: rgb(178, 187, 30);
     position: absolute;
-    bottom: -50px;
+    bottom: -200px;
     left: 0;
     text-align: center;
     display: flex;
@@ -3189,60 +3172,77 @@ height: 100px;
     align-items: center;
   }
   
-  .about-apply__join-us__content {
-    /* width: 100%; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .about-apply__join-us__content h1 {
-    color: var(--white-color);
-    position: relative;
-    margin-bottom: 50px;
-  }
-  
-  .about-apply__join-us__content h1::after {
-    content: "";
-    width: 50px;
-    height: 2px;
-    background: var(--white-color);
-    position: absolute;
-    top: 50px;
-    left: 35%;
-  }
-  
-  .about-apply__join-us__content p {
-    color: var(--white-color);
-  }
-  
-  .about-apply__join-us__content .btn {
-    border: 1px solid var(--white-color);
-  }
-  
-  .about-apply__join-us__content .btn:hover {
-    background: white;
-    border: none;
-    color: rgb(178, 187, 30);
-  }
-  
-  .about-apply__join-us::after {
-    content: "";
-    width: 20px;
-    height: 20px;
-    background: rgb(178, 187, 30);
-    position: absolute;
-    bottom: -10px;
-    left: 50%;
-    transform: rotate(45deg);
-  }
   
   .about-apply__images {
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   .about-apply__images img {
-    width: 24%;
+    width: 100%;
+    height: 400px;
+  }
+
+  .about-apply-page {
+    width: 100%;
+    background: no-repeat;
+    background-image: url("https://www.globalgiving.org/img/banners/PhotoPatternThin_lg");
+    background-size: contain;
+    height: 100px;
+    background-position: center;
+    margin: 0;  
+  }
+  
+  
+  .about-subcribe-page {
+    background: none;
+    padding: 0;
+  }
+  
+  .about-subcribe-page__form__text{
+    text-align: center;
+  }
+
+
+
+  .corporate-partnerships {
+    padding: 40px 0;
+  }
+  
+  .corporative-partnership-companies {
+    height: 30vh;
+  }
+  
+  .corporative-partnership-companies__overlay__after {
+    height: 50px;
+  }
+  .select-partners {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .select-partners__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  .partner {
+    width: 50%;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .partner img {
+    width: 30%;
+  }
+  .send-message {
+    width: 100%;
+    padding: 20px 0;
   }
 }
 
