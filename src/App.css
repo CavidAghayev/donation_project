@@ -1393,46 +1393,46 @@ font-size: 12px;
 }
 
 .project__content {
-  width: 100%;
-  background: #f1f1f1;
-  padding: 20px 20px;
-  display: flex;
-  flex-direction: column;
+width: 100%;
+background: #f1f1f1;
+padding: 20px 20px;
+display: flex;
+flex-direction: column;
 }
 
 .project__content a {
-  font-family: var(--font-family);
-  text-decoration: underline;
-  font-size: 14px;
-  color: var(--text-color);
-  font-weight: 600;
-  letter-spacing: 1px;
+font-family: var(--font-family);
+text-decoration: underline;
+font-size: 14px;
+color: var(--text-color);
+font-weight: 600;
+letter-spacing: 1px;
 }
 
 .project__content a:hover {
-  color: var(--text-color);
+color: var(--text-color);
 }
 
 .project__image {
-  height: 50%;
+height: 50%;
 }
 
 .project__image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+width: 100%;
+height: 100%;
+object-fit: cover;
 }
 
 
 .project__content p {
-  font-size: 14px;
+font-size: 14px;
 }
 
 .project__content span {
-  font-family: var(--font-family);
-  margin-bottom: 30px;
-  letter-spacing: 1px;
-  color: var(--text-color);
+font-family: var(--font-family);
+margin-bottom: 30px;
+letter-spacing: 1px;
+color: var(--text-color);
 }
 
 .project-details-image {
@@ -2981,11 +2981,11 @@ height: 100px;
 
   .aid-countries__text {
     text-align: center;
-    height: 50%;
+    height: 100%;
   }
 
   .aid-countries__country-projects  {
-    height: 50%;
+  height: 50%;
   }
 
   .donate-project {
@@ -3064,6 +3064,7 @@ height: 100px;
   
   .home-partners__basics {
     width: 100%;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
   }
@@ -3091,15 +3092,15 @@ height: 100px;
   .base-partner-box img {
     width: 50%;
   }
-  .bullent__content{
-    flex-direction: column;
+  .bullent {
+    height: 300px;
   }
   .bullent h3 {
     font-size: 24px;
   }
   
   .bullent__content input {
-    width: 400px;
+    width: 300px;
     height: 50px;
     margin-bottom: 20px;
   }
@@ -3243,6 +3244,170 @@ height: 100px;
   .send-message {
     width: 100%;
     padding: 20px 0;
+  }
+
+  .disaster-response {
+    width: 100%;
+    height: 500px;
+    background-image: url("https://www.globalgiving.org/img/aboutus/About_overview_disaster_1500w.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: none;
+  }
+  
+  .disaster-response__content {
+    width: 100%;
+    height: 100%;
+    transform: translateX(0px);
+  }
+  .disaster-response-details {
+    width: 100%;
+    min-height: 400px;
+    background-image: url("https://www.globalgiving.org/img/disasters/landing/DRN_hero_1500.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+  }
+  .disaster-response__details-image h1{
+    font-size: 20px;
+  }
+  .projects-page {
+    height: 300px;
+  }
+  
+  .projects-page__overview {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  
+  .projects-page__overview__topics {
+    display: none;
+  }
+    
+  .projects {
+    width: 100%;
+    padding: 0;
+  }
+  
+  .projects__content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .project {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .project__active {
+    margin-left: 10px;
+  }
+  .project-details-image {
+    width: 100%;
+    height: 300px;
+    position: relative;
+  }
+  
+  .project-details-image__overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .project-details-image__title {
+    width: 100%;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    position: none;
+  }
+  
+  .project-details-image__title h1 {
+    font-size: 18px;
+  }
+  
+  .project-details-image__title h1::after {
+    display: none;
+  }
+  .introduction {
+    width: 60%;
+  }
+  
+  .introduction h5 {
+    font-family: var(--font-family);
+    font-weight: 600;
+    margin-bottom: 40px;
+    position: relative;
+    letter-spacing: 1px;
+    color: var(--title-color);
+  }
+  
+  .introduction h5::after {
+    content: "";
+    width: 40px;
+    height: 4px;
+    background: var(--straight--line-color);
+    position: absolute;
+    top: 30px;
+    left: 0;
+  }
+  
+  .introduction h1 {
+    font-weight: bold;
+    position: relative;
+    width: 70%;
+  }
+  
+  .introduction iframe {
+    width: 100%;
+    height: 400px;
+    border: none;
+  }
+  
+  .introduction h4 {
+    font-weight: bold;
+    margin: 30px 0;
+    position: relative;
+  }
+  
+  .introduction h4::after {
+    content: "";
+    width: 90px;
+    height: 4px;
+    background: #b67319;
+    position: absolute;
+    top: 30px;
+    left: 0;
+  
+  }
+  
+  .introduction-image {
+    width: 100%;
+    height: 460px;
+    background-size: cover;
+    background-position: 50%;
+    background-position-x: 50%;
+    background-position-y: center;
+  }
+  
+  .introduction img {
+    width: 100%;
+    height: 100%;
   }
 }
 
