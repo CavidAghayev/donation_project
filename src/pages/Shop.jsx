@@ -48,7 +48,8 @@ MAĞAZA
 <span>Filter</span>  <i ref={arrowLeft} class="fa-solid fa-chevron-left"></i>
         </div>
           <div className="shop-market-items">
-          <div ref={none} className="market-filter">
+            
+          {<div ref={none} className="market-filter">
     <div onClick={arrowdownItem} className="filter-box">
     <span>Kateqoriya</span>
   <i ref={arrowDown} class="fa-solid fa-chevron-down"></i>
@@ -91,9 +92,9 @@ MAĞAZA
       <input type="text" placeholder="$ 0"/>
       <input type="text"   placeholder="$ 200"/>
     </div>
-</div>
+</div> }
 <div className="products">    
-{
+{/* {
   products && products.filter((item)=>  {
     // console.log(item)
     if(item.category==="scarves"){
@@ -103,13 +104,13 @@ MAĞAZA
         ))
     }
   })
-}
-  {/* {
+} */}
+  {
   products && products.map((product) => ( 
   <Product key={product.id} product={product} count={product.count}
     />
   ))
-  } */}
+  }
 </div>
           </div>
     </div>

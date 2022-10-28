@@ -19,7 +19,7 @@ function CommonProjectDetails() {
 <h1>{data.backgroundImageTitle}</h1>
 </div>
 </div>
-<div className="project__content">
+<div className="project__details__content">
 <div className="overview">
 <div className="overview-content">
   <h5>{data.overviewOnceTitle}</h5>
