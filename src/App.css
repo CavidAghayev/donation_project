@@ -3429,7 +3429,188 @@ height: 300px;
 .product{
   width: 100%;
 }
+.news-page-image {
+  height: 300px;
+}
 
+
+
+
+.our-stories {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.story:last-child {
+  border-bottom: none;
+}
+
+.story {
+  flex-direction: column-reverse;
+}
+
+.story__text {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.story__image {
+  width: 100%;
+}
+
+.story__image img {
+  width: 100%;
+}
+
+.story-details {
+    display: flex;
+    flex-direction: column;
+}
+.story-details__first{
+  text-align: center;
+}
+.story-details__first h1 {
+  font-size: 20px;
+}
+
+.story-details__twice {
+  flex-direction: column;
+}
+
+.story-details__twice__text {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+
+.story-details__twice__image {
+  width: 100%;
+}
+
+.story-details__third {
+  flex-direction: column-reverse;
+}
+
+.story-details__third__image {
+  width: 100%;
+}
+.story-details__third__text {
+  width: 100%;
+}
+.contact {
+  width: 100%;
+}
+
+.contact__title h3 {
+  font-family: var(--font-family);
+  color: var(--text-color);
+  padding-left: 150px;
+  padding: 30px 150px;
+}
+
+.contact__map iframe {
+  width: 100%;
+  height: 350px;
+  border: none;
+}
+
+.contact__items {
+  width: 100%;
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact__form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__form__inputs {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.contact__form__inputs input {
+  width: 48%;
+  height: 40px;
+  border-radius: 10px;
+  background: #f5f8fa;
+  border: 1px solid #cbd6e2;
+  margin-top: 50px;
+  padding-left: 20px;
+  font-family: var(--font-family);
+  font-weight: bold;
+}
+
+.contact__form__inputs__title h4 {
+  font-family: var(--font-family);
+  color: var(--text-color);
+}
+
+.contact__form__inputs textarea {
+  border-radius: 10px;
+  border: 1px solid #cbd6e2;
+  width: 100%;
+  margin-top: 30px;
+  height: 100px;
+  padding-left: 15px;
+  padding-top: 10px;
+  font-family: var(--font-family);
+  font-weight: bold;
+}
+
+.contact__form__inputs button {
+  width: 120px;
+  height: 40px;
+  font-size: 12px;
+  margin-top: 30px;
+}
+
+.contact-content {
+  width: 40%;
+}
+
+.contact-content h2 {
+  font-family: var(--font-family);
+  font-weight: bold;
+}
+
+.contact-content h4 {
+  font-family: var(--font-family);
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.contact-content span {
+  font-family: var(--font-family);
+  font-size: 14px;
+  color: var(--text-color);
+  padding-left: 10px;
+}
+
+.contact-content i {
+  color: var(--main-color);
+}
+
+.contact-content a {
+  padding-left: 20px;
+}
+
+.contact-content a:nth-last-of-type(3) {
+  padding-left: 0;
+}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {}
