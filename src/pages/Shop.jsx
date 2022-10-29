@@ -17,8 +17,12 @@ const arrowdownItem = () => {
 }
   const { data: products } = servicesApi.useGetProductsQuery();
   const [scarves,setScarves] = useState([]);
-  var categoryScarves = products && products.filter((item) => item.category==='scarves')
-  console.log(categoryScarves)
+  const changeHtml = useRef();
+  const categoryScarves = products && products.filter((item) => item.category=== 'scarves')
+  
+  const categoryShoes = products && products.filter((item) => item.category === 'shoes')
+  const categoryShorts =   products && products.filter((item) => item.category === 'short')
+  const categoryJackets =     products && products.filter((item) => item.category === 'jacket')
   return (
     <section>
       <div className="shop-page-image">
@@ -96,14 +100,26 @@ MAĞAZA
       <input type="text"   placeholder="$ 200"/>
     </div>
 </div> }
-<div className="products"> 
+<div ref={changeHtml} className="products"> 
   {
     categoryScarves && categoryScarves.map((product) => 
 <Product key={product.id} product={product} count={product.count}/>
     )
   }
   {
-
+    categoryShoes && categoryShoes.map((product) => 
+    <Product key={product.id} product={product} count={product.count}/>
+        )
+  }
+  {
+    categoryShorts && categoryShorts.map((product) => 
+    <Product key={product.id} product={product} count={product.count}/>
+        )
+  }
+  {
+    categoryJackets && categoryJackets.map((product) => 
+    <Product key={product.id} product={product} count={product.count}/>
+        )
   }
 </div>
           </div>
