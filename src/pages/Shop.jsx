@@ -18,8 +18,16 @@ const arrowdownItem = () => {
   const { data: products } = servicesApi.useGetProductsQuery();
   const [scarves,setScarves] = useState([]);
   const changeHtml = useRef();
-  const categoryScarves = products && products.filter((item) => item.category=== 'scarves')
-  
+  const categoryScarves = products && products.filter((item) => {
+  for(var i=0; i<item; i++){
+    if(item.category=== 'scarves'){
+      setScarves(categoryScarves)
+      return false
+    }
+  }
+  return true
+  })
+console.log(scarves)
   const categoryShoes = products && products.filter((item) => item.category === 'shoes')
   const categoryShorts =   products && products.filter((item) => item.category === 'short')
   const categoryJackets =     products && products.filter((item) => item.category === 'jacket')
