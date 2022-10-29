@@ -16,18 +16,14 @@ const arrowdownItem = () => {
   dropdown.current.classList.toggle("dropdown")
 }
   const { data: products } = servicesApi.useGetProductsQuery();
-  const [scarves,setScarves] = useState([]);
+  const [scarves,setScarves] = useState(false);
   const changeHtml = useRef();
   const categoryScarves = products && products.filter((item) => {
-  for(var i=0; i<item; i++){
     if(item.category=== 'scarves'){
-      setScarves(categoryScarves)
-      return false
+      return true
     }
-  }
-  return true
   })
-console.log(scarves)
+    console.log(categoryScarves)
   const categoryShoes = products && products.filter((item) => item.category === 'shoes')
   const categoryShorts =   products && products.filter((item) => item.category === 'short')
   const categoryJackets =     products && products.filter((item) => item.category === 'jacket')
