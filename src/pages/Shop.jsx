@@ -1,7 +1,7 @@
 import React from "react";
 import { servicesApi } from "../Service/apiService";
 import Product from "../Companents/Product/Product";
-import { useRef } from "react";
+import { useRef , useState} from "react";
     function Shop() {
   const arrowLeft = useRef();
   const arrowDown = useRef();
@@ -16,6 +16,9 @@ const arrowdownItem = () => {
   dropdown.current.classList.toggle("dropdown")
 }
   const { data: products } = servicesApi.useGetProductsQuery();
+  const [scarves,setScarves] = useState([]);
+  var categoryScarves = products && products.filter((item) => item.category==='scarves')
+  console.log(categoryScarves)
   return (
     <section>
       <div className="shop-page-image">
@@ -93,12 +96,14 @@ MAĞAZA
       <input type="text"   placeholder="$ 200"/>
     </div>
 </div> }
-<div className="products">    
+<div className="products"> 
   {
-  
-  products && products.map((product) => ( 
-console.log(product)
-  ))
+    categoryScarves && categoryScarves.map((product) => 
+<Product key={product.id} product={product} count={product.count}/>
+    )
+  }
+  {
+
   }
 </div>
           </div>
