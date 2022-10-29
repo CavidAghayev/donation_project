@@ -30,9 +30,11 @@ function Contact() {
 <h4>Əlaqə:</h4>
 <i className="fa-solid fa-phone"><span>+994 612-217-0747</span></i>
 <h4>Bizi İzləyin:</h4>
+<div className="contact-content__nav">
 <a href="https://twitter.com/" target='_blank'><i className="fa-brands fa-twitter-square"></i></a>
                                 <a href="https://www.instagram.com/" target='_blank'><i className="fa-brands fa-instagram"></i></a>
                                 <a href="https://www.facebook.com/" target='_blank'><i className="fa-brands fa-facebook-square"></i></a>
+</div>
 
 </div>
 </div>
