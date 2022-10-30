@@ -14,15 +14,15 @@ function AboutApplySubcribe() {
                 </div>
                 <div className="about-apply-subcribe__form__inputs">
                     <form action="">
-                    <label htmlFor="email">E-poçt ünvanı *</label>
+                    <label className='label' htmlFor="email"><span>E-poçt ünvanı *</span></label>
                     <input type="email" name="" id="email" /><br />
-                    <label htmlFor="name">Ad *</label>
+                    <label htmlFor="name"><span>Ad *</span></label>
                    <input type="text" name="" id="name" /><br />
-                   <label htmlFor="surname">Soyad *</label>
+                   <label htmlFor="surname"><span>Soyad *</span></label>
                     <input type="text" name="" id="surname" /><br />
-                    <label htmlFor="organization-name">Təşkilatın Adı *</label>
+                    <label htmlFor="organization-name"><span>Təşkilatın Adı *</span></label>
                    <input type="text" name="" id="organization-name" /><br />
-                   <label htmlFor="">Ünvan *</label>
+                   <label htmlFor=""><span>Ünvan *</span></label>
                 <input type="text" name="" id="" placeholder='Küçə ünvanı'/> <br />
                     <input type="text" name="" id="" placeholder='Ünvan xətti 2'/>
                     <input type="text" name="" id=""    placeholder='Ölkə'/>
