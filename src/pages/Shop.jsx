@@ -15,15 +15,68 @@ const arrowdownItem = () => {
   arrowDown.current.classList.toggle("rotate")
   dropdown.current.classList.toggle("dropdown")
 }
-  const { data: products } = servicesApi.useGetProductsQuery();
-  const [scarves,setScarves] = useState([]);
   const changeHtml = useRef();
-  const categoryScarves = products && products.filter((item) => item.category=== 'scarves')
-  const categoryShoes = products && products.filter((item) => item.category === 'shoes')
-  const categoryShorts =   products && products.filter((item) => item.category === 'short')
-  const categoryJackets =     products && products.filter((item) => item.category === 'jacket')
+
+
+  const [ products,setProducts]=useState(null)
+  const [ data,setData]=useState(null)
+  const [ searchInput,setSearchInput]=useState("")
+
+
+
+
+React.useEffect(() => {
+
+fetch('http://localhost:7700/products')
+	.then(response => response.json())
+	.then(data => {
+    setProducts(data)
+    setData(data)
+  
+  })
+	.catch(err => console.error(err));
+
+
+}, []);
+
+  const categoryAllProducts = data && data;
+  const categoryScarves = data && data.filter((item) => item.category=== 'scarves')
+  const categoryShoes = data && data.filter((item) => item.category === 'shoes')
+  const categoryShorts = data && data.filter((item) => item.category === 'short')
+  const categoryJackets = data && data.filter((item) => item.category === 'jacket')
+
+
+
+
+const searchData =(e)=>{
+let val = e.target.value
+
+setSearchInput(val)
+
+let newArr = []
+
+
+products && products.map((el) => {
+
+if(val === ""){
+  newArr=[...data]
+}
+ 
+  else if(el.name.toUpperCase().indexOf(val.toUpperCase())!==-1){
+   newArr.push(el)
+  }
+
+})
+
+setProducts(newArr)
+
+
+}
+  
+
   return (
     <section>
+ 
       <div className="shop-page-image">
         <div className="shop-page-image__overlay">
           <h1>
@@ -46,7 +99,7 @@ MAĞAZA
           </ul>
         </div>
           <form action="">
-          <input type="name" name="name" id="" value="" placeholder="Search"/>
+          <input type="name" name="name" value={searchInput} placeholder="Search"  onChange={(e)=>searchData(e)}/>
           <i className="fa-solid fa-magnifying-glass"></i>
           </form>
         </div>
@@ -62,10 +115,12 @@ MAĞAZA
     </div>
     <div ref={dropdown} className="filters">
       <ul>
-        <li>Şərflər</li>
-        <li>Ayaqqabılar</li>
-        <li>Şortlar</li>
-        <li>Gödəkçələr</li>
+       
+        <li onClick={(e)=>{setProducts(categoryAllProducts)}}>Hamısı</li>
+        <li onClick={(e)=>{setProducts(categoryScarves)}}>Şərflər</li>
+        <li onClick={(e)=>{setProducts(categoryShoes)}}>Ayaqqabılar</li>
+        <li onClick={(e)=>{setProducts(categoryShorts)}}>Şortlar</li>
+        <li onClick={(e)=>{setProducts(categoryJackets)}}>Gödəkçələr</li>
       </ul>
     </div>
     <div onClick={arrowdownItem} className="filter-box">
@@ -101,25 +156,11 @@ MAĞAZA
 </div> }
 <div ref={changeHtml} className="products"> 
   {
-    categoryScarves && categoryScarves.map((product) => 
+    products && products.map((product) => 
 <Product key={product.id} product={product} count={product.count}/>
     )
   }
-  {
-    categoryShoes && categoryShoes.map((product) => 
-    <Product key={product.id} product={product} count={product.count}/>
-        )
-  }
-  {
-    categoryShorts && categoryShorts.map((product) => 
-    <Product key={product.id} product={product} count={product.count}/>
-        )
-  }
-  {
-    categoryJackets && categoryJackets.map((product) => 
-    <Product key={product.id} product={product} count={product.count}/>
-        )
-  }
+
 </div>
           </div>
     </div>
