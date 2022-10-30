@@ -16,7 +16,7 @@ const arrowdownItem = () => {
   dropdown.current.classList.toggle("dropdown")
 }
   const { data: products } = servicesApi.useGetProductsQuery();
-  const [scarves,setScarves] = useState(false);
+  const [scarves,setScarves] = useState([]);
   const changeHtml = useRef();
   const categoryScarves = products && products.filter((item) => item.category=== 'scarves')
   const categoryShoes = products && products.filter((item) => item.category === 'shoes')
