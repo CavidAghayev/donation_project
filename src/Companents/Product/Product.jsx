@@ -20,9 +20,9 @@ const navigate = useNavigate()
   };
   return (  
     <div className="product"> 
-    <div className="product__favorite">
+    {/* <div className="product__favorite">
         <i className="fa-regular fa-heart"></i>
-      </div>
+      </div> */}
         < div className="product__image">
           <img onClick={()=>navigate(`/productdetails/${product.id}`)} src={product.image} alt="" />
         </div>
