@@ -1,7 +1,7 @@
 import React from "react";
 import { servicesApi } from "../Service/apiService";
 import Product from "../Companents/Product/Product";
-import { useRef , useState} from "react";
+import { useRef , useState } from "react";
     function Shop() {
   const arrowLeft = useRef();
   const arrowDown = useRef();
