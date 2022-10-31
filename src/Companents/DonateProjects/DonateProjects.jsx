@@ -2,7 +2,7 @@ import React from "react";
 import {Link} from 'react-router-dom';
 import {useNavigate} from 'react-router-dom'
 function DonateProjects({ project }) {
-const navigate = useNavigate();
+const navigate = useNavigate(); 
   return (
 <Link to={`/projectdetails/${project.id}`} className="donate-project">
       <img src={project.image} alt="" />

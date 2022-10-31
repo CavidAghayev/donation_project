@@ -10,13 +10,13 @@ import "swiper/css/effect-cube";
 import { useState } from 'react'
 function Home() {
   const navigate = useNavigate();
-  const [donateProject,setDonateProject] = useState(null)
+      const [donateProjects,setDonateProjects] = useState(null)
   React.useEffect(()=> {
 fetch("http://localhost:7700/donateProjects")
 .then((response) => response.json())
-.then((data) => setDonateProject(data))
+.then((data) => setDonateProjects(data))
   },[]);
-  console.log(donateProject);
+  console.log(donateProjects);
   const [basePartners,setBasePartners] = useState(null)
  React.useEffect(()=>{
   fetch("http://localhost:7700/basePartners")
@@ -129,8 +129,8 @@ fetch("http://localhost:7700/donateProjects")
           <p>Biz hər bir layihə ilə daha ədalətli şəraitə nail olmaq üçün icmaların üzləşdiyi <br /> infrastruktur və giriş məsələlərini həll etməyi hədəfləyirik. Budur, icmalara müsbət <br /> təsir göstərən həm tamamlanmış, həm də davam edən layihələrimizdən bəziləri.</p>
         </div>
         <div className="aid-countries__country-projects">
-          {donateProject &&
-            donateProject.map((a) => <DonateProjects key={a.id} project={a} />)}
+          {donateProjects &&
+            donateProjects.map((a) => <DonateProjects key={a.id} project={a} />)}
         </div>
       </div>
       <div className="home-partners">
