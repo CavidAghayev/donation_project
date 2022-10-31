@@ -1,6 +1,5 @@
   import React from "react";
 import DonateProjects from "../Companents/DonateProjects/DonateProjects";
-import { servicesApi } from "../Service/apiService";
 import BasePartner from "../Companents/BasePartner/BasePartner";
 import { useNavigate } from 'react-router-dom'
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -8,10 +7,23 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination , Autoplay,EffectCube} from "swiper";
 import "swiper/css/effect-cube";
+import { useState } from 'react'
 function Home() {
   const navigate = useNavigate();
-  const { data: projects } = servicesApi.useGetProjectsQuery();
-  const { data: basepartners } = servicesApi.useGetBasePartnersQuery();
+  const [donateProject,setDonateProject] = useState(null)
+  React.useEffect(()=> {
+fetch("http://localhost:7700/donateProjects")
+.then((response) => response.json())
+.then((data) => setDonateProject(data))
+  },[]);
+  console.log(donateProject);
+  const [basePartners,setBasePartners] = useState(null)
+ React.useEffect(()=>{
+  fetch("http://localhost:7700/basePartners")
+  .then((response) => response.json())
+  .then((data) => setBasePartners(data))
+ },[]);
+  console.log(basePartners)
   return (
     <section>
       <div className="home-video">
@@ -117,8 +129,8 @@ function Home() {
           <p>Biz hər bir layihə ilə daha ədalətli şəraitə nail olmaq üçün icmaların üzləşdiyi <br /> infrastruktur və giriş məsələlərini həll etməyi hədəfləyirik. Budur, icmalara müsbət <br /> təsir göstərən həm tamamlanmış, həm də davam edən layihələrimizdən bəziləri.</p>
         </div>
         <div className="aid-countries__country-projects">
-          {projects &&
-            projects.map((a) => <DonateProjects key={a.id} project={a} />)}
+          {donateProject &&
+            donateProject.map((a) => <DonateProjects key={a.id} project={a} />)}
         </div>
       </div>
       <div className="home-partners">
@@ -131,8 +143,8 @@ function Home() {
               </p>
             </div>
             <div className="home-partners__basics">
-              {basepartners &&
-                basepartners.map((a) => <BasePartner key={a.id} partner={a} />)}
+              {basePartners &&
+                basePartners.map((a) => <BasePartner key={a.id} partner={a} />)}
           </div>
       </div>
       <div className="bullent">

@@ -541,6 +541,9 @@ font-size: 12px;
   justify-content: center;
   align-items: center;
 }
+.aid-countries__text{
+  text-align: center;
+}
 
 
 .aid-countries__country-projects {

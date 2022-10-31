@@ -1,8 +1,13 @@
 import React from 'react'
 import Story from '../Companents/OurStories/Story';
-import { servicesApi } from '../Service/apiService';
+import { useState } from 'react'
 function News() {
-  const { data: stories } = servicesApi.useGetOurStoriesQuery()
+  const [ourStories, setOurStories] = useState(null)
+  React.useEffect(()=>{
+fetch("http://localhost:7700/ourStories")
+.then((response) => response.json())
+.then((data) => setOurStories(data))
+  },[]);
   return (
     <section>
     <div className='news-page-image'>
@@ -17,7 +22,7 @@ HEKAYƏLƏRİMİZ
     </div>
     <div className='our-stories'>
         {
-          stories && stories.map((a) => 
+           ourStories && ourStories.map((a) => 
           <Story key={a.id} story={a}/>
           )
         }

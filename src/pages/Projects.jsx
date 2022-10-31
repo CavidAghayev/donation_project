@@ -1,8 +1,13 @@
 import React from 'react'
-import { servicesApi } from "../Service/apiService";
 import CommonProjects from '../Companents/CommonProjects/CommonProjects';
-function Projects() {
-  const {data:commonprojects} = servicesApi.useGetCommonProjectsQuery();
+import { useState } from 'react'
+ function Projects() {
+  const    [commonProjects,setCommonProjects] = useState(null)
+  React.useEffect(()=>{
+fetch("http://localhost:7700/commonProjects")
+  .then((response) => response.json())
+  .then((data) => setCommonProjects(data))
+  },[]);
   return (
     <section>
            <div  className="projects-page">
@@ -30,7 +35,7 @@ function Projects() {
 <div className='projects'>
   <div className="projects__content">
   {
-  commonprojects && commonprojects.map((a) => 
+  commonProjects && commonProjects.map((a) => 
   <CommonProjects key={a.id} project={a}/>
   )
 }

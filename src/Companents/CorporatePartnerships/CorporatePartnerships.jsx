@@ -1,12 +1,17 @@
 import React from 'react'
-import {servicesApi} from "../../Service/apiService"
 import SelectPartner from '../SelectPartner/SelectPartner';
 import { useNavigate } from 'react-router-dom'
+import { useState } from 'react'
 import "swiper/css";
 import "swiper/css/navigation";
 function CorporatePartnerships() {
+  const [selectPartners,setSelectPartners] = useState(null)
+React.useEffect(()=>{
+  fetch("http://localhost:7700/selectPartners")
+   .then((response) => response.json())
+   .then((data) => setSelectPartners(data))
+},[]);
   const navigate = useNavigate();
-  const {data: selectPartners} = servicesApi.useGetSelectPartnersQuery();
   return (
     <section>
       <div class="corporative-partnership-companies">   
