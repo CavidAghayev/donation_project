@@ -2003,7 +2003,7 @@ flex-direction: column;
   border-radius: 10px;
 }
 
-.product-items-buttons .buy-btn:hover {
+.product__items-buttons .buy-btn:hover {
   border: 1px solid green;
 }
 

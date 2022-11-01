@@ -49,7 +49,7 @@ function Pay() {
                 <label htmlFor="cvv">Cvv/Cvv2*</label>
                 <input type="text" name="" id="cvv" />
                 </form>
-                <div className='btn pay-btn'>PLACE ORDER</div>
+                <div className='btn pay-btn'>SİFARİŞ VERİN</div>
 
             </div>
         </div>
@@ -66,14 +66,14 @@ function Pay() {
         <img src={data.image} alt="" />
         <div className="order-summary__image__text">
         <h3>{data.name}</h3>
-        <span>Qiyməti: ${data.price}</span>
+        <span>Qiyməti: ${data.price}.00</span>
         </div>
 </div>  
 <div className="order-summary__total">
-    <p><span>Subtotal</span><span>US${data.price}.00</span></p>
-    <p><span>Tax</span><span>US$2.45</span></p>
-    <p><span>Shipping</span><span>US$0.00</span></p>
-    <p><span>Total</span><span>US${data.price  + data.shipping}</span></p>
+    <p><span>Cəmi</span><span>US${data.price}.00</span></p>
+    <p><span>Vergi</span><span>US${data.shipping}</span></p>
+    <p><span>Göndərmə</span><span>US$0.00</span></p>
+    <p><span>Ümumi</span><span>US${data.price + data.shipping}</span></p>
 </div>
 </div>
 

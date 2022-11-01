@@ -1,4 +1,4 @@
-  import React from "react";
+import React from "react";
 import DonateProjects from "../Companents/DonateProjects/DonateProjects";
 import BasePartner from "../Companents/BasePartner/BasePartner";
 import { useNavigate } from 'react-router-dom'

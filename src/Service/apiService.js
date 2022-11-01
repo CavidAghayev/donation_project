@@ -33,11 +33,6 @@ export const servicesApi = createApi({
         url: `/donateStory/${id}`,
       }),
     }),
-    getAboutStory: builder.query({
-      query: () => ({
-        url: "/AboutStory",
-      }),
-    }),
     getOurStories: builder.query({
       query: () => ({
         url: "/ourStories",
