@@ -1,5 +1,4 @@
 import React from "react";
-import { servicesApi } from "../Service/apiService";
 import Product from "../Companents/Product/Product";
 import { useRef, useState } from "react";
 function Shop() {
@@ -41,6 +40,24 @@ function Shop() {
   const categoryJackets =
     data && data.filter((item) => item.category === "jacket");
 
+  const sizeS =
+   products && products.filter((item) => item.size[0] === "s");
+  const sizeM = 
+   products && products.filter((item) => item.size[1] === "m");
+  const sizeL = 
+   products && products.filter((item) => item.size[2] === "l");
+  const sizeXL = 
+   products && products.filter((item) => item.size[3] === "xl");
+
+   const sizeShoes38 = products &&
+   products.filter((item) => item.size[0] === "38")
+   const sizeShoes39  = products &&
+   products.filter((item) => item.size[1] === "39")
+   const sizeShoes40 = products &&
+   products.filter((item) => item.size[2] === "40")
+   const sizeShoes41 = products &&
+   products.filter((item) => item.size[3] === "41")
+
   const searchData = (e) => {
     let val = e.target.value;
 
@@ -48,9 +65,6 @@ function Shop() {
 
     let newArr = [];
 
-
-
-    
     products &&
       products.map((el) => {
         if (val === "") {
@@ -77,11 +91,11 @@ function Shop() {
         <div className="shop-search">
           <div className="products-category">
             <ul>
-              <li>HAMISI</li>
-              <li>ŞƏRFLƏR</li>
-              <li>AYAQQABILAR</li>
-              <li>ŞORTLAR</li>
-              <li>GÖDƏKCƏLƏR</li>
+              <li onClick={(e)=>{setProducts(categoryAllProducts)}}>HAMISI</li>
+              <li onClick={(e)=>{setProducts(categoryScarves)}}>ŞƏRFLƏR</li>
+              <li onClick={(e)=>{setProducts(categoryShoes)}}>AYAQQABILAR</li>
+              <li onClick={(e)=>{setProducts(categoryShorts)}}>ŞORTLAR</li>
+              <li onClick={(e)=>{setProducts(categoryJackets)}}>GÖDƏKCƏLƏR</li>
             </ul>
           </div>
           <form action="">
@@ -103,58 +117,39 @@ function Shop() {
           {
             <div ref={none} className="market-filter">
               <div onClick={arrowdownItem} className="filter-box">
-                <span>Kateqoriya</span>
-                <i ref={arrowDown} class="fa-solid fa-chevron-down"></i>
-              </div>
-              <div ref={dropdown} className="filters">
-                <ul>
-                  <li
-                    onClick={(e) => {
-                      setProducts(categoryAllProducts);
-                    }}
-                  >
-                    Hamısı
-                  </li>
-                  <li
-                    onClick={(e) => {
-                      setProducts(categoryScarves);
-                    }}
-                  >
-                    Şərflər
-                  </li>
-                  <li
-                    onClick={(e) => {
-                      setProducts(categoryShoes);
-                    }}
-                  >
-                    Ayaqqabılar
-                  </li>
-                  <li
-                    onClick={(e) => {
-                      setProducts(categoryShorts);
-                    }}
-                  >
-                    Şortlar
-                  </li>
-                  <li
-                    onClick={(e) => {
-                      setProducts(categoryJackets);
-                    }}
-                  >
-                    Gödəkçələr
-                  </li>
-                </ul>
-              </div>
-              <div onClick={arrowdownItem} className="filter-box">
                 <span>Ölçü</span>
                 <i ref={arrowDown} class="fa-solid fa-chevron-down"></i>
               </div>
               <div ref={dropdown} className="filters">
                 <ul>
-                  <li>s</li>
-                  <li>m</li>
-                  <li>l</li>
-                  <li>xl</li>
+                  <li
+                    onClick={(e) => {
+                      setProducts(sizeS);
+                    }}
+                  >
+                    s
+                  </li>
+                  <li
+                    onClick={(e) => {
+                      setProducts(sizeM);
+                    }}
+                  >
+                    m
+                  </li>
+                  <li
+                    onClick={(e) => {
+                      setProducts(sizeL);
+                    }}
+                  >
+                    l
+                  </li>
+                  <li
+                    onClick={(e) => {
+                      setProducts(sizeXL);
+                    }}
+                  >
+                    xl
+                  </li>
                 </ul>
               </div>
               <div onClick={arrowdownItem} className="filter-box">

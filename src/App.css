@@ -1816,7 +1816,6 @@ flex-direction: column;
   overflow: hidden;
   transition-duration: 0.5s;
 }
-
 .filters input {
   width: 80px;
   height: 50px;
@@ -1903,6 +1902,7 @@ flex-direction: column;
   font-size: 12px;
   margin-right: 40px;
   color: var(--title-color);
+  cursor: pointer;
 }
 
 .product__image {
