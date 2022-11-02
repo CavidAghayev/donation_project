@@ -1770,7 +1770,6 @@ flex-direction: column;
 .shop-market .filter-arrow i {
   margin-left: 20px;
   font-size: 14px;
-  transition-duration: 0.5s;
 }
 
 .shop-market .filter-arrow i.rotate {

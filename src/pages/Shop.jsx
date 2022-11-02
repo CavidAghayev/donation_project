@@ -39,7 +39,13 @@ function Shop() {
     data && data.filter((item) => item.category === "short");
   const categoryJackets =
     data && data.filter((item) => item.category === "jacket");
-
+    const filterBox = useRef()
+    const filters = useRef()
+const categoryShoesItem = (e) => {
+  setProducts(categoryShoes)
+  filterBox.current.style.display = "flex"
+  filters.current.style.display = "flex"
+} 
   const sizeS =
    products && products.filter((item) => item.size[0] === "s");
   const sizeM = 
@@ -57,6 +63,7 @@ function Shop() {
    products.filter((item) => item.size[2] === "40")
    const sizeShoes41 = products &&
    products.filter((item) => item.size[3] === "41")
+
 
   const searchData = (e) => {
     let val = e.target.value;
@@ -93,7 +100,7 @@ function Shop() {
             <ul>
               <li onClick={(e)=>{setProducts(categoryAllProducts)}}>HAMISI</li>
               <li onClick={(e)=>{setProducts(categoryScarves)}}>ŞƏRFLƏR</li>
-              <li onClick={(e)=>{setProducts(categoryShoes)}}>AYAQQABILAR</li>
+              <li onClick={categoryShoesItem}>AYAQQABILAR</li>
               <li onClick={(e)=>{setProducts(categoryShorts)}}>ŞORTLAR</li>
               <li onClick={(e)=>{setProducts(categoryJackets)}}>GÖDƏKCƏLƏR</li>
             </ul>
@@ -110,7 +117,7 @@ function Shop() {
           </form>
         </div>
         <div onClick={arrowleftItem} className="filter-arrow">
-          <span>Filter</span>{" "}
+          <span>Filter</span>
           <i ref={arrowLeft} class="fa-solid fa-chevron-left"></i>
         </div>
         <div className="shop-market-items">
@@ -152,6 +159,18 @@ function Shop() {
                   </li>
                 </ul>
               </div>
+              <div style={{display: "none"}} onClick={arrowdownItem} ref={filterBox} className="filter-box">
+                <span>Ölçü</span>
+                <i ref={arrowDown} class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div style={{display: "none"}}  ref={filters} className="filters">
+                <ul>
+                  <li onClick={(e)=>{setProducts(sizeShoes38)}}>38</li>
+                  <li onClick={(e)=>{setProducts(sizeShoes39)}}>39</li>
+                  <li onClick={(e)=>{setProducts(sizeShoes40)}}>40</li>
+                  <li onClick={(e)=>{setProducts(sizeShoes41)}}>41</li>
+                </ul>
+                      </div>
               <div onClick={arrowdownItem} className="filter-box">
                 <span>Gender</span>
                 <i ref={arrowDown} class="fa-solid fa-chevron-down"></i>
