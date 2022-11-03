@@ -3,18 +3,27 @@ import Product from "../Companents/Product/Product";
 import { useRef, useState } from "react";
 function Shop() {
   const arrowLeft = useRef();
-  const arrowDown = useRef();
-  const dropdown = useRef();
   const none = useRef();
+  const sizesDown =  useRef();
+  const numberSizesDown = useRef();
+  const sizesTitleIcon = useRef();
+  const numberSizesTitleIcon = useRef();
+  const gendersDown = useRef();
   const arrowleftItem = () => {
     arrowLeft.current.classList.toggle("rotate");
     none.current.classList.toggle("none");
   };
-  const arrowdownItem = () => {
-    
-  };
-  const changeHtml = useRef();
-
+  const sizesItem = () => {
+    sizesDown.current.classList.toggle("sizesDown")
+    sizesTitleIcon.current.classList.toggle("sizesTitle-IconRotate")
+  }
+  const numberSizesItem = () => {
+    numberSizesDown.current.classList.toggle("numberSizesDown")
+    numberSizesTitleIcon.current.classList.toggle("numberSizesTitle-IconRotate")
+  }
+  const gendersItem = () => {
+    gendersDown.current.classList.toggle("gendersDown")
+  }
   const [products, setProducts] = useState(null);
   const [data, setData] = useState(null);
   const [searchInput, setSearchInput] = useState("");
@@ -45,6 +54,7 @@ const categoryShoesItem = (e) => {
   filterBox.current.style.display = "flex"
   filters.current.style.display = "flex"
 } 
+
   const sizeS =
    products && products.filter((item) => item.size[0] === "s");
   const sizeM = 
@@ -122,11 +132,12 @@ const categoryShoesItem = (e) => {
         <div className="shop-market-items">
           {
             <div ref={none} className="market-filter">
-              <div className="filter-box">
-                <span>Ölçü</span>
-                <i class="fa-solid fa-chevron-down"></i>
+              <div className="sizes-filters">
+              <div onClick={sizesItem} className="sizes-filters__title">
+              <span>Ölçü</span>
+                <i ref={sizesTitleIcon} class="fa-solid fa-chevron-down"></i>
               </div>
-              <div className="filters">
+                <div ref={sizesDown} className="sizes">
                 <ul>
                   <li
                     onClick={(e) => {
@@ -158,11 +169,14 @@ const categoryShoesItem = (e) => {
                   </li>
                 </ul>
               </div>
-              <div ref={filterBox} className="filter-box">
-                <span>Ölçü</span>
-                <i class="fa-solid fa-chevron-down"></i>
               </div>
-              <div ref={filters} className="filters">
+              <div ref={filterBox} className="number-sizes__filters">
+                <div onClick={numberSizesItem} className="number-sizes__title">
+                <span>Ölçü</span>
+                <i ref={numberSizesTitleIcon} class="fa-solid fa-chevron-down"></i>
+                </div>
+              </div>
+              <div ref={numberSizesDown} className="number-sizes">
                 <ul>
                   <li onClick={(e)=>{setProducts(sizeShoes38)}}>38</li>
                   <li onClick={(e)=>{setProducts(sizeShoes39)}}>39</li>
@@ -170,11 +184,13 @@ const categoryShoesItem = (e) => {
                   <li onClick={(e)=>{setProducts(sizeShoes41)}}>41</li>
                 </ul>
                       </div>
-              <div className="filter-box">
+              <div className="gender-filters">
+                <div onClick={gendersItem} className="gender-filters__title">
                 <span>Gender</span>
                 <i class="fa-solid fa-chevron-down"></i>
+                </div>
               </div>
-              <div className="filters">
+              <div ref={gendersDown} className="genders">
                 <ul>
                   <li>Kişi</li>
                   <li>Qadın</li>
@@ -190,7 +206,7 @@ const categoryShoesItem = (e) => {
               </div>
             </div>
           }
-          <div ref={changeHtml} className="products">
+          <div className="products">
             {products &&
               products.map((product) => (
                 <Product
