@@ -5,10 +5,11 @@ function Shop() {
   const arrowLeft = useRef();
   const none = useRef();
   const sizesDown =  useRef();
-  const numberSizesDown = useRef();
   const sizesTitleIcon = useRef();
-  const numberSizesTitleIcon = useRef();
   const gendersDown = useRef();
+  const genderTitleIcon = useRef();
+  const pricesRef = useRef();
+  const priceTitleIcon = useRef();
   const arrowleftItem = () => {
     arrowLeft.current.classList.toggle("rotate");
     none.current.classList.toggle("none");
@@ -17,14 +18,15 @@ function Shop() {
     sizesDown.current.classList.toggle("sizesDown")
     sizesTitleIcon.current.classList.toggle("sizesTitle-IconRotate")
   }
-  const numberSizesItem = () => {
-    numberSizesDown.current.classList.toggle("numberSizesDown")
-    numberSizesTitleIcon.current.classList.toggle("numberSizesTitle-IconRotate")
-  }
   const gendersItem = () => {
     gendersDown.current.classList.toggle("gendersDown")
+    genderTitleIcon.current.classList.toggle("genderIconRotate")
   }
-  const [products, setProducts] = useState(null);
+  const priceItem = () => {
+    pricesRef.current.classList.toggle("pricesDown")
+    priceTitleIcon.current.classList.toggle("priceTitle-IconRotate")
+  }
+  const [products, setProducts] = useState(null); 
   const [data, setData] = useState(null);
   const [searchInput, setSearchInput] = useState("");
 
@@ -48,13 +50,6 @@ function Shop() {
   const categoryJackets =
     data && data.filter((item) => item.category === "jacket");
     const filterBox = useRef()
-    const filters = useRef()
-const categoryShoesItem = (e) => {
-  setProducts(categoryShoes)
-  filterBox.current.style.display = "flex"
-  filters.current.style.display = "flex"
-} 
-
   const sizeS =
    products && products.filter((item) => item.size[0] === "s");
   const sizeM = 
@@ -109,7 +104,7 @@ const categoryShoesItem = (e) => {
             <ul>
               <li onClick={(e)=>{setProducts(categoryAllProducts)}}>HAMISI</li>
               <li onClick={(e)=>{setProducts(categoryScarves)}}>ŞƏRFLƏR</li>
-              <li onClick={categoryShoesItem}>AYAQQABILAR</li>
+              <li onClick={(e)=>{setProducts(categoryShoes)}}>AYAQQABILAR</li>
               <li onClick={(e)=>{setProducts(categoryShorts)}}>ŞORTLAR</li>
               <li onClick={(e)=>{setProducts(categoryJackets)}}>GÖDƏKCƏLƏR</li>
             </ul>
@@ -167,42 +162,34 @@ const categoryShoesItem = (e) => {
                   >
                     xl
                   </li>
-                </ul>
-              </div>
-              </div>
-              <div ref={filterBox} className="number-sizes__filters">
-                <div onClick={numberSizesItem} className="number-sizes__title">
-                <span>Ölçü</span>
-                <i ref={numberSizesTitleIcon} class="fa-solid fa-chevron-down"></i>
-                </div>
-              </div>
-              <div ref={numberSizesDown} className="number-sizes">
-                <ul>
                   <li onClick={(e)=>{setProducts(sizeShoes38)}}>38</li>
                   <li onClick={(e)=>{setProducts(sizeShoes39)}}>39</li>
                   <li onClick={(e)=>{setProducts(sizeShoes40)}}>40</li>
                   <li onClick={(e)=>{setProducts(sizeShoes41)}}>41</li>
                 </ul>
-                      </div>
+              </div>
+              </div>
               <div className="gender-filters">
                 <div onClick={gendersItem} className="gender-filters__title">
                 <span>Gender</span>
-                <i class="fa-solid fa-chevron-down"></i>
+                <i ref={genderTitleIcon} class="fa-solid fa-chevron-down"></i>
                 </div>
-              </div>
-              <div ref={gendersDown} className="genders">
+                <div ref={gendersDown} className="genders">
                 <ul>
                   <li>Kişi</li>
                   <li>Qadın</li>
                 </ul>
               </div>
-              <div className="filter-box">
-                <span>Qiymət</span>
-                <i class="fa-solid fa-chevron-down"></i>
               </div>
-              <div className="filters">
+              <div className="price-filters">
+              <div onClick={priceItem} className="price-filters__title">
+              <span>Qiymət</span>
+                <i ref={priceTitleIcon} class="fa-solid fa-chevron-down"></i>
+              </div>
+              <div ref={pricesRef} className="prices">
                 <input type="text" placeholder="$ 0" />
                 <input type="text" placeholder="$ 200" />
+              </div>
               </div>
             </div>
           }
