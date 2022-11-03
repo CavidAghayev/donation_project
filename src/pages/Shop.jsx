@@ -11,8 +11,7 @@ function Shop() {
     none.current.classList.toggle("none");
   };
   const arrowdownItem = () => {
-    arrowDown.current.classList.toggle("rotate");
-    dropdown.current.classList.toggle("dropdown");
+    
   };
   const changeHtml = useRef();
 
@@ -123,11 +122,11 @@ const categoryShoesItem = (e) => {
         <div className="shop-market-items">
           {
             <div ref={none} className="market-filter">
-              <div onClick={arrowdownItem} className="filter-box">
+              <div className="filter-box">
                 <span>Ölçü</span>
-                <i ref={arrowDown} class="fa-solid fa-chevron-down"></i>
+                <i class="fa-solid fa-chevron-down"></i>
               </div>
-              <div ref={dropdown} className="filters">
+              <div className="filters">
                 <ul>
                   <li
                     onClick={(e) => {
@@ -159,11 +158,11 @@ const categoryShoesItem = (e) => {
                   </li>
                 </ul>
               </div>
-              <div style={{display: "none"}} onClick={arrowdownItem} ref={filterBox} className="filter-box">
+              <div ref={filterBox} className="filter-box">
                 <span>Ölçü</span>
-                <i ref={arrowDown} class="fa-solid fa-chevron-down"></i>
+                <i class="fa-solid fa-chevron-down"></i>
               </div>
-              <div style={{display: "none"}}  ref={filters} className="filters">
+              <div ref={filters} className="filters">
                 <ul>
                   <li onClick={(e)=>{setProducts(sizeShoes38)}}>38</li>
                   <li onClick={(e)=>{setProducts(sizeShoes39)}}>39</li>
@@ -171,21 +170,21 @@ const categoryShoesItem = (e) => {
                   <li onClick={(e)=>{setProducts(sizeShoes41)}}>41</li>
                 </ul>
                       </div>
-              <div onClick={arrowdownItem} className="filter-box">
+              <div className="filter-box">
                 <span>Gender</span>
-                <i ref={arrowDown} class="fa-solid fa-chevron-down"></i>
+                <i class="fa-solid fa-chevron-down"></i>
               </div>
-              <div ref={dropdown} className="filters">
+              <div className="filters">
                 <ul>
                   <li>Kişi</li>
                   <li>Qadın</li>
                 </ul>
               </div>
-              <div onClick={arrowdownItem} className="filter-box">
+              <div className="filter-box">
                 <span>Qiymət</span>
-                <i ref={arrowDown} class="fa-solid fa-chevron-down"></i>
+                <i class="fa-solid fa-chevron-down"></i>
               </div>
-              <div ref={dropdown} className="filters">
+              <div className="filters">
                 <input type="text" placeholder="$ 0" />
                 <input type="text" placeholder="$ 200" />
               </div>
