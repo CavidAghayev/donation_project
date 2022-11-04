@@ -107,6 +107,7 @@ setProducts(newArr);
 
   return (
     <section>
+      <div>Salam</div>
       <div className="shop-page-image">
         <div className="shop-page-image__overlay">
           <h1>MAĞAZA</h1>
