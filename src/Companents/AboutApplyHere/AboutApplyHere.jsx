@@ -13,6 +13,7 @@ function AboutApplyHere() {
                 <div className='btn' onClick={()=>navigate('/aboutapplysubcribe')}>Abunə olun</div>
         </div>
     </section>
+    
   )
 }
 

@@ -13,7 +13,7 @@ export const cartSlice = createSlice({
         (item) => item.id === action.payload
       );
       if (existingItem) {
-        existingItem.count++
+        existingItem.count = 1
       }
        else {
         state.cart.push({

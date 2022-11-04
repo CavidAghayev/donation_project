@@ -1,5 +1,5 @@
 import React from 'react'
-import {servicesApi} from '../../Service//apiService'
+import {servicesApi} from '../../Service/apiService'
 import { useDispatch, useSelector } from "react-redux";
 import { decrement, increment, removeFromCard } from "../../Service/cartSlice"
 import { useNavigate } from 'react-router-dom'
@@ -62,25 +62,22 @@ cart.map((t) => {
         <button onClick={()=>increaseItem(t.id)} className='buy'>+</button>
         </div>
         <div className="add-to-cart-price">
-          ${product.price}
+          {`$${product.price}${".00"}`}
         </div>
         <div className="add-to-cart-remove">
         <i onClick={()=>removeProduct(product.id)} className="fa-solid fa-xmark"></i>
         </div>
       </div>
+    <button key={t.id} onClick={()=>navigate(`/pay/${t.id}`)}>Ödəniş edin</button> 
+
       </div>
   
   })
 }
-{
-  cart.map((a) => {
-    return <div className="checkout">
-    <button onClick={()=>navigate(`/pay/${a.id}`)}>Ödəniş edin</button> 
+    <div className="checkout">
     <button onClick={()=>navigate('/shop')}>Alış-verişə davam edin</button>
   </div>
     
-  })
-}
 </div>
     </section>
   )

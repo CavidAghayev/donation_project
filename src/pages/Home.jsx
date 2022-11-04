@@ -8,7 +8,15 @@ import "swiper/css/pagination";
 import { Pagination , Autoplay,EffectCube} from "swiper";
 import "swiper/css/effect-cube";
 import { useState } from 'react'
+import AOS from 'aos';
+import "aos/dist/aos.css";
 function Home() {
+React.useEffect(()=>{
+  AOS.init({
+    duration: 0.5,
+    easing: "ease"  
+      });
+},[]);
   const navigate = useNavigate();
       const [donateProjects,setDonateProjects] = useState(null)
   React.useEffect(()=> {
@@ -26,7 +34,7 @@ fetch("http://localhost:7700/donateProjects")
   console.log(basePartners)
   return (
     <section>
-      <div className="home-video">
+      <div data-aos="fade-up" className="home-video">
       <div className="home-video--overlay"></div>
       <video id="home-video" muted="false" loop="true" autoplay="true" playsinline="true" poster="https://149442961.v2.pressablecdn.com/wp-content/uploads/malaika_home.jpg">
                                 <source src="https://malaika.org/wp-content/uploads/malaika-3.mp4" type="video/mp4"></source>

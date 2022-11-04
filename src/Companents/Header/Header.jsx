@@ -16,6 +16,12 @@ useEffect(()=>{
   window.scrollTo(0,0);
 },[pathname])   
 const navigate = useNavigate();
+const [products, setProducts] = useState([]);
+React.useEffect(()=>{
+  fetch("http://localhost:7700/products")
+  .then((response) => response.json()).
+  then((data) => setProducts(data))
+},[]);
   return (
     <header>
         <div className="header-content">
@@ -47,17 +53,11 @@ const navigate = useNavigate();
           </div>
             <div onClick={()=>navigate("/addtobasket")} className="header-basket">
               <i className="fa-solid fa-basket-shopping"></i>
-              {
-              cart.map((product) => (
-              <div className="header-menu-count">
-               <span>
-               {product ? product.count : " " }
-               </span>
-              </div>
-              ))
-              }
+            {
+              
+            }
           </div>
-        </div>
+        </div>  
         <div className="header-menu--icon">
 <i onClick={list} className="fa-solid fa-bars"></i>
 </div>

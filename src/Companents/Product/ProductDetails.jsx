@@ -54,7 +54,7 @@ import { decrement, increment, productToCart } from "../../Service/cartSlice";
                 </div>
                 <div className="product-details__items">
                     <span>{data.name}</span>
-                    <span>${data.price}.00</span>
+                    <span>{`$${data.price}${".00"}`}</span>
                     <p><span>Material:</span> <br /> {data.material}</p>
                     <p><span>Yaxşılıq üçün alış-veriş edin:</span> <br /> {data.goal}</p>
                     <p><span>Təsviri: <br /></span>{data.description}</p>

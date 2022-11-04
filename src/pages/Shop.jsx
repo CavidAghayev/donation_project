@@ -3,7 +3,7 @@ import Product from "../Companents/Product/Product";
 import { useRef, useState } from "react";
 function Shop() {
   const arrowLeft = useRef();
-  const none = useRef();
+  const marketFilter = useRef();
   const sizesDown = useRef();
   const sizesTitleIcon = useRef();
   const gendersDown = useRef();
@@ -12,7 +12,7 @@ function Shop() {
   const priceTitleIcon = useRef();
   const arrowleftItem = () => {
     arrowLeft.current.classList.toggle("rotate");
-    none.current.classList.toggle("none");
+    marketFilter.current.classList.toggle("none");
   };
   const sizesItem = () => {
     sizesDown.current.classList.toggle("sizesDown");
@@ -172,7 +172,7 @@ setProducts(newArr);
         </div>
         <div className="shop-market-items">
           {
-            <div ref={none} className="market-filter">
+            <div ref={marketFilter} className="market-filter">
               <div className="sizes-filters">
                 <div onClick={sizesItem} className="sizes-filters__title">
                   <span>Ölçü</span>
