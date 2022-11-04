@@ -29,6 +29,7 @@ function Shop() {
   const [products, setProducts] = useState(null);
   const [data, setData] = useState(null);
   const [searchInput, setSearchInput] = useState("");
+  const [searchInputPrice, setSearchInputPrice] = useState("");
 
   React.useEffect(() => {
     fetch("http://localhost:7700/products")
@@ -68,7 +69,23 @@ function Shop() {
     products && products.filter((item) => item.gender === "men");
   const genderWomen =
     products && products.filter((item) => item.gender === "women");
-    console.log(genderMen)
+
+const searchPrice = (e) => {
+let val = e.target.value
+console.log(val)
+setSearchInputPrice(val)
+let newArr = [];
+products && products.map((item) => {
+  if(val === ""){
+    newArr = [...data];
+  }
+  else if(item.price.toString().indexOf(val) !== -1){
+    newArr.push(item)
+  }
+});
+setProducts(newArr);
+}
+
   const searchData = (e) => {
     let val = e.target.value;
 
@@ -141,8 +158,7 @@ function Shop() {
           </div>
           <form action="">
             <input
-              type="name"
-              name="name"
+              type="text"
               value={searchInput}
               placeholder="Search"
               onChange={(e) => searchData(e)}
@@ -241,7 +257,7 @@ function Shop() {
                   <i ref={priceTitleIcon} class="fa-solid fa-chevron-down"></i>
                 </div>
                 <div ref={pricesRef} className="prices">
-                  <input type="text" placeholder="$ 0" />
+                  <input  onChange={(e)=>searchPrice(e)} value={searchInputPrice} type="text" placeholder="$ 0" />
                   <input type="text" placeholder="$ 200" />
                 </div>
               </div>

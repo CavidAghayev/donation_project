@@ -1822,9 +1822,8 @@ flex-direction: column;
 .sizes.sizesDown{
 height: 550px;
 }
-
 .sizes ul li {
-  width: 100%;
+  width: 190%;
   height: 50px;
   display: flex;
   align-items: center;
