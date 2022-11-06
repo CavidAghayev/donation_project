@@ -107,8 +107,7 @@ setProducts(newArr);
 
   return (
     <section>
-      <div>Salam</div>
-      <div className="shop-page-image">
+      <div data-aos="fade-up" className="shop-page-image">
         <div className="shop-page-image__overlay">
           <h1>MAĞAZA</h1>
         </div>
@@ -118,7 +117,7 @@ setProducts(newArr);
       </div>
       <div className="shop-market">
         <div className="shop-search">
-          <div className="products-category">
+          <div data-aos="fade-right" className="products-category">
             <ul>
               <li
                 onClick={(e) => {
@@ -157,7 +156,7 @@ setProducts(newArr);
               </li>
             </ul>
           </div>
-          <form action="">
+          <form data-aos="fade-left" action="">
             <input
               type="text"
               value={searchInput}
@@ -167,13 +166,13 @@ setProducts(newArr);
             <i className="fa-solid fa-magnifying-glass"></i>
           </form>
         </div>
-        <div onClick={arrowleftItem} className="filter-arrow">
+        <div data-aos="fade-up" onClick={arrowleftItem} className="filter-arrow">
           <span>Filter</span>
           <i ref={arrowLeft} class="fa-solid fa-chevron-left"></i>
         </div>
         <div className="shop-market-items">
           {
-            <div ref={marketFilter} className="market-filter">
+            <div ref={marketFilter} data-aos="fade-up" className="market-filter">
               <div className="sizes-filters">
                 <div onClick={sizesItem} className="sizes-filters__title">
                   <span>Ölçü</span>

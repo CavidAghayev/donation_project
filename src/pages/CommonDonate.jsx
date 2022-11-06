@@ -12,7 +12,7 @@ function CommonDonate() {
           <i className="fa-solid fa-angle-down"></i>
         </div>
       </div>
-      <div className="donation-content">
+      <div data-aos="fade-up" className="donation-content">
             <div className="donation-content__about">
               <div className="donation-content__image">
                 <img

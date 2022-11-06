@@ -3,13 +3,13 @@ function Contact() {
   return (
     <section>
       <div className='contact'>
-<div className="contact__title">
+<div data-aos="fade-up" className="contact__title">
   <h3>Bütün proqram təminatı ehtiyaclarınız üçün bu gün bizimlə əlaqə saxlayın</h3>
 </div>
-<div className="contact__map">
+<div data-aos="fade-up" className="contact__map">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.1789798585946!2d49.82203171525669!3d40.38272567936907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40307da6f327d463%3A0xbe68553e791e5e84!2sCoders%20Azerbaijan!5e0!3m2!1saz!2s!4v1663570912328!5m2!1saz!2s"></iframe>
 </div>
-<div className="contact__items">
+<div data-aos="fade-up" className="contact__items">
   <div className="contact__form">
   <div className="contact__form__inputs">
   <div className="contact__form__inputs__title">

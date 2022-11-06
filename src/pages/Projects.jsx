@@ -10,7 +10,7 @@ fetch("http://localhost:7700/commonProjects")
   },[]);
   return (
     <section>
-           <div  className="projects-page">
+           <div data-aos="fade-up" className="projects-page">
       <div className="projects-page__overlay">
         <h1>
                     LAYİHƏLƏR
@@ -20,7 +20,7 @@ fetch("http://localhost:7700/commonProjects")
           <i className="fa-solid fa-angle-down"></i>
         </div>
      </div>   
-     <div className="projects-page__overview">
+     <div data-aos="fade-up" className="projects-page__overview">
       <h3>Ümumi Baxış</h3>
       <h2>Təsir etmək, bir anda bir layihə.</h2>
       <p>Biz hər bir layihə ilə daha ədalətli şəraitə nail olmaq üçün icmaların  üzləşdiyi infrastruktur <br /> və giriş məsələlərini həll etməyi hədəfləyirik. Budur, icmalara müsbət təsir göstərən həm <br /> tamamlanmış, həm də davam edən layihələrimizdən bəziləri.</p>
@@ -33,7 +33,7 @@ fetch("http://localhost:7700/commonProjects")
       </div>
      </div>
 <div className='projects'>
-  <div className="projects__content">
+  <div data-aos="fade-up" className="projects__content">
   {
   commonProjects && commonProjects.map((a) => 
   <CommonProjects key={a.id} project={a}/>
@@ -41,7 +41,7 @@ fetch("http://localhost:7700/commonProjects")
 }
   </div>
 </div>
-<div className="donation-content">
+<div data-aos="fade-up" className="donation-content">
             <div className="donation-content__about">
               <div className="donation-content__image">
                 <img

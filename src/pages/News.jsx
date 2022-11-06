@@ -10,7 +10,7 @@ fetch("http://localhost:7700/ourStories")
   },[]);
   return (
     <section>
-    <div className='news-page-image'>
+    <div data-aos="fade-up" className='news-page-image'>
       <div  className="news-page-image__overlay">
         <h1>
 HEKAYƏLƏRİMİZ

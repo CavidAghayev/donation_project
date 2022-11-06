@@ -8,15 +8,12 @@ import "swiper/css/pagination";
 import { Pagination , Autoplay,EffectCube} from "swiper";
 import "swiper/css/effect-cube";
 import { useState } from 'react'
-import AOS from 'aos';
+import Aos from "aos";
 import "aos/dist/aos.css";
 function Home() {
-React.useEffect(()=>{
-  AOS.init({
-    duration: 0.5,
-    easing: "ease"  
-      });
-},[]);
+  React.useEffect(function () {
+    Aos.init({ duration: 1000 });
+  }, []);
   const navigate = useNavigate();
       const [donateProjects,setDonateProjects] = useState(null)
   React.useEffect(()=> {
@@ -65,7 +62,6 @@ fetch("http://localhost:7700/donateProjects")
             <li>
               <a href="https://www.facebook.com/" target='_blank'>
               <i className="fa-brands fa-facebook-f"></i>
-<div>salam</div>
               </a>
             </li>
             <li>
@@ -83,7 +79,7 @@ fetch("http://localhost:7700/donateProjects")
           </ul>
         </div>
       </div>
-      <div className="about-content">
+      <div data-aos="fade-up" className="about-content">
             <div className="about-content__items">
               <span>BİZİM HAQQIMIZDA</span>
               <h1>BİZİM HAQQIMIZDA</h1>
@@ -121,7 +117,7 @@ fetch("http://localhost:7700/donateProjects")
       </Swiper>
             </div>
       </div>
-      <div className="donation-board">
+      <div data-aos="fade-up" className="donation-board">
           <div className="donation-board__content">
             <h1>
               Hər kəsə kömək edə bilmərik, amma hamı kiməsə kömək edə bilər{" "}
@@ -131,18 +127,18 @@ fetch("http://localhost:7700/donateProjects")
             </div>
         </div>
       </div>
-      <div className="aid-countries">
-        <div className="aid-countries__text">
+      <div  className="aid-countries">
+        <div data-aos="fade-up" className="aid-countries__text">
           <h1>İnsanlar vasitəsilə layihələr.</h1>
           <p>Biz hər bir layihə ilə daha ədalətli şəraitə nail olmaq üçün icmaların üzləşdiyi <br /> infrastruktur və giriş məsələlərini həll etməyi hədəfləyirik. Budur, icmalara müsbət <br /> təsir göstərən həm tamamlanmış, həm də davam edən layihələrimizdən bəziləri.</p>
         </div>
-        <div className="aid-countries__country-projects">
+        <div data-aos="fade-up" className="aid-countries__country-projects">
           {donateProjects &&
             donateProjects.map((a) => <DonateProjects key={a.id} project={a} />)}
         </div>
       </div>
       <div className="home-partners">
-            <div className="home-partners__heading">
+            <div data-aos="fade-up" className="home-partners__heading">
               <h1>Tərəfdaşlarımız</h1>
               <p>
                 Tərəfdaşlarımızın sarsılmaz öhdəliyi və əvəzsiz <br /> dəstəyi
@@ -150,12 +146,12 @@ fetch("http://localhost:7700/donateProjects")
                 şeydir.
               </p>
             </div>
-            <div className="home-partners__basics">
+            <div data-aos="fade-up" className="home-partners__basics">
               {basePartners &&
                 basePartners.map((a) => <BasePartner key={a.id} partner={a} />)}
           </div>
       </div>
-      <div className="bullent">
+      <div data-aos="fade-up" className="bullent">
   <h3><span>Həyat Fond</span> - dan xəbərlər alın:</h3>
   <div className="bullent__content">
   <input  type="email" name="" id="email" placeholder='Enter e-mail address' />

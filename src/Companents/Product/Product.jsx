@@ -19,7 +19,7 @@ const navigate = useNavigate()
     dispatch(increment(productId));
   };
   return (  
-    <div className="product"> 
+    <div data-aos="fade-up" className="product"> 
     {/* <div className="product__favorite">
         <i className="fa-regular fa-heart"></i>
       </div> */}
