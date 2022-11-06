@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function BasePartner({partner}) {
+function BasePartner({ partner }) {
   return (
     <div className="base-partner-box">
-<img src={partner.image} alt="" />
+      <img src={partner.image} alt="" />
     </div>
-  )
+  );
 }
 
-export default BasePartner
+export default BasePartner;

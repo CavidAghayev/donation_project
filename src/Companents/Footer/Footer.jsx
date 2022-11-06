@@ -19,30 +19,30 @@ function Footer() {
         </NavLink>
         <div className="footer-news-bullent">
           <form action="">
-          <label htmlFor="">Xəbər Bülleteni</label>
-          <br />
-          <input
-            type="name"
-            name=""
-            id="name"
-            placeholder="Adınızı daxil edin"
-          />{" "}
-          <br />
-          <input
-            type="surname"
-            name=""
-            id="surname"
-            placeholder="Soyadınızı daxil edin"
-          />{" "}
-          <br />
-          <input
-            type="email"
-            name=""
-            id="email"
-            placeholder="E-poçt ünvanınızı daxil edin"
-          />{" "}
-          <br />
-          <button>Bülletenimizə abunə olun</button>
+            <label htmlFor="">Xəbər Bülleteni</label>
+            <br />
+            <input
+              type="name"
+              name=""
+              id="name"
+              placeholder="Adınızı daxil edin"
+            />{" "}
+            <br />
+            <input
+              type="surname"
+              name=""
+              id="surname"
+              placeholder="Soyadınızı daxil edin"
+            />{" "}
+            <br />
+            <input
+              type="email"
+              name=""
+              id="email"
+              placeholder="E-poçt ünvanınızı daxil edin"
+            />{" "}
+            <br />
+            <button>Bülletenimizə abunə olun</button>
           </form>
         </div>
         <div className="footer-contact">

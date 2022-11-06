@@ -70,21 +70,21 @@ function Shop() {
   const genderWomen =
     products && products.filter((item) => item.gender === "women");
 
-const searchPrice = (e) => {
-let val = e.target.value
-console.log(val)
-setSearchInputPrice(val)
-let newArr = [];
-products && products.map((item) => {
-  if(val === ""){
-    newArr = [...data];
-  }
-  else if(item.price.toString().indexOf(val) !== -1){
-    newArr.push(item)
-  }
-});
-setProducts(newArr);
-}
+  const searchPrice = (e) => {
+    let val = e.target.value;
+    console.log(val);
+    setSearchInputPrice(val);
+    let newArr = [];
+    products &&
+      products.map((item) => {
+        if (val === "") {
+          newArr = [...data];
+        } else if (item.price.toString().indexOf(val) !== -1) {
+          newArr.push(item);
+        }
+      });
+    setProducts(newArr);
+  };
 
   const searchData = (e) => {
     let val = e.target.value;
@@ -166,13 +166,21 @@ setProducts(newArr);
             <i className="fa-solid fa-magnifying-glass"></i>
           </form>
         </div>
-        <div data-aos="fade-up" onClick={arrowleftItem} className="filter-arrow">
+        <div
+          data-aos="fade-up"
+          onClick={arrowleftItem}
+          className="filter-arrow"
+        >
           <span>Filter</span>
           <i ref={arrowLeft} class="fa-solid fa-chevron-left"></i>
         </div>
         <div className="shop-market-items">
           {
-            <div ref={marketFilter} data-aos="fade-up" className="market-filter">
+            <div
+              ref={marketFilter}
+              data-aos="fade-up"
+              className="market-filter"
+            >
               <div className="sizes-filters">
                 <div onClick={sizesItem} className="sizes-filters__title">
                   <span>Ölçü</span>
@@ -246,8 +254,8 @@ setProducts(newArr);
                 </div>
                 <div ref={gendersDown} className="genders">
                   <ul>
-                    <li onClick={(e)=>setProducts(genderMen)}>Kişi</li>
-                    <li onClick={(e)=>setProducts(genderWomen)}>Qadın</li>
+                    <li onClick={(e) => setProducts(genderMen)}>Kişi</li>
+                    <li onClick={(e) => setProducts(genderWomen)}>Qadın</li>
                   </ul>
                 </div>
               </div>
@@ -257,7 +265,12 @@ setProducts(newArr);
                   <i ref={priceTitleIcon} class="fa-solid fa-chevron-down"></i>
                 </div>
                 <div ref={pricesRef} className="prices">
-                  <input  onChange={(e)=>searchPrice(e)} value={searchInputPrice} type="text" placeholder="$ 0" />
+                  <input
+                    onChange={(e) => searchPrice(e)}
+                    value={searchInputPrice}
+                    type="text"
+                    placeholder="$ 0"
+                  />
                   <input type="text" placeholder="$ 200" />
                 </div>
               </div>

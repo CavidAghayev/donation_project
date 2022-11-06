@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function SelectPartner({partner}) {
+function SelectPartner({ partner }) {
   return (
-    <div className='partner'>
-<img src={partner.image} alt="" />
-        </div>
-  )
+    <div className="partner">
+      <img src={partner.image} alt="" />
+    </div>
+  );
 }
 
-export default SelectPartner
+export default SelectPartner;

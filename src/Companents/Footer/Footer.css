@@ -6,12 +6,15 @@
     text-decoration: none;
     outline: none;
 }
+
 section {
     margin-top: 100px;
 }
-.container{
+
+.container {
     padding: 0 80px;
-}   
+}
+
 :root {
     --button-text-color: #25408f;
     --button-color: #25408f;
@@ -20,27 +23,30 @@ section {
     --font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     --box-background: #f1f1f1;
     --straight--line-color: #25408f;
-  }
-  h5{
+}
+
+h5 {
     color: white;
     font-family: var(--font-family);
     letter-spacing: 1px;
     color: white;
     margin-bottom: 10px;
-  }
+}
+
 footer {
     width: 100%;
     height: calc(100vh - 100px);
     background-image: url("https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;     
+    background-size: cover;
     position: relative;
     z-index: 0;
     display: flex;
     align-items: center;
 }
-.footer-bottom{
+
+.footer-bottom {
     width: 100%;
     height: 70px;
     background-color: lightgrey;
@@ -54,21 +60,23 @@ footer {
     font-weight: bold;
     font-size: 12px;
 }
-.footer-bottom span{
+
+.footer-bottom span {
     font-family: var(--font-family);
     font-weight: 600;
-    font-size: 12px; 
+    font-size: 12px;
     color: var(--text-color);
     letter-spacing: 1px;
 }
-.footer-overlay{
+
+.footer-overlay {
     width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.8);
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -2;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -2;
 
 }
 
@@ -78,32 +86,38 @@ footer {
     justify-content: space-between;
     z-index: 9;
 }
+
 .footer-logo {
     display: flex;
     cursor: pointer;
     margin-top: 10px;
-  }
-.footer-logo .logo{
+}
+
+.footer-logo .logo {
     display: flex;
 }
-.footer-logo .logo i{
+
+.footer-logo .logo i {
     font-size: 35px;
     color: green;
-  }
-  
-  .fund-name{
+}
+
+.fund-name {
     margin-left: 10px;
     display: flex;
     margin-top: 5px;
-  }
-  .fund-name h3{
+}
+
+.fund-name h3 {
     color: white;
-  }
-  .footer-news-bullent label{
+}
+
+.footer-news-bullent label {
     font-family: var(--font-family);
     color: white;
     letter-spacing: 1px;
-  }
+}
+
 .footer-news-bullent input {
     width: 350px;
     height: 50px;
@@ -131,8 +145,8 @@ footer {
 }
 
 .footer-news-bullent button:hover {
-background: none;
-border: 1px solid white;
+    background: none;
+    border: 1px solid white;
 }
 
 .footer-contact .contact-us span {
@@ -156,16 +170,19 @@ border: 1px solid white;
     color: lightgray;
     font-size: 14px;
 }
+
 .footer-contact .follow-us a {
     color: white;
     margin-right: 20px;
     font-size: 30px;
     cursor: pointer;
 }
-.footer-resource .content{
+
+.footer-resource .content {
     display: flex;
     flex-direction: column;
 }
+
 .footer-resource .content a {
     color: white;
     font-family: var(--font-family);
@@ -175,48 +192,55 @@ border: 1px solid white;
     margin-top: 20px;
     cursor: pointer;
 }
+
 @media screen and (max-width: 767px) {
-    footer{
+    footer {
         height: 500px;
     }
-    .container{
+
+    .container {
         padding: 0 30px;
     }
-    .footer-content{
+
+    .footer-content {
         flex-wrap: wrap;
     }
-    .footer-news-bullent{
+
+    .footer-news-bullent {
         display: none;
     }
-    .footer-logo{
+
+    .footer-logo {
         width: 100%;
     }
 }
+
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-    footer{
+    footer {
         height: 500px;
     }
-    .container{
+
+    .container {
         padding: 0 30px;
     }
-    .footer-news-bullent{
+
+    .footer-news-bullent {
         display: none;
     }
-    .footer-logo{
-    }
-    .footer-contact{
 
-    }
-    .footer-resource{
+    .footer-logo {}
 
-    }
+    .footer-contact {}
+
+    .footer-resource {}
 }
 
 @media screen and (min-width: 1023px) and (max-width: 1400px) {
-    footer{
+    footer {
         height: 500px;
     }
-    .container{
+
+    .container {
         padding: 0 30px;
     }
 }

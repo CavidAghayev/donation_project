@@ -18,7 +18,7 @@ export const servicesApi = createApi({
         url: "/products",
       }),
     }),
-    getProductDetails: builder.query({  
+    getProductDetails: builder.query({
       query: (id) => ({
         url: `/products/${id}`,
       }),

@@ -1,10 +1,13 @@
 import React from "react";
-import { useNavigate } from 'react-router-dom'
- function CommonProjects({ project }) {
+import { useNavigate } from "react-router-dom";
+function CommonProjects({ project }) {
   const navigate = useNavigate();
   return (
     <div data-aos="fade-up" className="project">
-      <div onClick={() => navigate(`/commonprojectdetails/${project.id}`)} className="project__active">
+      <div
+        onClick={() => navigate(`/commonprojectdetails/${project.id}`)}
+        className="project__active"
+      >
         <div className="project__active__icon"></div>
         <div className="project__active__text">
           <a href="">Aktiv</a>
