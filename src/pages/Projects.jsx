@@ -63,6 +63,8 @@ function Projects() {
             </p>
           </div>
         </div>
+        
+        
         <div className="donation__pay">
           <h1>İANƏ ET</h1>
           <p>

@@ -1,6 +1,6 @@
 import "./App.css";
 import Header from "./Companents/Header/Header";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import {  BrowserRouter as Router , Routes, Route } from "react-router-dom";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Donate from "./pages/Shop";
@@ -24,8 +24,9 @@ import Pay from "./Companents/AddToBasket/Pay";
 function App() {
   return (
     <>
-      <Router>
-        <Header />
+  
+      <Router basename={process.env.PUBLIC_URL}>
+      <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -59,6 +60,7 @@ function App() {
         <ContactUs />
         <Footer />
       </Router>
+  
     </>
   );
 }

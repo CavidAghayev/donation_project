@@ -64,7 +64,6 @@ function Shop() {
     products && products.filter((item) => item.size[2] === "40");
   const sizeShoes41 =
     products && products.filter((item) => item.size[3] === "41");
-
   const genderMen =
     products && products.filter((item) => item.gender === "men");
   const genderWomen =
@@ -287,6 +286,12 @@ function Shop() {
               ))}
           </div>
         </div>
+      </div>
+      <div className="shop-pagination">
+        <div className="shop-pagination__number-one">1</div>
+        <div className="shop-pagination__number-two">2</div>
+        <div className="shop-pagination__number-three">3</div>
+        <div className="shop-pagination__number-four">4</div>
       </div>
     </section>
   );
