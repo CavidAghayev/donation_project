@@ -120,11 +120,11 @@ function Shop() {
    
  data.map((item,index){
 
-if(item.category===category){
+// if(item.category===category){
 
 
 
-}
+// }
 
 
 
