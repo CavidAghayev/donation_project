@@ -28,6 +28,8 @@ function Shop() {
   };
   const [products, setProducts] = useState(null);
   const [data, setData] = useState(null);
+  const [dataOther, setDataOther] = useState(null);
+  const [showSize, setShowSize] = useState(false);
   const [searchInput, setSearchInput] = useState("");
   const [searchInputPrice, setSearchInputPrice] = useState("");
 
@@ -52,26 +54,30 @@ function Shop() {
     data && data.filter((item) => item.category === "jacket");
 
   const sizeS =
-   data && data.filter((item) => item.size[0] === "s");
+  products && products.filter((item) => item.size[0] === "s");
   const sizeM =
-  data && data.filter((item) => item.size[1] === "m");
+  products && products.filter((item) => item.size[1] === "m");
   const sizeL =
-  data && data.filter((item) => item.size[2] === "l");
+  products && products.filter((item) => item.size[2] === "l");
   const sizeXL =
-  data && data.filter((item) => item.size[3] === "xl");
+  products && products.filter((item) => item.size[3] === "xl");
 
   const sizeShoes38 =
-    data && data.filter((item) => item.size[0] === "38");
+  products && products.filter((item) => item.size[0] === "38");
   const sizeShoes39 =
-  data && data.filter((item) => item.size[1] === "39");
+  products && products.filter((item) => item.size[1] === "39");
   const sizeShoes40 =
-  data && data.filter((item) => item.size[2] === "40");
+  products && products.filter((item) => item.size[2] === "40");
   const sizeShoes41 =
-  data && data.filter((item) => item.size[3] === "41");
+  products && products.filter((item) => item.size[3] === "41");
+  console.log(sizeShoes38)
+  console.log(sizeShoes39)
+  console.log(sizeShoes40)
+  console.log(sizeShoes41)
   const genderMen =
-    data && data.filter((item) => item.gender === "men");
+  products && products.filter((item) => item.gender === "men");
   const genderWomen =
-    data && data.filter((item) => item.gender === "women");
+  products && products.filter((item) => item.gender === "women");
     console.log(genderMen)
     console.log(genderWomen)
 
@@ -109,6 +115,24 @@ function Shop() {
     setProducts(newArr);
   };
 
+  const filterSizeProduct =(category,size)=>{
+
+   
+ data.map((item,index){
+
+if(item.category===category){
+
+
+
+}
+
+
+
+ })
+
+
+  }
+
   return (
     <section>
       <div data-aos="fade-up" className="shop-page-image">
@@ -126,6 +150,9 @@ function Shop() {
               <li
                 onClick={(e) => {
                   setProducts(categoryAllProducts);
+                  setShowSize(false)
+                  setDataOther(categoryAllProducts)
+
                 }}
               >
                 HAMISI
@@ -133,6 +160,10 @@ function Shop() {
               <li
                 onClick={(e) => {
                   setProducts(categoryScarves);
+                  setShowSize(false)
+                  setDataOther(categoryScarves)
+
+
                 }}
               >
                 ŞƏRFLƏR
@@ -140,6 +171,10 @@ function Shop() {
               <li
                 onClick={(e) => {
                   setProducts(categoryShoes);
+                  setShowSize(true)
+                  setDataOther(categoryShoes)
+
+
                 }}
               >
                 AYAQQABILAR
@@ -147,6 +182,9 @@ function Shop() {
               <li
                 onClick={(e) => {
                   setProducts(categoryShorts);
+                  setShowSize(false)
+                  setDataOther(categoryShorts)
+
                 }}
               >
                 ŞORTLAR
@@ -154,6 +192,10 @@ function Shop() {
               <li
                 onClick={(e) => {
                   setProducts(categoryJackets);
+                  setShowSize(false)
+                  setDataOther(categoryJackets)
+
+
                 }}
               >
                 GÖDƏKCƏLƏR
@@ -220,7 +262,8 @@ function Shop() {
                     >
                       xl
                     </li>
-                    <li
+{showSize?(<>
+   <li
                       onClick={(e) => {
                         setProducts(sizeShoes38);
                       }}
@@ -248,6 +291,12 @@ function Shop() {
                     >
                       41
                     </li>
+                    </>
+
+):null}
+
+
+                 
                   </ul>
                 </div>
               </div>
