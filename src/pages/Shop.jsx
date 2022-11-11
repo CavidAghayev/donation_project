@@ -80,15 +80,11 @@ function Shop() {
     let newArr = [];
     products &&
       products.map((item) => {
-
+        
         if (val === "") {
           newArr = [...data];
-        } 
-        let i;
-        for(i=0;i<item.price;i++){
-          if (item.price.toString().indexOf(val) !== -1) {
-            newArr.push(item);
-          }
+        } else if (item.price.toString().indexOf(val) !== -1) {
+          newArr.push(item);
         }
       });
     setProducts(newArr);
