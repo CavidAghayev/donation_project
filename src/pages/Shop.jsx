@@ -51,27 +51,29 @@ function Shop() {
   const categoryJackets =
     data && data.filter((item) => item.category === "jacket");
 
-  const sizeS = products && products.filter((item) => item.size[0] === "s");
-  const sizeM = products && products.filter((item) => item.size[1] === "m");
-  const sizeL = products && products.filter((item) => item.size[2] === "l");
-  const sizeXL = products && products.filter((item) => item.size[3] === "xl");
-  console.log(sizeS)
-  console.log(sizeM)
-  console.log(sizeL)
-  console.log(sizeXL)
+  const sizeS =
+   data && data.filter((item) => item.size[0] === "s");
+  const sizeM =
+  data && data.filter((item) => item.size[1] === "m");
+  const sizeL =
+  data && data.filter((item) => item.size[2] === "l");
+  const sizeXL =
+  data && data.filter((item) => item.size[3] === "xl");
 
   const sizeShoes38 =
-    products && products.filter((item) => item.size[0] === "38");
+    data && data.filter((item) => item.size[0] === "38");
   const sizeShoes39 =
-    products && products.filter((item) => item.size[1] === "39");
+  data && data.filter((item) => item.size[1] === "39");
   const sizeShoes40 =
-    products && products.filter((item) => item.size[2] === "40");
+  data && data.filter((item) => item.size[2] === "40");
   const sizeShoes41 =
-    products && products.filter((item) => item.size[3] === "41");
+  data && data.filter((item) => item.size[3] === "41");
   const genderMen =
-    products && products.filter((item) => item.gender === "men");
+    data && data.filter((item) => item.gender === "men");
   const genderWomen =
-    products && products.filter((item) => item.gender === "women");
+    data && data.filter((item) => item.gender === "women");
+    console.log(genderMen)
+    console.log(genderWomen)
 
   const searchPrice = (e) => {
     let val = e.target.value;
@@ -80,7 +82,6 @@ function Shop() {
     let newArr = [];
     products &&
       products.map((item) => {
-        
         if (val === "") {
           newArr = [...data];
         } else if (item.price.toString().indexOf(val) !== -1) {
@@ -89,7 +90,6 @@ function Shop() {
       });
     setProducts(newArr);
   };
-let i;
   const searchData = (e) => {
     let val = e.target.value;
 
