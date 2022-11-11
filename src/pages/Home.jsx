@@ -8,9 +8,12 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay, EffectCube } from "swiper";
 import "swiper/css/effect-cube";
 import { useState } from "react";
-
+import { useLocation } from 'react-router-dom'
 function Home() {
-
+  const { pathname } = useLocation();
+  React.useEffect(()=>{
+    window.scrollTo(0,0);
+  },[pathname])
   const navigate = useNavigate();
   const [donateProjects, setDonateProjects] = useState(null);
   React.useEffect(() => {
@@ -31,7 +34,7 @@ function Home() {
       <div data-aos="fade-up" className="home-video">
         <div className="home-video--overlay"></div>
         <video
-          id="home-video"
+          id="home-video"                                                                                                                                            
           muted="false"
           loop="true"
           autoplay="true"

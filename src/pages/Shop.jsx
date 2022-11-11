@@ -55,6 +55,10 @@ function Shop() {
   const sizeM = products && products.filter((item) => item.size[1] === "m");
   const sizeL = products && products.filter((item) => item.size[2] === "l");
   const sizeXL = products && products.filter((item) => item.size[3] === "xl");
+  console.log(sizeS)
+  console.log(sizeM)
+  console.log(sizeL)
+  console.log(sizeXL)
 
   const sizeShoes38 =
     products && products.filter((item) => item.size[0] === "38");
@@ -76,15 +80,20 @@ function Shop() {
     let newArr = [];
     products &&
       products.map((item) => {
+
         if (val === "") {
           newArr = [...data];
-        } else if (item.price.toString().indexOf(val) !== -1) {
-          newArr.push(item);
+        } 
+        let i;
+        for(i=0;i<item.price;i++){
+          if (item.price.toString().indexOf(val) !== -1) {
+            newArr.push(item);
+          }
         }
       });
     setProducts(newArr);
   };
-
+let i;
   const searchData = (e) => {
     let val = e.target.value;
 
@@ -270,7 +279,7 @@ function Shop() {
                     type="text"
                     placeholder="$ 0"
                   />
-                  <input type="text" placeholder="$ 200" />
+                  {/* <input type="text" placeholder="$ 200" /> */}
                 </div>
               </div>
             </div>
