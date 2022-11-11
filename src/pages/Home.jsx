@@ -8,12 +8,9 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay, EffectCube } from "swiper";
 import "swiper/css/effect-cube";
 import { useState } from "react";
-import Aos from "aos";
-import "aos/dist/aos.css";
+
 function Home() {
-  React.useEffect(function () {
-    Aos.init({ duration: 1000 });
-  }, []);
+
   const navigate = useNavigate();
   const [donateProjects, setDonateProjects] = useState(null);
   React.useEffect(() => {

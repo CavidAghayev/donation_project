@@ -21,7 +21,13 @@ import DisasterResponse from "./Companents/DisasterResponse/DisasterResponse";
 import StoryDetails from "./Companents/OurStories/StoryDetails";
 import ProductDetails from "./Companents/Product/ProductDetails";
 import Pay from "./Companents/AddToBasket/Pay";
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from 'react'
 function App() {
+useEffect(function () {
+    Aos.init({ duration: 1000 });
+  }, []);
   return (
     <>
   
