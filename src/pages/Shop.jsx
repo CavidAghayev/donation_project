@@ -118,7 +118,7 @@ function Shop() {
   const filterSizeProduct =(category,size)=>{
 
    
- data.map((item,index){
+//  data.map((item,index){
 
 // if(item.category===category){
 
@@ -128,7 +128,7 @@ function Shop() {
 
 
 
- })
+//  })
 
 
   }
