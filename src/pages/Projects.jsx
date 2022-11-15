@@ -43,6 +43,12 @@ function Projects() {
             ))}
         </div>
       </div>
+      <div className="projects-pagination">
+        <div className="projects-pagination__number-one">1</div>
+        <div className="projects-pagination__number-two">2</div>
+        <div className="projects-pagination__number-three">3</div>
+        <div className="projects-pagination__number-four">4</div>
+      </div>
       <div data-aos="fade-up" className="donation-content">
         <div className="donation-content__about">
           <div className="donation-content__image">

@@ -70,16 +70,10 @@ function Shop() {
   products && products.filter((item) => item.size[2] === "40");
   const sizeShoes41 =
   products && products.filter((item) => item.size[3] === "41");
-  console.log(sizeShoes38)
-  console.log(sizeShoes39)
-  console.log(sizeShoes40)
-  console.log(sizeShoes41)
   const genderMen =
   products && products.filter((item) => item.gender === "men");
   const genderWomen =
   products && products.filter((item) => item.gender === "women");
-    console.log(genderMen)
-    console.log(genderWomen)
 
   const searchPrice = (e) => {
     let val = e.target.value;

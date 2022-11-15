@@ -32,7 +32,7 @@ function Product({ product }) {
       </div>
       <div className="product__items">
         <h3>{product.name}</h3>
-        <h5>${product.price}.00</h5>
+        <h5>{`$${product.price}${".00"}`}</h5>
         <div className="product__items-buttons">
           <button
             onClick={() => decreaseItem(product.id)}

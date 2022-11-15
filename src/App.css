@@ -1843,7 +1843,7 @@
   }
 
   .sizes.sizesDown {
-    height: 550px;
+    height: 570px;
   }
 
   .sizes ul li {
@@ -2502,7 +2502,54 @@
   .story-details__third__text h3 {
     font-weight: 600;
   }
-
+  .projects-pagination{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .projects-pagination__number-one{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(211, 211, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: var(--font-family);
+  }
+  .projects-pagination__number-two{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(211, 211, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: var(--font-family);
+  }
+  .projects-pagination__number-three{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(211, 211, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: var(--font-family);
+  }
+  .projects-pagination__number-four{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(211, 211, 211);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-family: var(--font-family);
+  }
   .contact {
     width: 100%;
   }
@@ -2729,7 +2776,7 @@
   }
 
   .donation__pay button {
-    width: 100%;
+    width: 120px;
     height: 40px;
   }
 
@@ -2740,7 +2787,7 @@
   }
 
   .donation__pay .cardname {
-    width: 50%;
+    width: 100%;
     height: 40px;
     padding-left: 10px;
   }
