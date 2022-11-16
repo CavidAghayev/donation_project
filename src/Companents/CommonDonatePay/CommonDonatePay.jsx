@@ -1,8 +1,34 @@
 import React from 'react'
-import { useForm } from 'react-hook-form'
+import { useState } from 'react'
+import { handleValidate } from '../../utils/index'
+
 function CommonDonatePay() {
-  const { register, handleSubmit, error } = useForm();
-     const onSubmit = () => {}
+    const [user,setUser] = useState({
+        amount: "",
+        name: "",
+        surname: "",
+        email: "",
+        cardNumber: "",
+        cardOwnName: "",
+        year: "",
+        cvv: ""
+      })
+
+      const [errors, setErrors] = useState({});
+console.log(errors)
+      const onSubmit = ({isError,errors,data}) => {
+        setErrors({})
+        if(isError){
+          setErrors(errors)
+          return;
+        }
+        console.log('backende gonderilir...')
+       
+      }
+      const changeInput = ({ target: { name, value } }) => {
+        setUser(prev => ({...prev, [name] : value }))
+      }
+      
   return (
     <section>
     <div data-aos="fade-up" className="donation-content">
@@ -32,51 +58,52 @@ function CommonDonatePay() {
           yaşayan insanların ehtiyaclarının da qarşılanması üçün <br />
           istifadə edə və ianə-i edə bilərsiniz.
         </p>
-        <form action="">
-          <label htmlFor="text">İanə Məbləği *</label>
-          <input type="text" va />
-          
-
+        <form onSubmit={e => handleValidate(e, onSubmit)} action="" noValidate>
+          <label htmlFor="amount">İanə Məbləği *</label>
+          <input onChange={changeInput} type="text" name="amount" id='amount' value={user.amount} required/>
+          {errors.amount && <p>{errors.amount}</p>}
           <label htmlFor="name">Ad *</label>
-          <input type="text"  id="name" />
-
-
+          <input onChange={changeInput} type="text" name="name" id="name" value={user.name} pattern="[A-Za-z]+" />
+          {errors.name && <p>{errors.name}</p>}
           <label htmlFor="surname">Soyad *</label>
-          <input type="text" id="surname" />
-
-
+          <input onChange={changeInput} type="text" name="surname" id="surname" value={user.surname} />
           <label htmlFor="email">E-mail *</label>
-          <input type="text" name="email" id="email" v/>
-
-          
+          <input onChange={changeInput} type="text" name="email" id="email" value={user.email}/>
           <label htmlFor="nameofcardholder">Kart Sahibinin Adı *</label>
-          <input
+          <input onChange={changeInput}
             className="cardname"
-            type="text"
+            type="number"
+            name="cardOwnName"
             id="nameofcardholder"
+            value={user.cardOwnName}
           />
 
           <label htmlFor="cardnumber">Kart Nömrəsi *</label>
-          <input
+          <input onChange={changeInput}
             className="cardnumber"
-            type="number"
+            type="text"
+            name="cardNumber"cardOwnName
             id="cardnumber"
+                 value={user.cardNumber}
             placeholder="0000 0000 0000 0000"
           />
           <br />
-          <input
+          <input onChange={changeInput}
             className="time"
             type="text"
             name="year"
-            placeholder="mm/yy"
+            placeholder="MM/YY"
+              value={user.year}
           />
-          <input
+          <input onChange={changeInput}
             className="cvv"
             type="text"
-            placeholder="cvv"
+            name="cvv"
+            placeholder="CVV2"
+                 value={user.cvv}
           />
+          <button type='submit'>Ödə</button>
         </form>
-        <button type='submit'>Ödə</button>
       </div>
     </div>
   </section>
