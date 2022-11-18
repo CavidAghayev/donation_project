@@ -2715,6 +2715,7 @@
     justify-content: center;
     align-items: center;
     transform: scale(0);
+    transition-duration: 0.5s;
   }
   .validate-modal.validateModalShow{
    transform: scale(1);
@@ -2836,6 +2837,7 @@ text-align: center;
   .donation__pay button {
     width: 120px;
     height: 40px;
+    margin-top: 20px;
   }
 
   .donation__pay button:hover {
@@ -3165,6 +3167,697 @@ text-align: center;
     width: 100px;
     height: 100px;
   }
+
+
+  @media screen and (min-width: 267px) and (max-width: 479px) {
+    header {
+      padding: 0 20px;
+    }
+
+    .header-content {
+      justify-content: space-between;
+    }
+
+    .header-menu {
+      display: none;
+    }
+
+    .header-menu--icon {
+      display: block;
+      margin-left: 10px;
+    }
+
+    .menu-list {
+      display: block;
+    }
+
+    .home-video {
+      width: 100%;  
+      height: 70vh;
+      flex-direction: column;
+      padding: 30px 50px;
+    }
+
+    .wave {
+      display: none;
+    }
+
+    .home-video__contact-icons ul {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+    }
+
+    .home-video__contact-icons ul li {
+      width: 40px;
+      height: 40px;
+      margin-right: 10px;
+    }
+
+    .home-video__contact-icons ul li a i {
+      font-size: 14px;
+    }
+
+    .home-video__text h1 {
+      font-size: 24px;
+    }
+
+    .about-content {
+      flex-direction: column;
+      padding: 0;
+    }
+
+    .about-content__items {
+      width: 100%;
+      text-align: center;
+    }
+
+    .about-content__items span {
+      font-size: 40px;
+      transform: translateY(30px);
+    }
+
+    .about-content__items h1 {
+      font-size: 30px;
+    }
+
+    .donation-board {
+      height: 400px;
+      margin-top: 20px;
+    }
+
+    .donation-board__content h1 {
+      text-align: center;
+      font-size: 20px;
+    }
+
+    .aid-countries {
+      min-height: 100vh;
+      justify-content: flex-start;
+      align-items: center;
+      padding: 40px 0;
+    }
+
+    .aid-countries__text {
+      width: 100%;
+      text-align: center;
+    }
+
+    .donate-project {
+      width: 50%;
+    }
+
+    .project-details__items {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 0;
+    }
+
+    .project-details__items__item-1 {
+      width: 100%;
+    }
+
+
+    .project-details__donate {
+      width: 100%;
+    }
+
+    .project-details__amount {
+      margin: 20px auto;
+    }
+
+    .home-partners {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .home-partners__basics {
+      flex-wrap: wrap;
+      margin-top: 0;
+    }
+
+    .base-partner-box {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition-duration: 0.5s;
+      filter: grayscale(100);
+      margin: 30px 0;
+    }
+
+
+    .base-partner-box:hover {
+      transform: scale(1.5);
+      transition-duration: 0.5s;
+      filter: grayscale(0);
+    }
+
+    .base-partner-box img {
+      width: 50%;
+    }
+
+    .bullent {
+      height: 300px;
+    }
+
+    .bullent h3 {
+      font-size: 24px;
+    }
+
+    .bullent__content input {
+      width: 300px;
+      height: 50px;
+      margin-bottom: 20px;
+    }
+
+    .bullent__content .btn {
+      height: 50px;
+      margin: 0 auto;
+    }
+
+    .about-page-back-image {
+      height: 300px;
+    }
+
+    .about-page-back-image__overlay h1 {
+      font-size: 20px;
+    }
+
+    .about-statistics {
+      width: 100%;
+      height: 300px;
+    }
+
+    .about-statistics__numbers h5 {
+      margin: 10px 0;
+    }
+
+    .about-statistics__numbers span {
+      font-size: 20px;
+    }
+
+    .about-easy-donations {
+      width: 100%;
+      min-height: 240px;
+      padding: 40px 10px;
+    }
+
+
+    .about-apply {
+      min-height: 700px;
+      padding: 0 0;
+    }
+
+    .about-apply__image {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      position: relative;
+      align-items: center;
+    }
+
+    .about-apply__image img {
+      display: none;
+    }
+
+    .about-apply__join-us {
+      width: 100%;
+      height: 400px;
+      background: rgb(178, 187, 30);
+      position: absolute;
+      bottom: -200px;
+      left: 0;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    .about-apply__images {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .about-apply__images img {
+      width: 100%;
+      height: 400px;
+    }
+
+    .about-apply-page {
+      width: 100%;
+      background: no-repeat;
+      background-image: url("https://www.globalgiving.org/img/banners/PhotoPatternThin_lg");
+      background-size: contain;
+      height: 100px;
+      background-position: center;
+      margin: 0;
+    }
+
+
+    .about-subcribe-page {
+      background: none;
+      padding: 0;
+    }
+
+    .about-subcribe-page__form__text {
+      text-align: center;
+    }
+
+
+
+    .corporate-partnerships {
+      padding: 40px 0;
+    }
+
+    .corporative-partnership-companies {
+      height: 30vh;
+    }
+
+    .corporative-partnership-companies__overlay__after {
+      height: 50px;
+    }
+
+    .select-partners {
+      width: 100%;
+      padding: 50px 0;
+      text-align: center;
+    }
+
+    .select-partners__content {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin-top: 40px;
+    }
+
+    .partner {
+      width: 50%;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .partner img {
+      width: 30%;
+    }
+
+    .send-message {
+      width: 100%;
+      padding: 20px 0;
+    }
+
+    .disaster-response {
+      width: 100%;
+      height: 500px;
+      background-image: url("https://www.globalgiving.org/img/aboutus/About_overview_disaster_1500w.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-image: none;
+    }
+
+    .disaster-response__content {
+      width: 100%;
+      height: 100%;
+      transform: translateX(0px);
+    }
+
+    .disaster-response-details {
+      width: 100%;
+      min-height: 400px;
+      background-image: url("https://www.globalgiving.org/img/disasters/landing/DRN_hero_1500.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+    }
+
+    .disaster-response__details-image h1 {
+      font-size: 20px;
+    }
+
+    .projects-page {
+      height: 300px;
+    }
+
+    .projects-page__overlay h1 {
+      font-size: 20px;
+    }
+
+    .projects-page__overview {
+      padding: 20px;
+      text-align: center;
+    }
+
+
+    .projects-page__overview__topics {
+      display: none;
+    }
+
+    .projects {
+      width: 100%;
+      padding: 0;
+    }
+
+    .projects__content {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+
+    .project {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .project__active {
+      margin-left: 10px;
+    }
+
+    .project-details-image {
+      width: 100%;
+      height: 300px;
+      position: relative;
+    }
+
+    .project-details-image__overlay {
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      position: absolute;
+      top: 0;
+      left: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .project-details-image__title {
+      width: 100%;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      position: none;
+    }
+
+    .project-details-image__title h1 {
+      font-size: 18px;
+    }
+
+    .project-details-image__title h1::after {
+      display: none;
+    }
+
+    .project__details__content {
+      padding: 20px 40px;
+      flex-wrap: wrap;
+    }
+
+    .overview {
+      width: 100%;
+    }
+
+    .overview-content {
+      text-align: center;
+    }
+
+    .overview-content h5 {
+      color: var(--title-color);
+      font-weight: bold;
+    }
+
+
+
+
+    .introduction {
+      width: 100%;
+      text-align: center;
+    }
+
+    .introduction h5::after {
+      display: none;
+    }
+
+
+    .introduction iframe {
+      height: 300px;
+    }
+
+    .our-impact-image {
+      display: none;
+    }
+
+
+
+    .shop-page-image {
+      width: 100%;
+      height: 300px;
+      background-image: url("https://images.unsplash.com/photo-1509099896299-af46ad97ff57?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: relative;
+    }
+
+    .shop-page-image__overlay h1 {
+      font-size: 20px;
+    }
+
+    .shop-search {
+      flex-wrap: wrap;
+    }
+
+    .shop-search .products-category ul {
+      width: 100%;
+    }
+
+    .shop-search .products-category ul li {
+      margin-right: 20px;
+    }
+
+    .shop-search form {
+      width: 100%;
+    }
+
+    .shop-search form i {
+      transform: translateX(-30px);
+      color: var(--text-color);
+    }
+
+    .shop-search form input::placeholder {
+      font-family: var(--font-family);
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+
+    .shop-market {
+      width: 100%;
+      min-height: 100vh;
+      padding: 10px;
+    }
+
+    .shop-market-items {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      cursor: pointer;
+    }
+
+
+    .shop-market-items .market-filter {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      position: sticky;
+      top: 200px;
+      left: 0;
+    }
+
+    .shop-market-items .market-filter.none {
+      display: none;
+    }
+
+    .products {
+      width: 60%;
+      flex-wrap: wrap;
+    }
+
+    .product {
+      width: 100%;
+    }
+
+    .news-page-image {
+      height: 300px;
+    }
+
+    .news-page-image__overlay h1 {
+      font-size: 20px;
+    }
+
+
+
+
+    .our-stories {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .story:last-child {
+      border-bottom: none;
+    }
+
+    .story {
+      flex-direction: column-reverse;
+    }
+
+    .story__text {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+
+    .story__image {
+      width: 100%;
+    }
+
+    .story__image img {
+      width: 100%;
+    }
+
+    .story-details {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .story-details__first {
+      text-align: center;
+    }
+
+    .story-details__first h1 {
+      font-size: 20px;
+    }
+
+    .story-details__twice {
+      flex-direction: column;
+    }
+
+    .story-details__twice__text {
+      width: 100%;
+      justify-content: center;
+      text-align: center;
+    }
+
+
+    .story-details__twice__image {
+      width: 100%;
+    }
+
+    .story-details__third {
+      flex-direction: column-reverse;
+    }
+
+    .story-details__third__image {
+      width: 100%;
+    }
+
+    .story-details__third__text {
+      width: 100%;
+    }
+
+    .contact__title {
+      width: 100%;
+      padding: 10px 20px;
+      text-align: center;
+    }
+
+    .contact__title h3 {
+      padding: 0;
+    }
+
+    .contact__map iframe {
+      height: 300px;
+    }
+
+    .contact__items {
+      padding: 30px 0;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .contact__form {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+
+    .contact__form__inputs {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .contact__form__inputs input {
+      width: 80%;
+    }
+
+    .contact__form__inputs__title h4 {
+      font-family: var(--font-family);
+      color: var(--text-color);
+    }
+
+    .contact__form__inputs textarea {
+      width: 80%;
+    }
+
+    .contact-content {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .donation-page-image {
+      height: 300px;
+    }
+
+    .donation-page-image__overlay h1 {
+      font-size: 20px;
+    }
+
+    .donation-content {
+      flex-direction: column;
+    }
+
+    .donation-content__about {
+      width: 100%;
+    }
+
+    .donation__pay {
+      width: 100%;
+    }
+    }
 
   @media screen and (min-width: 480px) and (max-width: 767px) {
     header {
