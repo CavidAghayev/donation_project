@@ -109,7 +109,7 @@ function Shop() {
     setProducts(newArr);
   };
 
-  const filterSizeProduct =(category,size)=>{
+  // const filterSizeProduct =(category,size)=>{
 
    
 //  data.map((item,index){
@@ -125,7 +125,7 @@ function Shop() {
 //  })
 
 
-  }
+  // }
 
   return (
     <section>

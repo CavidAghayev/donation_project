@@ -1,7 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { servicesApi } from "../../Service/apiService";
-import cartSlice from "../../Service/cartSlice";
 function Pay() {
   let { id } = useParams();
   const { data } = servicesApi.useGetProductDetailsQuery(id);

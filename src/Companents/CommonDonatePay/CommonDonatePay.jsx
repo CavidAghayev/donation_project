@@ -1,8 +1,29 @@
 import React from 'react'
-import { useState } from 'react'
-import { handleValidate } from '../../utils/index'
+import { useState, useRef } from 'react'
+// import { handleValidate } from '../../utils/index'
+function handleValidate(event, callback){
+  event.preventDefault();
+  event.stopPropagation();
+  const inputs =  event.target.querySelectorAll("[name]")
+  const errors = {}
+  const data = {}
+
+  for(let input of inputs){
+    const isValid = input.checkValidity()
+    data[input.name] = input.value
+    if(!isValid){
+      errors[input.name] = input.validationMessage
+    }
+  }
+
+  callback({ errors, data, isError: Object.keys(errors).length > 0 })
+
+}
+
+
 
 function CommonDonatePay() {
+
     const [user,setUser] = useState({
         amount: "",
         name: "",
@@ -10,29 +31,84 @@ function CommonDonatePay() {
         email: "",
         cardNumber: "",
         cardOwnName: "",
-        year: "",
+        date: "",
         cvv: ""
       })
 
+
       const [errors, setErrors] = useState({});
 console.log(errors)
+const validateRef = useRef();
       const onSubmit = ({isError,errors,data}) => {
         setErrors({})
         if(isError){
           setErrors(errors)
           return;
         }
-        console.log('backende gonderilir...')
-       
+        console.log('send to the backend...')
+        validateRef.current.classList.add("validateModalShow")
       }
       const changeInput = ({ target: { name, value } }) => {
         setUser(prev => ({...prev, [name] : value }))
       }
+
+      const changeInputName = (e) => {
+        let val = e.target.value
+        setUser(prev => ({...prev, [e.target.name] : val}))
+      val = val.charAt(0).toUpperCase() + val.slice(1).toLowerCase();
+
+      }
+
+      const changeInputSurname = (e) => {
+        let val = e.target.value
+        setUser(prev => ({...prev, [e.target.name] : val}))
+      val = val.charAt(0).toUpperCase() + val.slice(1).toLowerCase(); 
+      }
+
+
+      const changeInputCardOwnName = (e) => {
+        let val = e.target.value
+        setUser(prev => ({...prev, [e.target.name] : val}))
+      val = val.charAt(0).toUpperCase() + val.slice(1).toLowerCase(); 
+      }
+
+      const changeInputCardNumber = (e) => {
+        let val = e.target.value
+        setUser(prev => ({...prev, [e.target.name] : val}))
+val = val.replace(/\D/g, '')
+      }
+
+      const changeInputDate = (e) => {
+        let val = e.target.value
+        setUser(prev => ({...prev, [e.target.name] : val}))
+val = val.replace(/\D/g, '')
+      }
       
+      const changeInputCvv = (e) => {
+        let val = e.target.value
+        setUser(prev => ({...prev, [e.target.name] : val}))
+val = val.replace(/\D/g, '')
+      }
+
+      
+console.log(user)
+
+
   return (
     <section>
+      <div ref={validateRef} className='validate-modal'>
+<div className="validate-modal__icon">
+<i class="fa-solid fa-check"></i>
+</div>
+<div className="validate-modal__text">
+  <h3>Təşəkkürlər!</h3>
+  <h5>Ödənişiniz uğurla təqdim <br /> edildi, Təşəkkürlər!</h5>
+  <div className='btn validate-btn'>Ok</div>
+</div>
+    </div>
     <div data-aos="fade-up" className="donation-content">
       <div className="donation-content__about">
+        {/* <input type="text" value={name}  onChange={(e)=>{setName(e.target.value)}} /> */}
         <div className="donation-content__image">
           <img
             src="https://ucarecdn.com/61879270-f970-423e-8f53-57c0d8ece6bd/-/resize/940x/-/format/auto/"
@@ -58,50 +134,64 @@ console.log(errors)
           yaşayan insanların ehtiyaclarının da qarşılanması üçün <br />
           istifadə edə və ianə-i edə bilərsiniz.
         </p>
-        <form onSubmit={e => handleValidate(e, onSubmit)} action="" noValidate>
+        <form className='form' onSubmit={e => handleValidate(e, onSubmit)} noValidate>
           <label htmlFor="amount">İanə Məbləği *</label>
-          <input onChange={changeInput} type="text" name="amount" id='amount' value={user.amount} required/>
-          {errors.amount && <p>{errors.amount}</p>}
+          <input onChange={changeInput}  name="amount" id='amount' value={user.amount} required={true} minLength={1} maxLength={7}/>
+          {errors.amount && <p style={{color: "red", fontSize: "12px",margin: "20px", lineHeight: "0px", position: "absolute"}}>Bu tələb olunur</p>}
           <label htmlFor="name">Ad *</label>
-          <input onChange={changeInput} type="text" name="name" id="name" value={user.name} pattern="[A-Za-z]+" />
-          {errors.name && <p>{errors.name}</p>}
+          <input onChange={(e) => changeInputName(e)} type="text" name="name" id="name" value={user.name} pattern="[A-Za-z]+" required={true} minLength={3} maxLength={11}/>
+          {errors.name && <p style={{color: "red", fontSize: "12px",  lineHeight: "0px", position: "absolute"}}>Bu tələb olunur</p>}
           <label htmlFor="surname">Soyad *</label>
-          <input onChange={changeInput} type="text" name="surname" id="surname" value={user.surname} />
+          <input onChange={changeInputSurname} type="text" name="surname" id="surname" value={user.surname} required={true} pattern="[A-Za-z]+" minLength={3} maxLength={11}/>
+          {errors.surname && <p style={{color: "red", fontSize: "12px", lineHeight: "0px", position: "absolute"}}>Bu tələb olunur</p>}
           <label htmlFor="email">E-mail *</label>
-          <input onChange={changeInput} type="text" name="email" id="email" value={user.email}/>
+          <input onChange={changeInput} type="text" name="email" id="email" value={user.email} required={true} />
+          {errors.email && <p  style={{color: "red", fontSize: "12px", lineHeight: "0px", position: "absolute"}}>Bu tələb olunur</p>}
           <label htmlFor="nameofcardholder">Kart Sahibinin Adı *</label>
-          <input onChange={changeInput}
+          <input onChange={changeInputCardOwnName}
             className="cardname"
-            type="number"
+            type="text"
             name="cardOwnName"
             id="nameofcardholder"
             value={user.cardOwnName}
+            required={true}
+            minLength={3}
+            maxLength={17}
           />
-
+          {errors.cardOwnName && <p style={{color: "red", fontSize: "12px", lineHeight: "0px", position: "absolute"}}>Bu tələb olunur</p>}
           <label htmlFor="cardnumber">Kart Nömrəsi *</label>
-          <input onChange={changeInput}
+          <input onChange={changeInputCardNumber}
             className="cardnumber"
-            type="text"
-            name="cardNumber"cardOwnName
+            name="cardNumber"
             id="cardnumber"
                  value={user.cardNumber}
-            placeholder="0000 0000 0000 0000"
+            placeholder="xxxx xxxx xxxx xxxx"
+            required={true}
+            minLength={19}
+            maxLength={19}
           />
           <br />
-          <input onChange={changeInput}
-            className="time"
-            type="text"
-            name="year"
-            placeholder="MM/YY"
-              value={user.year}
-          />
-          <input onChange={changeInput}
+          {errors.cardNumber && <p style={{color: "red", fontSize: "12px", lineHeight: "0px", position: "absolute"}}>Bu tələb olunur</p>}
+          <input onChange={changeInputDate}
+            className="date"
+            name="date"
+            placeholder="mm/yy"
+              value={user.date}
+              required={true}
+        minLength={5}
+        maxLength={5}
+          /> 
+          {errors.date && <p style={{color: "red", fontSize: "12px", lineHeight: "0px", position: "absolute"}}>Bu tələb olunur</p>}
+          <input onChange={changeInputCvv}
             className="cvv"
-            type="text"
             name="cvv"
-            placeholder="CVV2"
+            placeholder="cvv"
                  value={user.cvv}
+                 required={true}
+                minLength={3}
+      maxLength={3}
           />
+          {errors.cvv && <p style={{color: "red", fontSize: "12px", lineHeight: "0px", position: "absolute"}}>Bu tələb olunur</p>}
           <button type='submit'>Ödə</button>
         </form>
       </div>
