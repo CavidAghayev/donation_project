@@ -65,7 +65,7 @@ function Header() {
         </div>
         <div onClick={() => navigate("/addtobasket")} className="header-basket">
           <i className="fa-solid fa-basket-shopping"></i>
-          {}
+          {/* {} */}
         </div>
       </div>
       <div className="header-menu--icon">

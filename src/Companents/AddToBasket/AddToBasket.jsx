@@ -21,7 +21,7 @@ function AddToBasket() {
   };
   const total = cart.reduce(
     (acc, item) =>
-      acc + products.find((a) => a.id === item.id).price * item.count,
+      acc + products.find((a) => a.id === item.id).price * Number(item.count),
     0
   );
   console.log(total);
