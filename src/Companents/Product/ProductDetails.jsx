@@ -2,24 +2,16 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { servicesApi } from "../../Service/apiService";
 import { useDispatch, useSelector } from "react-redux";
-import { decrement, increment, productToCart } from "../../Service/cartSlice";
+import { productToCart } from "../../Service/cartSlice";
 function ProductDetails() {
   let { id } = useParams();
   const { data } = servicesApi.useGetProductDetailsQuery(id);
-  const cart = useSelector((state) => state.cartReducer.cart);
-  const selectedProduct = cart.filter((item) => item.id === data.id);
+  console.log(data)
   const dispatch = useDispatch();
   const addProduct = (productId) => {
     dispatch(productToCart(productId));
   };
 
-  const decreaseItem = (productId) => {
-    dispatch(decrement(productId));
-  };
-
-  const increaseItem = (productId) => {
-    dispatch(increment(productId));
-  };
   return (
     <section>
       {data && (
@@ -78,19 +70,6 @@ function ProductDetails() {
                 {data.description}
               </p>
               <div className="product-details__buttons">
-                <button onClick={() => decreaseItem(data.id)} className="sell">
-                  -
-                </button>
-
-                {selectedProduct?.map((product) => (
-                  <button className="count" key={product.id}>
-                    {product ? product.count : 0}
-                  </button>
-                ))}
-
-                <button onClick={() => increaseItem(data.id)} className="buy">
-                  +
-                </button>
                 <button
                   onClick={() => addProduct(data.id)}
                   className="add-button"

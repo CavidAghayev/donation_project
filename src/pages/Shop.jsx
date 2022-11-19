@@ -62,14 +62,6 @@ function Shop() {
   const sizeXL =
   products && products.filter((item) => item.size[3] === "xl");
 
-  const sizeShoes38 =
-  products && products.filter((item) => item.size[0] === "38");
-  const sizeShoes39 =
-  products && products.filter((item) => item.size[1] === "39");
-  const sizeShoes40 =
-  products && products.filter((item) => item.size[2] === "40");
-  const sizeShoes41 =
-  products && products.filter((item) => item.size[3] === "41");
   const genderMen =
   products && products.filter((item) => item.gender === "men");
   const genderWomen =
@@ -108,25 +100,6 @@ function Shop() {
 
     setProducts(newArr);
   };
-
-  // const filterSizeProduct =(category,size)=>{
-
-   
-//  data.map((item,index){
-
-// if(item.category===category){
-
-
-
-// }
-
-
-
-//  })
-
-
-  // }
-
   return (
     <section>
       <div data-aos="fade-up" className="shop-page-image">
@@ -161,17 +134,6 @@ function Shop() {
                 }}
               >
                 ŞƏRFLƏR
-              </li>
-              <li
-                onClick={(e) => {
-                  setProducts(categoryShoes);
-                  setShowSize(true)
-                  setDataOther(categoryShoes)
-
-
-                }}
-              >
-                AYAQQABILAR
               </li>
               <li
                 onClick={(e) => {
@@ -256,41 +218,6 @@ function Shop() {
                     >
                       xl
                     </li>
-{showSize?(<>
-   <li
-                      onClick={(e) => {
-                        setProducts(sizeShoes38);
-                      }}
-                    >
-                      38
-                    </li>
-                    <li
-                      onClick={(e) => {
-                        setProducts(sizeShoes39);
-                      }}
-                    >
-                      39
-                    </li>
-                    <li
-                      onClick={(e) => {
-                        setProducts(sizeShoes40);
-                      }}
-                    >
-                      40
-                    </li>
-                    <li
-                      onClick={(e) => {
-                        setProducts(sizeShoes41);
-                      }}
-                    >
-                      41
-                    </li>
-                    </>
-
-):null}
-
-
-                 
                   </ul>
                 </div>
               </div>

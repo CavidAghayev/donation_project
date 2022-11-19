@@ -206,215 +206,6 @@
     },
     {
       "id": 13,
-      "category": "shoes",
-      "name": "Ozelia Sport",
-      "price": "79",
-      "size": ["38", "39"],
-      "gender": "women",
-      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b455f485ba174eb0a28ead2600b46082_9366/Ozelia_Shoes_Grey_H04252_04_standard.jpg",
-      "extraImageOne": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b455f485ba174eb0a28ead2600b46082_9366/Ozelia_Shoes_Grey_H04252_04_standard.jpg",
-      "extraImageTwo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8cfc2ace8e444ca1948fad2600b4534f_9366/Ozelia_Shoes_Grey_H04252_02_standard.jpg",
-      "extraImageThree": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/92678b3b179b49c69677ad2600b45a1d_9366/Ozelia_Shoes_Grey_H04252_03_standard.jpg",
-      "extraImageFour": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d50e8022543e46b28c85ad2600b44567_9366/Ozelia_Shoes_Grey_H04252_01_standard.jpg",
-      "material": "Bir sıra təkrar emal edilmiş materiallardan hazırlanmış bu üst hissə ən azı 50% təkrar emal edilmiş tərkibə malikdir. Bu məhsul plastik tullantılara son qoymağa kömək etmək üçün həll yollarımızdan yalnız birini təmsil edir.",
-      "description": "Adidas OZELIA ayaqqabıları göz oxşayan kəpənək toxuması ilə istənilən geyimlə uyğunlaşa biləcək cəsarətli fırlanma əldə edir. Kəpənəyin mövsümdən mövsümə köçməsi kimi, bu ayaqqabılar da OZELIA kolleksiyasından öyrəşdiyiniz uyğunlaşma qabiliyyətinə malikdir. Krujeva üzərində bir muncuq incəlik toxunuşu əlavə edir. Adiprene texnologiyası ilə işlənmiş orta altlıq dramatik görünüşə və rahatlığa malikdir.",
-      "goal": "Bu ayaqqabıları geyindiyiniz zaman onun daha böyük məqsədini xatırlayın.Sizin dəstəyiniz sayəsində bu kənd təmiz su ilə təmin olunacaq.Xalis gəlirin 100%-i layihələrimizə gedəcək.",
-      "shipping": 3.75
-    },
-    {
-      "id": 14,
-      "category": "shoes",
-      "name": "Ozelia Sport",
-      "price": "99",
-      "size": ["38", "39", "40", "41"],
-      "gender": "women",
-      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a7652a5bee2c4c87a720aecc00f60b4e_9366/OZELIA_Shoes_White_GW9378_04_standard.jpg",
-      "extraImageOne": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a7652a5bee2c4c87a720aecc00f60b4e_9366/OZELIA_Shoes_White_GW9378_04_standard.jpg",
-      "extraImageTwo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/aeeb837696f0410dba0eaecc00f5ff6d_9366/OZELIA_Shoes_White_GW9378_03_standard.jpg",
-      "extraImageThree": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/046e9134a7c04ab882deaecc00f5f3a8_9366/OZELIA_Shoes_White_GW9378_02_standard_hover.jpg",
-      "extraImageFour": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3f83c96fbd07496ca11eaecc00f5dc09_9366/OZELIA_Shoes_White_GW9378_01_standard.jpg",
-      "video": "https://assets.adidas.com/videos/q_auto,f_auto,g_auto/2c2442b9485744df9ebfaf0000c97674_d98c/OZELIA_Shoes_White_GW9378_video.mp4",
-      "material": "Bir sıra təkrar emal edilmiş materiallardan hazırlanmış bu üst hissə ən azı 50% təkrar emal edilmiş tərkibə malikdir. Bu məhsul plastik tullantılara son qoymağa kömək etmək üçün həll yollarımızdan yalnız birini təmsil edir.",
-      "description": "Adidas OZELIA ayaqqabıları göz oxşayan kəpənək toxuması ilə istənilən geyimlə uyğunlaşa biləcək cəsarətli fırlanma əldə edir. Kəpənəyin mövsümdən mövsümə köçməsi kimi, bu ayaqqabılar da OZELIA kolleksiyasından öyrəşdiyiniz uyğunlaşma qabiliyyətinə malikdir. Krujeva üzərində bir muncuq incəlik toxunuşu əlavə edir. Adiprene texnologiyası ilə işlənmiş orta altlıq dramatik görünüşə və rahatlığa malikdir.",
-      "goal": "Bu ayaqqabıları geyindiyiniz zaman onun daha böyük məqsədini xatırlayın.Sizin dəstəyiniz sayəsində bu kənd təmiz su ilə təmin olunacaq.Xalis gəlirin 100%-i layihələrimizə gedəcək.",
-      "shipping": 3.75
-    },
-    {
-      "id": 15,
-      "category": "shoes",
-      "name": "Ozelia Sport",
-      "price": "109",
-      "size": ["38", "39"],
-      "gender": "women",
-      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1cd8dcd4bc0840ee85dbaf01015029c6_9366/OZELIA_Shoes_White_GV8989_04_standard.jpg",
-      "extraImageOne": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1cd8dcd4bc0840ee85dbaf01015029c6_9366/OZELIA_Shoes_White_GV8989_04_standard.jpg",
-      "extraImageTwo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/53752931d2bf4d738197aef60011e7b5_9366/OZELIA_Shoes_White_GV8989_05_standard.jpg",
-      "extraImageThree": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/86b3260e516548989c6caef600123754_9366/OZELIA_Shoes_White_GV8989_02_standard_hover.jpg",
-      "extraImageFour": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/f4dd1d8cba2f4cbfb648aef600120ebc_9366/OZELIA_Shoes_White_GV8989_03_standard.jpg",
-      "material": "Bir sıra təkrar emal edilmiş materiallardan hazırlanmış bu üst hissə ən azı 50% təkrar emal edilmiş tərkibə malikdir. Bu məhsul plastik tullantılara son qoymağa kömək etmək üçün həll yollarımızdan yalnız birini təmsil edir.",
-      "description": "Adidas OZELIA ayaqqabıları göz oxşayan kəpənək toxuması ilə istənilən geyimlə uyğunlaşa biləcək cəsarətli fırlanma əldə edir. Kəpənəyin mövsümdən mövsümə köçməsi kimi, bu ayaqqabılar da OZELIA kolleksiyasından öyrəşdiyiniz uyğunlaşma qabiliyyətinə malikdir. Krujeva üzərində bir muncuq incəlik toxunuşu əlavə edir. Adiprene texnologiyası ilə işlənmiş orta altlıq dramatik görünüşə və rahatlığa malikdir.",
-      "goal": "Bu ayaqqabıları geyindiyiniz zaman onun daha böyük məqsədini xatırlayın.Sizin dəstəyiniz sayəsində bu kənd təmiz su ilə təmin olunacaq.Xalis gəlirin 100%-i layihələrimizə gedəcək.",
-      "shipping": 3.75
-    },
-    {
-      "id": 16,
-      "category": "shoes",
-      "name": "Ozelia Sport",
-      "gender": "women",
-      "price": "119",
-      "size": ["38", "39", "40", "41"],
-      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e6cbcbcb176e4deda09aadff00b53e34_9366/Ozelia_Shoes_Grey_GY8554_04_standard.jpg",
-      "extraImageOne": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e6cbcbcb176e4deda09aadff00b53e34_9366/Ozelia_Shoes_Grey_GY8554_04_standard.jpg",
-      "extraImageTwo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c7cc94d36a0842bdad6aadff00b54733_9366/Ozelia_Shoes_Grey_GY8554_05_standard.jpg",
-      "extraImageThree": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/80d9d316fad44d1c8dbcadff00b53067_9366/Ozelia_Shoes_Grey_GY8554_02_standard_hover.jpg",
-      "extraImageFour": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/cb5ddef027364f4985aeadff00b5369c_9366/Ozelia_Shoes_Grey_GY8554_03_standard.jpg",
-      "material": "Bir sıra təkrar emal edilmiş materiallardan hazırlanmış bu üst hissə ən azı 50% təkrar emal edilmiş tərkibə malikdir. Bu məhsul plastik tullantılara son qoymağa kömək etmək üçün həll yollarımızdan yalnız birini təmsil edir.",
-      "description": "Adidas OZELIA ayaqqabıları göz oxşayan kəpənək toxuması ilə istənilən geyimlə uyğunlaşa biləcək cəsarətli fırlanma əldə edir. Kəpənəyin mövsümdən mövsümə köçməsi kimi, bu ayaqqabılar da OZELIA kolleksiyasından öyrəşdiyiniz uyğunlaşma qabiliyyətinə malikdir. Krujeva üzərində bir muncuq incəlik toxunuşu əlavə edir. Adiprene texnologiyası ilə işlənmiş orta altlıq dramatik görünüşə və rahatlığa malikdir.",
-      "goal": "Bu ayaqqabıları geyindiyiniz zaman onun daha böyük məqsədini xatırlayın.Sizin dəstəyiniz sayəsində bu kənd təmiz su ilə təmin olunacaq.Xalis gəlirin 100%-i layihələrimizə gedəcək.",
-      "shipping": 3.75
-    },
-    {
-      "id": 17,
-      "category": "shoes",
-      "name": "Ozelia Sport",
-      "gender": "women",
-      "price": "99",
-      "size": ["38", "39"],
-      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ce77535ff01040db802bad71009a52bd_9366/Ozelia_Shoes_White_GZ4367_04_standard.jpg",
-      "extraImageOne": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/ce77535ff01040db802bad71009a52bd_9366/Ozelia_Shoes_White_GZ4367_04_standard.jpg",
-      "extraImageTwo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/7a1d46bc11a241f5931fad71009a5b2f_9366/Ozelia_Shoes_White_GZ4367_05_standard.jpg",
-      "extraImageThree": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/3d70411d141f4e6c916aad71009a46cc_9366/Ozelia_Shoes_White_GZ4367_02_standard_hover.jpg",
-      "extraImageFour": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5c05d22ade2f428d8682ad71009a4e5e_9366/Ozelia_Shoes_White_GZ4367_03_standard.jpg",
-      "material": "Bir sıra təkrar emal edilmiş materiallardan hazırlanmış bu üst hissə ən azı 50% təkrar emal edilmiş tərkibə malikdir. Bu məhsul plastik tullantılara son qoymağa kömək etmək üçün həll yollarımızdan yalnız birini təmsil edir.",
-      "description": "Adidas OZELIA ayaqqabıları göz oxşayan kəpənək toxuması ilə istənilən geyimlə uyğunlaşa biləcək cəsarətli fırlanma əldə edir. Kəpənəyin mövsümdən mövsümə köçməsi kimi, bu ayaqqabılar da OZELIA kolleksiyasından öyrəşdiyiniz uyğunlaşma qabiliyyətinə malikdir. Krujeva üzərində bir muncuq incəlik toxunuşu əlavə edir. Adiprene texnologiyası ilə işlənmiş orta altlıq dramatik görünüşə və rahatlığa malikdir.",
-      "goal": "Bu ayaqqabıları geyindiyiniz zaman onun daha böyük məqsədini xatırlayın.Sizin dəstəyiniz sayəsində bu kənd təmiz su ilə təmin olunacaq.Xalis gəlirin 100%-i layihələrimizə gedəcək.",
-      "shipping": 3.75
-    },
-    {
-      "id": 18,
-      "category": "shoes",
-      "name": "Ozelia Sport",
-      "gender": "women",
-      "price": "89",
-      "size": ["38", "39", "40", "41"],
-      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1579673e6dcd4fb09728adc1010e7fea_9366/Ozelia_Shoes_Pink_GW8130_04_standard.jpg",
-      "extraImageOne": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/1579673e6dcd4fb09728adc1010e7fea_9366/Ozelia_Shoes_Pink_GW8130_04_standard.jpg",
-      "extraImageTwo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/68d02d6f1ec140be8928adc1010e90df_9366/Ozelia_Shoes_Pink_GW8130_05_standard.jpg",
-      "extraImageThree": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/68d02d6f1ec140be8928adc1010e90df_9366/Ozelia_Shoes_Pink_GW8130_05_standard.jpg  ",
-      "extraImageFour": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/d8d4de0a1f534715a439adc1010e75fc_9366/Ozelia_Shoes_Pink_GW8130_03_standard.jpg",
-      "material": "Bir sıra təkrar emal edilmiş materiallardan hazırlanmış bu üst hissə ən azı 50% təkrar emal edilmiş tərkibə malikdir. Bu məhsul plastik tullantılara son qoymağa kömək etmək üçün həll yollarımızdan yalnız birini təmsil edir.",
-      "description": "Adidas OZELIA ayaqqabıları göz oxşayan kəpənək toxuması ilə istənilən geyimlə uyğunlaşa biləcək cəsarətli fırlanma əldə edir. Kəpənəyin mövsümdən mövsümə köçməsi kimi, bu ayaqqabılar da OZELIA kolleksiyasından öyrəşdiyiniz uyğunlaşma qabiliyyətinə malikdir. Krujeva üzərində bir muncuq incəlik toxunuşu əlavə edir. Adiprene texnologiyası ilə işlənmiş orta altlıq dramatik görünüşə və rahatlığa malikdir.",
-      "goal": "Bu ayaqqabıları geyindiyiniz zaman onun daha böyük məqsədini xatırlayın.Sizin dəstəyiniz sayəsində bu kənd təmiz su ilə təmin olunacaq.Xalis gəlirin 100%-i layihələrimizə gedəcək.",
-      "shipping": 3.75
-    },
-    {
-      "id": 19,
-      "category": "shoes",
-      "name": "Ozelia Sport",
-      "gender": "men",
-      "price": "109",
-      "size": ["38", "39"],
-      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e71b25e86e384b59a7dbaeb5006018c6_9366/OZELIA_Shoes_Black_GX4499_04_standard.jpg",
-      "extraImageOne": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e71b25e86e384b59a7dbaeb5006018c6_9366/OZELIA_Shoes_Black_GX4499_04_standard.jpg",
-      "extraImageTwo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/86aa036a983041b29843aeb500600c48_9366/OZELIA_Shoes_Black_GX4499_03_standard.jpg",
-      "extraImageThree": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/bf8cc3bba3f74b649527aeb5005fe72e_9366/OZELIA_Shoes_Black_GX4499_01_standard.jpg",
-      "extraImageFour": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/5d31deed3537412084c5aeb5005fffda_9366/OZELIA_Shoes_Black_GX4499_02_standard_hover.jpg",
-      "video": "https://assets.adidas.com/videos/q_auto,f_auto,g_auto/293919707922436497feaed900c02cb4_d98c/OZELIA_Shoes_Black_GX4499_video.mp4",
-      "material": "Bir sıra təkrar emal edilmiş materiallardan hazırlanmış bu üst hissə ən azı 50% təkrar emal edilmiş tərkibə malikdir. Bu məhsul plastik tullantılara son qoymağa kömək etmək üçün həll yollarımızdan yalnız birini təmsil edir.",
-      "description": "Adidas OZELIA ayaqqabıları göz oxşayan kəpənək toxuması ilə istənilən geyimlə uyğunlaşa biləcək cəsarətli fırlanma əldə edir. Kəpənəyin mövsümdən mövsümə köçməsi kimi, bu ayaqqabılar da OZELIA kolleksiyasından öyrəşdiyiniz uyğunlaşma qabiliyyətinə malikdir. Krujeva üzərində bir muncuq incəlik toxunuşu əlavə edir. Adiprene texnologiyası ilə işlənmiş orta altlıq dramatik görünüşə və rahatlığa malikdir.",
-      "goal": "Bu ayaqqabıları geyindiyiniz zaman onun daha böyük məqsədini xatırlayın.Sizin dəstəyiniz sayəsində bu kənd təmiz su ilə təmin olunacaq.Xalis gəlirin 100%-i layihələrimizə gedəcək.",
-      "shipping": 3.75
-    },
-    {
-      "id": 20,
-      "category": "shoes",
-      "name": "Ozelia Sport",
-      "gender": "men",
-      "price": "109",
-      "size": ["38", "39", "40", "41"],
-      "image": "https://assets.adidas.com/images/w_600,f_auto,q_auto/4541d7c861424841bb94ad2401572362_9366/Ozelia_Shoes_Black_H04250.jpg",
-      "extraImageOne": "https://assets.adidas.com/images/w_600,f_auto,q_auto/4541d7c861424841bb94ad2401572362_9366/Ozelia_Shoes_Black_H04250.jpg",
-      "extraImageTwo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4c2993c5f0be47c999aaae6501458acc_9366/Ozelia_Shoes_Black_H04250_010_hover_standard.jpg",
-      "extraImageThree": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c2d47865bc8143acb3c0ad2401570a53_9366/Ozelia_Shoes_Black_H04250_01_standard.jpg",
-      "extraImageFour": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/4c2993c5f0be47c999aaae6501458acc_9366/Ozelia_Shoes_Black_H04250_010_hover_standard.jpg",
-      "material": "Bir sıra təkrar emal edilmiş materiallardan hazırlanmış bu üst hissə ən azı 50% təkrar emal edilmiş tərkibə malikdir. Bu məhsul plastik tullantılara son qoymağa kömək etmək üçün həll yollarımızdan yalnız birini təmsil edir.",
-      "description": "Adidas OZELIA ayaqqabıları göz oxşayan kəpənək toxuması ilə istənilən geyimlə uyğunlaşa biləcək cəsarətli fırlanma əldə edir. Kəpənəyin mövsümdən mövsümə köçməsi kimi, bu ayaqqabılar da OZELIA kolleksiyasından öyrəşdiyiniz uyğunlaşma qabiliyyətinə malikdir. Krujeva üzərində bir muncuq incəlik toxunuşu əlavə edir. Adiprene texnologiyası ilə işlənmiş orta altlıq dramatik görünüşə və rahatlığa malikdir.",
-      "goal": "Bu ayaqqabıları geyindiyiniz zaman onun daha böyük məqsədini xatırlayın.Sizin dəstəyiniz sayəsində bu kənd təmiz su ilə təmin olunacaq.Xalis gəlirin 100%-i layihələrimizə gedəcək.",
-      "shipping": 3.75
-    },
-    {
-      "id": 21,
-      "category": "shoes",
-      "name": "Ozelia Sport",
-      "gender": "men",
-      "price": "99",
-      "size": ["38", "39"],
-      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/eea0e882016a4ca98e63aeb50049391e_9366/OZELIA_Shoes_White_GY1561_04_standard.jpg",
-      "extraImageOne": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/eea0e882016a4ca98e63aeb50049391e_9366/OZELIA_Shoes_White_GY1561_04_standard.jpg",
-      "extraImageTwo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a3d942e31b3f40a0a13aaeb50049324b_9366/OZELIA_Shoes_White_GY1561_03_standard.jpg",
-      "extraImageThree": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b03e6935b0af48f8be25aeb500492af8_9366/OZELIA_Shoes_White_GY1561_02_standard_hover.jpg",
-      "extraImageFour": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b03e6935b0af48f8be25aeb500492af8_9366/OZELIA_Shoes_White_GY1561_02_standard_hover.jpg",
-      "video": "https://assets.adidas.com/videos/q_auto,f_auto,g_auto/5d6f86df38a4464b8127aeec00a0b086_d98c/OZELIA_Shoes_White_GY1561_video.mp4",
-      "material": "Bir sıra təkrar emal edilmiş materiallardan hazırlanmış bu üst hissə ən azı 50% təkrar emal edilmiş tərkibə malikdir. Bu məhsul plastik tullantılara son qoymağa kömək etmək üçün həll yollarımızdan yalnız birini təmsil edir.",
-      "description": "Adidas OZELIA ayaqqabıları göz oxşayan kəpənək toxuması ilə istənilən geyimlə uyğunlaşa biləcək cəsarətli fırlanma əldə edir. Kəpənəyin mövsümdən mövsümə köçməsi kimi, bu ayaqqabılar da OZELIA kolleksiyasından öyrəşdiyiniz uyğunlaşma qabiliyyətinə malikdir. Krujeva üzərində bir muncuq incəlik toxunuşu əlavə edir. Adiprene texnologiyası ilə işlənmiş orta altlıq dramatik görünüşə və rahatlığa malikdir.",
-      "goal": "Bu ayaqqabıları geyindiyiniz zaman onun daha böyük məqsədini xatırlayın.Sizin dəstəyiniz sayəsində bu kənd təmiz su ilə təmin olunacaq.Xalis gəlirin 100%-i layihələrimizə gedəcək.",
-      "shipping": 3.75
-    },
-    {
-      "id": 22,
-      "category": "shoes",
-      "name": "Ozelia Sport",
-      "gender": "men",
-      "price": "79",
-      "size": ["38", "39", "40", "41"],
-      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a5ca28b568e04e989b8aae37008aa5cc_9366/OZELIA_Shoes_White_GY9434_04_standard.jpg",
-      "extraImageOne": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a5ca28b568e04e989b8aae37008aa5cc_9366/OZELIA_Shoes_White_GY9434_04_standard.jpg",
-      "extraImageTwo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/686c43a60f2246a599e4ae37008a9a44_9366/OZELIA_Shoes_White_GY9434_03_standard.jpg",
-      "extraImageThree": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b56da574bff54b9db94dae37008a903b_9366/OZELIA_Shoes_White_GY9434_02_standard_hover.jpg",
-      "extraImageFour": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8d712a886c8b4d9b8ef0ae37008a7d16_9366/OZELIA_Shoes_White_GY9434_01_standard.jpg",
-      "video": "https://assets.adidas.com/videos/q_auto,f_auto,g_auto/65faad5383ef4ab3b9faaea700da6564_d98c/OZELIA_Shoes_White_GY9434_video.mp4",
-      "material": "Bir sıra təkrar emal edilmiş materiallardan hazırlanmış bu üst hissə ən azı 50% təkrar emal edilmiş tərkibə malikdir. Bu məhsul plastik tullantılara son qoymağa kömək etmək üçün həll yollarımızdan yalnız birini təmsil edir.",
-      "description": "Adidas OZELIA ayaqqabıları göz oxşayan kəpənək toxuması ilə istənilən geyimlə uyğunlaşa biləcək cəsarətli fırlanma əldə edir. Kəpənəyin mövsümdən mövsümə köçməsi kimi, bu ayaqqabılar da OZELIA kolleksiyasından öyrəşdiyiniz uyğunlaşma qabiliyyətinə malikdir. Krujeva üzərində bir muncuq incəlik toxunuşu əlavə edir. Adiprene texnologiyası ilə işlənmiş orta altlıq dramatik görünüşə və rahatlığa malikdir.",
-      "goal": "Bu ayaqqabıları geyindiyiniz zaman onun daha böyük məqsədini xatırlayın.Sizin dəstəyiniz sayəsində bu kənd təmiz su ilə təmin olunacaq.Xalis gəlirin 100%-i layihələrimizə gedəcək.",
-      "shipping": 3.75
-    },
-    {
-      "id": 23,
-      "category": "shoes",
-      "name": "Ozelia Sport",
-      "gender": "men",
-      "price": "89",
-      "size": ["38", "39"],
-      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/eea0e882016a4ca98e63aeb50049391e_9366/OZELIA_Shoes_White_GY1561_04_standard.jpg",
-      "extraImageOne": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/eea0e882016a4ca98e63aeb50049391e_9366/OZELIA_Shoes_White_GY1561_04_standard.jpg",
-      "extraImageTwo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/a3d942e31b3f40a0a13aaeb50049324b_9366/OZELIA_Shoes_White_GY1561_03_standard.jpg",
-      "extraImageThree": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b03e6935b0af48f8be25aeb500492af8_9366/OZELIA_Shoes_White_GY1561_02_standard_hover.jpg",
-      "extraImageFour": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/b03e6935b0af48f8be25aeb500492af8_9366/OZELIA_Shoes_White_GY1561_02_standard_hover.jpg",
-      "video": "https://assets.adidas.com/videos/q_auto,f_auto,g_auto/5d6f86df38a4464b8127aeec00a0b086_d98c/OZELIA_Shoes_White_GY1561_video.mp4",
-      "material": "Bir sıra təkrar emal edilmiş materiallardan hazırlanmış bu üst hissə ən azı 50% təkrar emal edilmiş tərkibə malikdir. Bu məhsul plastik tullantılara son qoymağa kömək etmək üçün həll yollarımızdan yalnız birini təmsil edir.",
-      "description": "Adidas OZELIA ayaqqabıları göz oxşayan kəpənək toxuması ilə istənilən geyimlə uyğunlaşa biləcək cəsarətli fırlanma əldə edir. Kəpənəyin mövsümdən mövsümə köçməsi kimi, bu ayaqqabılar da OZELIA kolleksiyasından öyrəşdiyiniz uyğunlaşma qabiliyyətinə malikdir. Krujeva üzərində bir muncuq incəlik toxunuşu əlavə edir. Adiprene texnologiyası ilə işlənmiş orta altlıq dramatik görünüşə və rahatlığa malikdir.",
-      "goal": "Bu ayaqqabıları geyindiyiniz zaman onun daha böyük məqsədini xatırlayın.Sizin dəstəyiniz sayəsində bu kənd təmiz su ilə təmin olunacaq.Xalis gəlirin 100%-i layihələrimizə gedəcək.",
-      "shipping": 3.75
-    },
-    {
-      "id": 24,
-      "category": "shoes",
-      "name": "Ozelia Sport",
-      "gender": "men",
-      "price": "119",
-      "size": ["38", "39", "40", "41"],
-      "image": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e6cbcbcb176e4deda09aadff00b53e34_9366/Ozelia_Shoes_Grey_GY8554_04_standard.jpg",
-      "extraImageOne": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/e6cbcbcb176e4deda09aadff00b53e34_9366/Ozelia_Shoes_Grey_GY8554_04_standard.jpg",
-      "extraImageTwo": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/c7cc94d36a0842bdad6aadff00b54733_9366/Ozelia_Shoes_Grey_GY8554_05_standard.jpg",
-      "extraImageThree": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/80d9d316fad44d1c8dbcadff00b53067_9366/Ozelia_Shoes_Grey_GY8554_02_standard_hover.jpg",
-      "extraImageFour": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/cb5ddef027364f4985aeadff00b5369c_9366/Ozelia_Shoes_Grey_GY8554_03_standard.jpg",
-      "material": "Bir sıra təkrar emal edilmiş materiallardan hazırlanmış bu üst hissə ən azı 50% təkrar emal edilmiş tərkibə malikdir. Bu məhsul plastik tullantılara son qoymağa kömək etmək üçün həll yollarımızdan yalnız birini təmsil edir.",
-      "description": "Adidas OZELIA ayaqqabıları göz oxşayan kəpənək toxuması ilə istənilən geyimlə uyğunlaşa biləcək cəsarətli fırlanma əldə edir. Kəpənəyin mövsümdən mövsümə köçməsi kimi, bu ayaqqabılar da OZELIA kolleksiyasından öyrəşdiyiniz uyğunlaşma qabiliyyətinə malikdir. Krujeva üzərində bir muncuq incəlik toxunuşu əlavə edir. Adiprene texnologiyası ilə işlənmiş orta altlıq dramatik görünüşə və rahatlığa malikdir.",
-      "goal": "Bu ayaqqabıları geyindiyiniz zaman onun daha böyük məqsədini xatırlayın.Sizin dəstəyiniz sayəsində bu kənd təmiz su ilə təmin olunacaq.Xalis gəlirin 100%-i layihələrimizə gedəcək.",
-      "shipping": 3.75
-    },
-    {
-      "id": 25,
       "category": "short",
       "name": "Şort",
       "gender": "men",
@@ -431,7 +222,7 @@
       "shipping": 4.15
     },
     {
-      "id": 26,
+      "id": 14,
       "category": "short",
       "name": "Şort",
       "gender": "men",
@@ -448,7 +239,7 @@
       "shipping": 4.15
     },
     {
-      "id": 27,
+      "id": 15,
       "category": "short",
       "name": "Şort",
       "gender": "men",
@@ -465,7 +256,7 @@
       "shipping": 4.15
     },
     {
-      "id": 28,
+      "id": 16,
       "category": "short",
       "name": "Şort",
       "gender": "men",
@@ -482,7 +273,7 @@
       "shipping": 4.15
     },
     {
-      "id": 29,
+      "id": 17,
       "category": "short",
       "name": "Şort",
       "gender": "men",
@@ -499,7 +290,7 @@
       "shipping": 4.15
     },
     {
-      "id": 30,
+      "id": 18,
       "category": "short",
       "name": "Şort",
       "gender": "men",
@@ -516,7 +307,7 @@
       "shipping": 4.15
     },
     {
-      "id": 31,
+      "id": 19,
       "category": "short",
       "name": "Şort",
       "gender": "women",
@@ -533,7 +324,7 @@
       "shipping": 4.15
     },
     {
-      "id": 32,
+      "id": 20,
       "category": "short",
       "name": "Şort",
       "gender": "women",
@@ -550,7 +341,7 @@
       "shipping": 4.15
     },
     {
-      "id": 33,
+      "id": 21,
       "category": "short",
       "name": "Şort",
       "gender": "women",
@@ -567,7 +358,7 @@
       "shipping": 4.15
     },
     {
-      "id": 34,
+      "id": 22,
       "category": "short",
       "name": "Şort",
       "gender": "women",
@@ -584,7 +375,7 @@
       "shipping": 4.15
     },
     {
-      "id": 35,
+      "id": 23,
       "category": "short",
       "name": "Şort",
       "gender": "women",
@@ -601,7 +392,7 @@
       "shipping": 4.15
     },
     {
-      "id": 36,
+      "id": 24,
       "category": "short",
       "name": "Şort",
       "gender": "women",
@@ -618,7 +409,7 @@
       "shipping": 4.15
     },
     {
-      "id": 37,
+      "id": 25,
       "category": "jacket",
       "name": "Gödəkcə",
       "gender": "men",
@@ -635,7 +426,7 @@
       "shipping": 4.45
     },
     {
-      "id": 38,
+      "id": 26,
       "category": "jacket",
       "name": "Gödəkcə",
       "gender": "men",
@@ -652,7 +443,7 @@
       "shipping": 4.45
     },
     {
-      "id": 39,
+      "id": 27,
       "category": "jacket",
       "name": "Gödəkcə",
       "gender": "men",
@@ -669,7 +460,7 @@
       "shipping": 4.45
     },
     {
-      "id": 40,
+      "id": 28,
       "category": "jacket",
       "name": "Gödəkcə",
       "gender": "men",
@@ -686,7 +477,7 @@
       "shipping": 4.45
     },
     {
-      "id": 41,
+      "id": 29,
       "category": "jacket",
       "name": "Gödəkcə",
       "gender": "men",
@@ -703,7 +494,7 @@
       "shipping": 4.45
     },
     {
-      "id": 42,
+      "id": 30,
       "category": "jacket",
       "name": "Gödəkcə",
       "gender": "men",
@@ -720,7 +511,7 @@
       "shipping": 4.45
     },
     {
-      "id": 43,
+      "id": 31,
       "category": "jacket",
       "name": "Gödəkcə",
       "gender": "women",
@@ -737,7 +528,7 @@
       "shipping": 4.45
     },
     {
-      "id": 44,
+      "id": 32,
       "category": "jacket",
       "name": "Gödəkcə",
       "gender": "women",
@@ -754,7 +545,7 @@
       "shipping": 4.45
     },
     {
-      "id": 45,
+      "id": 33,
       "category": "jacket",
       "name": "Gödəkcə",
       "gender": "women",
@@ -771,7 +562,7 @@
       "shipping": 4.45
     },
     {
-      "id": 46,
+      "id": 34,
       "category": "jacket",
       "name": "Gödəkcə",
       "gender": "women",
@@ -788,7 +579,7 @@
       "shipping": 4.45
     },
     {
-      "id": 47,
+      "id": 35,
       "category": "jacket",
       "name": "Gödəkcə",
       "gender": "women",
@@ -805,7 +596,7 @@
       "shipping": 4.45
     },
     {
-      "id": 48,
+      "id": 36,
       "category": "jacket",
       "name": "Gödəkcə",
       "gender": "women",

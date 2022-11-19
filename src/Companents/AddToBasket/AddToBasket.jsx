@@ -19,12 +19,12 @@ function AddToBasket() {
   const decreaseItem = (productId) => {
     dispatch(decrement(productId));
   };
-  const total = cart.reduce(
-    (acc, item) =>
-      acc + products.find((a) => a.id === item.id).price * Number(item.count),
-    0
-  );
-  console.log(total);
+  // const total = cart.reduce(
+  //   (acc, item) =>
+  //     acc + products.find((a) => a.id === item.id).price * Number(item.count),
+  //   0
+  // );
+  // console.log(total);
   return (
     <section>
       <div className="add-to-cart-heading">
@@ -33,20 +33,20 @@ function AddToBasket() {
         </div>
         <div className="total-price">
           <span>Ümumi Qiymət:</span>
-          <span>{`${total} AZN`}</span>
+          {/* <span>{`${total} AZN`}</span> */}
         </div>
       </div>
       <div className="add-to-cart container">
-        {removeItem && (
+        {/* {removeItem && (
           <div className="add-to-cart-empty">
             <h1>Məhsul yoxdur.</h1>
           </div>
-        )}
+        )} */}
         {cart.map((t) => {
-          let product = products.find((a) => a.id === t.id);
+          let product = products.find((a) => a.id == t.id);
           console.log(product);
           return (
-            <div className="add-to-cart-content" key={product.id}>
+            <div className="add-to-cart-content" key={t.id}>
               <div className="add-to-cart-image">
                 <img src={product.image} alt="" />
               </div>
@@ -69,7 +69,7 @@ function AddToBasket() {
                 </div>
                 <div className="add-to-cart-remove">
                   <i
-                    onClick={() => removeProduct(product.id)}
+                    onClick={() => removeProduct(t.id)}
                     className="fa-solid fa-xmark"
                   ></i>
                 </div>
