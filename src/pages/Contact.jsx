@@ -1,7 +1,92 @@
 import React from "react";
+import { useState, useRef } from 'react'
+function handleValidate(event, callback){
+  event.preventDefault();
+  event.stopPropagation();
+  const inputs =  event.target.querySelectorAll("[name]")
+  const errors = {}
+  const data = {}
+
+  for(let input of inputs){
+    const isValid = input.checkValidity()
+    data[input.name] = input.value
+    if(!isValid){
+      errors[input.name] = input.validationMessage
+    }
+  }
+
+  callback({ errors, data, isError: Object.keys(errors).length > 0 })
+
+}
 function Contact() {
+  const validateItem = () => {
+    validateRef.current.style.display = "none"
+  }
+  
+    const validateRef = useRef();
+  const [errors, setErrors] = useState({});
+console.log(errors)
+      const onSubmit = ({isError,errors,data}) => {
+        setErrors({})
+        if(isError){
+          setErrors(errors)
+          return;
+        }
+        console.log('send to the backend...')
+        validateRef.current.classList.add("validateModalShow")
+      }
+
+  const [user,setUser] = useState({
+    name: "",
+    surname: "",
+    email: "",
+    number: "",
+    message: ""
+  })
+  const changeInputName = (e) => {
+    let val = e.target.value
+    setUser(prev => ({...prev, [e.target.name] : val}))
+  val = val.charAt(0).toUpperCase() + val.slice(1).toLowerCase();
+    val = val.replace(/[^a-zA-Z]+/, '')
+  }
+  
+  const changeInputSurname = (e) => {
+    let val = e.target.value
+    setUser(prev => ({...prev, [e.target.name] : val}))
+  val = val.charAt(0).toUpperCase() + val.slice(1).toLowerCase(); 
+    val = val.replace(/[^a-zA-Z]+/, '')
+  }
+
+  const changeInputEmail = (e) => {
+    let val = e.target.value
+    setUser(prev => ({...prev, [e.target.name] : val}))
+  }
+
+  const changeInputNumber = (e) => {
+    let val = e.target.value
+    setUser(prev => ({...prev, [e.target.name] : val}))
+val = val.replace(/\D/g, '')
+  }
+
+  const changeInputMessage = (e) => {
+    let val = e.target.value
+    setUser(prev => ({...prev, [e.target.name] : val}))
+  val = val.charAt(0).toUpperCase() + val.slice(1).toLowerCase();
+    val = val.replace(/[^a-zA-Z]+/, '')
+  }
+  console.log(user)
   return (
     <section>
+      <div ref={validateRef} className='validate-modal'>
+<div className="validate-modal__icon">
+<i class="fa-solid fa-check"></i>
+</div>
+<div className="validate-modal__text">
+  <h3>Təşəkkürlər!</h3>
+  <h5>Mesajınız uğurla göndərildi <br /> Təşəkkürlər!</h5>
+  <div onClick={validateItem} className='btn validate-btn'>Ok</div>
+</div>
+    </div>
       <div className="contact">
         <div data-aos="fade-up" className="contact__title">
           <h3>
@@ -22,18 +107,21 @@ function Contact() {
                   saxlayacağıq.
                 </h4>
               </div>
-              <input type="name" placeholder="Ad" />
-              <input type="surname" placeholder="Soyad" />
-              <input type="email" placeholder="E-mail" />
-              <input type="number" placeholder="Nömrə" />
+              <form className="form" onSubmit={(e) => handleValidate(e,onSubmit)}>
+              <input onChange={changeInputName} name="name" type="text" placeholder="Ad" />
+              <input onChange={changeInputSurname} name="surname" type="text" placeholder="Soyad" />
+              <input onChange={changeInputEmail} name="email" type="text" placeholder="E-mail" />
+              <input onChange={changeInputNumber} name="number" type="number" placeholder="Nömrə" />
               <textarea
-                name=""
+              onChange={changeInputMessage}
+                name="message"
                 id=""
                 cols="30"
                 rows="10"
                 placeholder="Biz sizə necə kömək edə bilərik?"
               ></textarea>
-              <button>Mesaj Göndərin</button>
+              <button type="sutmit">Mesaj Göndərin</button>
+              </form>
             </div>
           </div>
           <div className="contact-content">

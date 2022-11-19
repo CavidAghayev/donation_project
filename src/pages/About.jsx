@@ -2,6 +2,7 @@ import React from "react";
 import "swiper/css";
 import "swiper/css/navigation";
 import { useNavigate } from "react-router-dom";
+import Bullent from "../Companents/Bullent/Bullent";
 function About() {
   const navigate = useNavigate();
   return (
@@ -128,20 +129,7 @@ function About() {
           </div>
         </div>
       </div>
-      <div data-aos="fade-up" className="bullent">
-        <h3>
-          <span>Həyat Fond</span> - dan xəbərlər alın:
-        </h3>
-        <div className="bullent__content">
-          <input
-            type="email"
-            name=""
-            id="email"
-            placeholder="Enter e-mail address"
-          />
-          <div className="btn">Abunə olun</div>
-        </div>
-      </div>
+      <Bullent/>
     </section>
   );
 }

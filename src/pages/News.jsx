@@ -21,6 +21,12 @@ function News() {
       <div className="our-stories">
         {ourStories && ourStories.map((a) => <Story key={a.id} story={a} />)}
       </div>
+      <div className="news-pagination">
+        <div className="news-pagination__number-one">1</div>
+        <div className="news-pagination__number-two">2</div>
+        <div className="news-pagination__number-three">3</div>
+        <div className="news-pagination__number-four">4</div>
+      </div>
     </section>
   );
 }
