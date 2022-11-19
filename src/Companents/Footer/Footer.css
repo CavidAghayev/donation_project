@@ -193,6 +193,36 @@ footer {
     cursor: pointer;
 }
 
+@media screen and (min-width: 267px) and (max-width: 479px) {
+    footer {
+        height: 500px;
+    }
+
+    .container {
+        padding: 0 30px;
+    }
+    .footer-content {
+        flex-wrap: wrap;
+    }
+
+    .footer-news-bullent {
+        display: none;
+    }
+
+    .footer-logo {
+        width: 100%;
+    }
+    .follow-us{
+        display: none;
+    }
+    .footer-contact{
+        display: none;
+    }
+    .contactUs{
+        display: none;
+    }
+}
+
 @media screen and (max-width: 767px) {
     footer {
         height: 500px;

@@ -1,6 +1,24 @@
 import React from 'react'
 import { useState, useRef } from 'react'
-import { handleValidate } from '../../utils/index'
+// import { handleValidate } from '../../utils/index'
+function handleValidate(event, callback){
+  event.preventDefault();
+  event.stopPropagation();
+  const inputs =  event.target.querySelectorAll("[name]")
+  const errors = {}
+  const data = {}
+
+  for(let input of inputs){
+    const isValid = input.checkValidity()
+    data[input.name] = input.value
+    if(!isValid){
+      errors[input.name] = input.validationMessage
+    }
+  }
+
+  callback({ errors, data, isError: Object.keys(errors).length > 0 })
+
+}
 
 
 
@@ -141,10 +159,10 @@ console.log(user)
           <input  onChange={changeInputAmount}  name="amount" id='amount' placeholder='$' value={user.amount} required={true} minLength={1} maxLength={7}/>
           {errors.amount && <p style={{color: "red", fontSize: "12px", lineHeight: "0px", position: "absolute"}}>Bu tələb olunur</p>}
           <label htmlFor="name">Ad *</label>
-          <input onChange={(e) => changeInputName(e)} type="text" name="name" id="name" value={user.name} pattern="[A-Za-z]+" required={true} minLength={3} maxLength={11}/>
+          <input onChange={(e) => changeInputName(e)} type="text" name="name" id="name" value={user.name}  required={true} minLength={3} maxLength={11}/>
           {errors.name && <p style={{color: "red", fontSize: "12px",  lineHeight: "0px", position: "absolute"}}>Bu tələb olunur</p>}
           <label htmlFor="surname">Soyad *</label>
-          <input onChange={changeInputSurname} type="text" name="surname" id="surname" value={user.surname} required={true} pattern="[A-Za-z]+" minLength={3} maxLength={11}/>
+          <input onChange={changeInputSurname} type="text" name="surname" id="surname" value={user.surname} required={true} minLength={3} maxLength={11}/>
           {errors.surname && <p style={{color: "red", fontSize: "12px", lineHeight: "0px", position: "absolute"}}>Bu tələb olunur</p>}
           <label htmlFor="email">E-mail *</label>
           <input onChange={changeInput} type="text" name="email" id="email" value={user.email} pattern="^[a-zA-Z0-9._:$!%-]+@[a-zA-Z0-9.-]+.[a-zA-Z]$" required={true} />

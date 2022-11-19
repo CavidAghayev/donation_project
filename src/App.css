@@ -3039,25 +3039,37 @@ text-align: center;
   }
 
   .pay__shipping-address .pay__inputs {
+    width: 50%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .pay__shipping-address .pay__inputs input {
+  .pay__shipping-address .pay__inputs .form input {
     width: 600px;
     height: 50px;
-    margin-bottom: 30px;
     text-indent: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #cbd6e2;
+    display: block;
+    margin-bottom: 20px;
   }
 
-  .pay__shipping-address .pay__inputs label {
+.pay__inputs .form label {
     display: block;
     font-family: var(--font-family);
     margin-bottom: 10px;
     letter-spacing: 1px;
     font-weight: bold;
     font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 40px;
+
+  }
+  .pay__inputs h3{
+    text-align: center;
+    margin-top: 40px;
   }
 
   .payment-method {
@@ -3067,10 +3079,9 @@ text-align: center;
     align-items: center;
   }
 
-  .payment-method .payment-method__inputs {
+  .payment-method .payment-method__inputs .form {
     display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .payment-method .payment-method__inputs input {
@@ -3078,6 +3089,9 @@ text-align: center;
     height: 50px;
     margin-bottom: 30px;
     text-indent: 10px;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #cbd6e2;
   }
 
   .payment-method .payment-method__inputs label {
@@ -3089,8 +3103,9 @@ text-align: center;
     font-size: 12px;
   }
 
-  .payment-method .pay-btn {
+  .pay__inputs .pay-btn {
     width: 100%;
+    margin-top: 40px;
   }
 
   .pay__product-cart {
