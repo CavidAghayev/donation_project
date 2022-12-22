@@ -46,8 +46,6 @@ function Shop() {
   const categoryAllProducts = data && data;
   const categoryScarves =
     data && data.filter((item) => item.category === "scarves");
-  const categoryShoes =
-    data && data.filter((item) => item.category === "shoes");
   const categoryShorts =
     data && data.filter((item) => item.category === "short");
   const categoryJackets =

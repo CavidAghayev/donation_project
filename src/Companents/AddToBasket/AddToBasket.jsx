@@ -3,11 +3,23 @@ import { servicesApi } from "../../Service/apiService";
 import { useDispatch, useSelector } from "react-redux";
 import { decrement, increment, removeFromCard } from "../../Service/cartSlice";
 import { useNavigate } from "react-router-dom";
+import { useState } from 'react';
 function AddToBasket() {
   const navigate = useNavigate();
-  const { data: products } = servicesApi.useGetProductsQuery();
   const cart = useSelector((state) => state.cartReducer.cart);
-  const removeItem = useSelector((state) => state.removeReducer.removeItem);
+  const [products, setProducts] = useState(null);
+
+  React.useEffect(() => {
+    fetch("http://localhost:7700/products")
+      .then((response) => response.json())
+      .then((data) => {
+        setProducts(data);
+      })
+      .catch((err) => console.error(err));
+  }, []);
+  console.log(products);
+  
+  // const removeItem = useSelector((state) => state.removeReducer.removeItem);
   const dispatch = useDispatch();
   console.log(cart);
   const removeProduct = (productId) => {
@@ -19,12 +31,8 @@ function AddToBasket() {
   const decreaseItem = (productId) => {
     dispatch(decrement(productId));
   };
-  // const total = cart.reduce(
-  //   (acc, item) =>
-  //     acc + products.find((a) => a.id === item.id).price * Number(item.count),
-  //   0
-  // );
-  // console.log(total);
+
+  
   return (
     <section>
       <div className="add-to-cart-heading">
@@ -43,16 +51,15 @@ function AddToBasket() {
           </div>
         )} */}
         {cart.map((t) => {
-          let product = products.find((a) => a.id == t.id);
+          let product = products.find((a) => a.id === t.id);
           console.log(product);
-          return (
             <div className="add-to-cart-content" key={t.id}>
               <div className="add-to-cart-image">
                 <img src={product.image} alt="" />
               </div>
               <div className="add-to-cart-items">
                 <div className="add-to-cart-buttons">
-                  <button onClick={() => decreaseItem(t.id)} className="sell">
+                  <button onClick={() => decreaseItem(product.id)} className="sell">
                     -
                   </button>
 
@@ -60,7 +67,7 @@ function AddToBasket() {
                     {t ? t.count : 0}
                   </button>
 
-                  <button onClick={() => increaseItem(t.id)} className="buy">
+                  <button onClick={() => increaseItem(product.id)} className="buy">
                     +
                   </button>
                 </div>
@@ -69,16 +76,15 @@ function AddToBasket() {
                 </div>
                 <div className="add-to-cart-remove">
                   <i
-                    onClick={() => removeProduct(t.id)}
+                    onClick={() => removeProduct(product.id)}
                     className="fa-solid fa-xmark"
                   ></i>
                 </div>
               </div>
-              <button key={t.id} onClick={() => navigate(`/pay/${t.id}`)}>
+              <button key={product.id} onClick={() => navigate(`/pay/${product.id}`)}>
                 Ödəniş edin
               </button>
             </div>
-          );
         })}
         <div className="checkout">
           <button onClick={() => navigate("/shop")}>

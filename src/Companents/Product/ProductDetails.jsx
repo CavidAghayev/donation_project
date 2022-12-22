@@ -11,32 +11,11 @@ function ProductDetails() {
   const addProduct = (productId) => {
     dispatch(productToCart(productId));
   };
-
+  
   return (
     <section>
       {data && (
         <div className="product-details">
-          <div className="shop-search">
-            <div className="products-category">
-              <ul>
-                <li>HAMISI</li>
-                <li>ŞƏRFLƏR</li>
-                <li>AYAQQABILAR</li>
-                <li>ŞORTLAR</li>
-                <li>GÖDƏKCƏLƏR</li>
-              </ul>
-            </div>
-            <form action="">
-              <input
-                type="name"
-                name="name"
-                id=""
-                value=""
-                placeholder="Search"
-              />
-              <i className="fa-solid fa-magnifying-glass"></i>
-            </form>
-          </div>
           <div className="product-details__content">
             <div className="product-details__extra-image">
               <img src={data.extraImageOne} alt="" />

@@ -5464,7 +5464,7 @@ margin-bottom: 20px;
 
   }
 
-  @media screen and (min-width: 1024px) and (max-width: 1400px) {
+  @media screen and (max-width: 1024px) {
     header {
       padding: 0 20px;
     }
